@@ -25,6 +25,23 @@ input_from_file() {
 }
 
 
+find_passenger() {
+    NAME=$1
+    if [[ -f "$FILE" ]]; then
+        echo "Αναζήτηση για τον επιβάτη: $NAME"
+        result=$(grep "\b$NAME\b" "$FILE")
+        if [[ -n "$result" ]]; then
+            echo "Βρέθηκαν τα εξής στοιχεία:"
+            echo "$result"
+        else
+            echo "Δεν βρέθηκε επιβάτης με το όνομα ή το επώνυμο: $NAME."
+        fi
+    else
+        echo "Το αρχείο $FILE δεν υπάρχει. Βεβαιωθείτε ότι έχει δημιουργηθεί."
+        exit 1
+    fi
+}
+
 
 read -p "Δώσε το Path του αρχείου: " input_file
 if [ -f "$input_file" ]; then 
@@ -39,7 +56,8 @@ else    echo "Μη έγκυρη επιλογή."
         
 fi
 
-
+read -p "Δώσε το Όνομα ή το Επώνυμο του επιβαίνοντα: " NAME
+        find_passenger "$NAME"
 
 
 
