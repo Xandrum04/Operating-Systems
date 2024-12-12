@@ -1,38 +1,57 @@
 #!/bin/bash
 
 # Δήλωση μεταβλητής FILE
-FILE="passengers.csv" 
+FILE="passengers.csv"
 
-# Συνάρτηση για εισαγωγή δεδομένων από τον χρήστη
-input_from_keyboard() {
-    echo "Εισάγετε δεδομένα επιβατών με τη μορφή [code];[fullname];[age];[country];[status (Passenger/Crew)];[rescued
-(Yes/No)]"
+# Συνάρτηση για εισαγωγή δεδομένων στο αρχείο
+insert_data() {
+# Παράμετρος που αντιπροσωπέυει το Path του αρχείου 
+input_file=$1
+
+# Αν το αρχείο υπάρχει, αντίγραψε το στο αρχείο FILE 
+if [ -f "$input_file" ]; then 
+        cp "$input_file" "$FILE"
+        echo "Τα δεδομένα από το αρχείο $input_file αποθηκεύτηκαν στο $FILE."
+        echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+
+# Αν το αρχείο δεν υπάρχει, δώσε τα δεδομένα
+elif [ ! -f "$input_file" ]; then
+        echo "code;fullname;age;country;status;rescued" > "$FILE"
+        echo "Εισάγετε δεδομένα επιβατών με τη μορφή (Για έξοδο γράψε exit): 
+        [code];[fullname];[age];[country];[status (Passenger/Crew)];[rescued (Yes/No)]"
 
     # Κάθε γραμμή που εισάγει ο χρήστης, αντίγραψε την και πρόσθεσε την στο τέλος του αρχείου FILE 
     while read -r line; do
-        echo "$line" >> "$FILE"
+        if [ $line == "exit" ]; then
+            exit 1
+        else
+            echo "$line" >> "$FILE"
+        fi
     done
     echo "Τα δεδομένα αποθηκεύτηκαν στο αρχείο $FILE."
+
+else    echo "Μη έγκυρη επιλογή."
+        exit
+        
+fi
 }
 
 
-# Συνάρτηση για εισαγωγή δεδομένων από αρχείο
-input_from_file() {
-    # Παράμετρος που αντιπροσωπέυει το Path του αρχείου  
-    input_file=$1
-    # Αν το αρχείο υπάρχει, αντίγραψε το στο αρχείο FILE 
-    if [[ -f "$input_file" ]]; then
-        cp "$input_file" "$FILE"
-        echo "Τα δεδομένα από το αρχείο $input_file αποθηκεύτηκαν στο $FILE."
-    # Αν δεν υπάρχει το αρχείο, σταμάτα 
-    else
-        echo "Το αρχείο $input_file δεν βρέθηκε."
-        exit 1
-    fi
-}
+
+
+
+
+
+
+
+
+
+
+
+
 
 # Συνάρτηση για αναζήτηση στοιχείων επιβάτη
-find_passenger() {
+search_passenger() {
     # Παράμετρος που αντιπροσωπέυει το Όνομα/Επώνυμο του επιβάτη
     local NAME=$1
     # Αν το αρχείο υπάρχει, βρες τον επιβάτη
@@ -54,6 +73,7 @@ find_passenger() {
         if [[ -n "$result" ]]; then
             echo "Βρέθηκαν τα εξής στοιχεία:"
             echo "$result"
+            echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         # Αλλιώς σταμάτα
         else
             echo "Δεν βρέθηκε επιβάτης με το όνομα ή το επώνυμο: $NAME."
@@ -65,6 +85,17 @@ find_passenger() {
         exit 1
     fi
 }
+
+
+
+
+
+
+
+
+
+
+
 
 # Συνάρτηση για τροποποίηση στοιχείων επιβάτη
 update_passenger() {
@@ -139,36 +170,129 @@ update_passenger() {
         # Κάνε την ενημέρωση του επιβάτη στο αρχείο απευθείας
         sed -i "s|$matched_line|$updated_line|g" "$FILE"
         echo "Το πεδίο ενημερώθηκε:"
+        echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         echo "Παλαιά: $matched_line"
         echo "Νέα: $updated_line"
+        echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
     fi
 }
 
 
 
-read -p "Δώσε το Path του αρχείου: " input_file
-if [ -f "$input_file" ]; then 
-        input_from_file "$input_file"
 
-elif [ ! -f "$input_file" ]; then
-        echo "code;fullname;age;country;status;rescued" > "$FILE"
-        input_from_keyboard
 
-else    echo "Μη έγκυρη επιλογή."
-        exit
-        
+
+
+
+
+# Συνάρτηση για προβολή του αρχείου
+display_file() {
+    if [[ -f "$FILE" ]]; then
+        echo "Προβολή περιεχομένων του αρχείου:"
+        less "$FILE"
+    else
+        echo "Το αρχείο $FILE δεν υπάρχει. Βεβαιωθείτε ότι έχει δημιουργηθεί."
+        exit 1
+    fi
+}
+
+
+# Συνάρτηση για δημιουργία αναφορών
+generate_reports() {
+
+AGES="ages.txt"
+PERCENTAGES="percentages.txt"
+AVG_STATUS="avg.txt"
+
+echo -e "1-18 (1)\n19-35 (2)\n36-50 (3)\n51+ (4)"
+read -p "Δώσε το γκρουπ ηλικειακής ομάδας: " pick 
+  case $pick in
+            1)  local age_group=$(awk -F';'  '{ if ($3 >= 1 && $3 <= 18) print }' "$FILE")
+                echo -e "$age_group\n" > "$AGES" 
+                ;;
+            2)  local age_group=$(awk -F';'  '{ if ($3 >= 19 && $3 <= 35) print }' "$FILE")
+                echo -e "$age_group\n" > "$AGES" 
+                ;;
+            3)  local age_group=$(awk -F';'  '{ if ($3 >= 36 && $3 <= 50) print }' "$FILE")
+                echo -e "$age_group\n" > "$AGES" 
+                ;;
+            4)  local age_group=$(awk -F';'  '{ if ($3 >= 51) print }' "$FILE")
+                echo -e "$age_group\n" > "$AGES" 
+                ;;
+            *) echo "Μη επιτρεπτή επιλογή: $pick" && exit 1 ;;
+        esac
+
+
+local total_count=$(wc -l < "$AGES")
+local has_rescued=$(grep -c "\byes\b" "$AGES")
+local percentage=$(( (has_rescued * 100) / total_count ))
+echo -e "percentage for choice $pick: $percentage%\n" > "$PERCENTAGES" 
+
+
+local crew_var =$(grep -c  "\bCrew\b" "$AGES")
+local pass_var =$(grep -c "\bPassenger\b" "$AGES")
+
+local crew_sum =$(awk -F';'  'BEGIN {sum+=$3} END {print sum} {print $3}' "$AGES")
+
+
+}
+
+
+
+
+
+# Συνάρτηση για έλεγχο ορισμάτων τροποποίησης
+arguement_handler() {
+
+# Αν δεν δίνονται 2 ορίσματα σταμάτα
+if [ -z $1 -a -z $2 ]; then
+     echo "Δεν δόθηκαν ορίσματα για τροποποίηση"
+
+# Αν το όρισμα είναι "reports" κάλεσε τη συνάρτηση generate_reports
+elif [ $1 == "reports" ]; then
+    generate_reports
+
+
+
+# Αν δίνεται 1 όρισμα κάλεσε την συνάρτηση αναζήτησης
+elif [ -n $1 -a -z $2 ]; then
+     search_passenger "$1"
+
+
+    
+# Αν δίνονται 2 ορίσματα κάλεσε την συνάρτηση τροποποίησης
+else
+    echo "Δοσμένο όρισμα: $1"
+    echo "Αριθμός ορισμάτων: $#"
+    update_passenger "$1" "$2"
 fi
+}
+
+
+
+
+
+
+
+read -p "Δώσε το Path του αρχείου: " input_file
+    insert_data "$input_file"
+
 
 read -p "Δώσε το Όνομα ή το Επώνυμο του επιβαίνοντα: " NAME
-        find_passenger "$NAME"
+    search_passenger "$NAME"
 
+arguement_handler "$1" "$2"
 
-read -p "Δώσε τον αριθμό ή Όνομα του επιβαίνοντα και την ενέργεια
-        Μορφή: <identifier> πεδίο:<νέα τιμή> ή record:<νέα εγγραφή>: " identifier operation
-        update_passenger "$identifier" "$operation"
+read -p "Εμφάνιση περιεγχομένου του αρχείου; ΝΑΙ=1|ΟΧΙ=0 " choice
 
+if [ $choice = "1" ]; then
+    display_file
+else 
+    exit
+    
+fi
 
-
+generate_reports
 
 
 
