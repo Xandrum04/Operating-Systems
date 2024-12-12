@@ -203,6 +203,7 @@ generate_reports() {
 AGES="ages.txt"
 PERCENTAGES="percentages.txt"
 AVG_STATUS="avg.txt"
+RESCUED="rescued.txt"
 
 echo -e "1-18 (1)\n19-35 (2)\n36-50 (3)\n51+ (4)"
 read -p "Δώσε το γκρουπ ηλικειακής ομάδας: " pick 
@@ -229,12 +230,15 @@ local percentage=$(( (has_rescued * 100) / total_count ))
 echo -e "percentage for choice $pick: $percentage%\n" > "$PERCENTAGES" 
 
 
-local crew_var =$(grep -c  "\bCrew\b" "$AGES")
-local pass_var =$(grep -c "\bPassenger\b" "$AGES")
+#local crew_sum =$(awk  '{FS = "|"} ; BEGIN {sum+=$3} END {print sum}' "$AGES")
+local crew_avg_age=$(awk -F';' '$5 == "Crew" {sum += $3; count++} END {if (count > 0) print sum / count; else print 0}' "$AGES")
+local passenger_avg_age=$(awk -F';' '$5 == "Passenger" {sum += $3; count++} END {if (count > 0) print sum / count; else print 0}' "$AGES")
 
-local crew_sum =$(awk -F';'  'BEGIN {sum+=$3} END {print sum} {print $3}' "$AGES")
+echo -e "Μέση ηλικία πληρώματος: $crew_avg_age\nΜέση ηλικία επιβατών: $passenger_avg_age" > "$AVG_STATUS"
 
-
+local rescued=$(grep "\byes\b" "$AGES")
+echo "code;fullname;age;country;status;rescued" > "$RESCUED"
+echo $rescued >> "$RESCUED"
 }
 
 
