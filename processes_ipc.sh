@@ -187,9 +187,11 @@ update_passenger() {
 
 # Συνάρτηση για προβολή του αρχείου
 display_file() {
+    # Αν το αρχείο υπάρχει, εμφάνισε τα περιέγχόμενα μέχρι να γεμίσει η οθόνη
     if [[ -f "$FILE" ]]; then
         echo "Προβολή περιεχομένων του αρχείου:"
         less "$FILE"
+    # Αν δεν υπάρχει σταμάτα
     else
         echo "Το αρχείο $FILE δεν υπάρχει. Βεβαιωθείτε ότι έχει δημιουργηθεί."
         exit 1
@@ -200,42 +202,69 @@ display_file() {
 # Συνάρτηση για δημιουργία αναφορών
 generate_reports() {
 
+# Δήλωση μεταβλητών αρχείων για τα reports
 AGES="ages.txt"
 PERCENTAGES="percentages.txt"
 AVG_STATUS="avg.txt"
 RESCUED="rescued.txt"
 
+# Εμφάνισε menu επιλογής για τα γκρούπ ηλικείας
 echo -e "1-18 (1)\n19-35 (2)\n36-50 (3)\n51+ (4)"
 read -p "Δώσε το γκρουπ ηλικειακής ομάδας: " pick 
   case $pick in
-            1)  local age_group=$(awk -F';'  '{ if ($3 >= 1 && $3 <= 18) print }' "$FILE")
+            1)  
+                # Αν επέλεξες 1, τότε ομαδοποίησε τις εγγραφες που έχουν 
+                # ηλικεία μεταξύ 1 και 18 και αποθήκευσε τις στο age_group
+                local age_group=$(awk -F';'  '{ if ($3 >= 1 && $3 <= 18) print }' "$FILE")
+                # Αντέγραψε τις στο αρχείο ages.txt
                 echo -e "$age_group\n" > "$AGES" 
                 ;;
-            2)  local age_group=$(awk -F';'  '{ if ($3 >= 19 && $3 <= 35) print }' "$FILE")
+            2)  
+                # Αν επέλεξες 2, τότε ομαδοποίησε τις εγγραφες που έχουν 
+                # ηλικεία μεταξύ 19 και 35 και αποθήκευσε τις στο age_group
+                local age_group=$(awk -F';'  '{ if ($3 >= 19 && $3 <= 35) print }' "$FILE")
+                # Αντέγραψε τις στο αρχείο ages.txt
                 echo -e "$age_group\n" > "$AGES" 
                 ;;
-            3)  local age_group=$(awk -F';'  '{ if ($3 >= 36 && $3 <= 50) print }' "$FILE")
+            3)  
+                # Αν επέλεξες 3, τότε ομαδοποίησε τις εγγραφες που έχουν 
+                # ηλικεία μεταξύ 36 και 50 και αποθήκευσε τις στο age_group
+                local age_group=$(awk -F';'  '{ if ($3 >= 36 && $3 <= 50) print }' "$FILE")
+                # Αντέγραψε τις στο αρχείο ages.txt
                 echo -e "$age_group\n" > "$AGES" 
                 ;;
-            4)  local age_group=$(awk -F';'  '{ if ($3 >= 51) print }' "$FILE")
+            4) 
+                # Αν επέλεξες 4, τότε ομαδοποίησε τις εγγραφες που έχουν 
+                # ηλικεία 51+ και αποθήκευσε τις στο age_group
+                local age_group=$(awk -F';'  '{ if ($3 >= 51) print }' "$FILE")
+                # Αντέγραψε τις στο αρχείο ages.txt
                 echo -e "$age_group\n" > "$AGES" 
                 ;;
             *) echo "Μη επιτρεπτή επιλογή: $pick" && exit 1 ;;
         esac
 
-
+# Αποθήκευσε στην μεταβλητή total_count τον αριθμό γραμμών(εγγραφών) του ages report
 local total_count=$(wc -l < "$AGES")
+# Αποθήκευσε στην μεταβλητή has_rescued τον αριθμό γραμμών(εγγραφών) που περιέγχουν το pattern: "yes"
 local has_rescued=$(grep -c "\byes\b" "$AGES")
+# Αποθήκευσε στην μεταβλητή percentage το % ποσοστό των επιβατών που συμμετύχαν στην διάσωση προς τους συνολικούς
 local percentage=$(( (has_rescued * 100) / total_count ))
+
+#Αντέγραψε το ποσοστό στο αρχείο percentages.txt
 echo -e "percentage for choice $pick: $percentage%\n" > "$PERCENTAGES" 
 
 
-#local crew_sum =$(awk  '{FS = "|"} ; BEGIN {sum+=$3} END {print sum}' "$AGES")
+# Ομαδοποίησε τις εγγραφες που έχουν ως status crew, υπολόγισε
+# το άθροισμα των ηλικειών τους και το πλήθος τους και υπολόγισε τον μέσο όρο
 local crew_avg_age=$(awk -F';' '$5 == "Crew" {sum += $3; count++} END {if (count > 0) print sum / count; else print 0}' "$AGES")
+# Ομαδοποίησε τις εγγραφες που έχουν ως status Passenger, υπολόγισε
+# το άθροισμα των ηλικειών τους και το πλήθος τους και υπολόγισε τον μέσο όρο
 local passenger_avg_age=$(awk -F';' '$5 == "Passenger" {sum += $3; count++} END {if (count > 0) print sum / count; else print 0}' "$AGES")
 
+# Αποθήκευσε τις μέσες ηλικείες για κάθε status σε μεταβλήτες και αντίγραψε τις στο αρχείο avg.txt
 echo -e "Μέση ηλικία πληρώματος: $crew_avg_age\nΜέση ηλικία επιβατών: $passenger_avg_age" > "$AVG_STATUS"
 
+# Αποθήκευσε στην rescued τις εγγραφές οι οποίες περιέχουν το pattern: "yes" και αντέγραψε τις στο αρχείο rescued.txt
 local rescued=$(grep "\byes\b" "$AGES")
 echo "code;fullname;age;country;status;rescued" > "$RESCUED"
 echo $rescued >> "$RESCUED"
@@ -277,27 +306,30 @@ fi
 
 
 
+# MAIN
 
+# Δώσε το Path του αρχείου και κάλεσε την συνάρτηση insert_data
 read -p "Δώσε το Path του αρχείου: " input_file
     insert_data "$input_file"
 
-
+# Δώσε το Όνομα ή το Επώνυμο του επιβάτη και κάλεσε την συνάρτηση search_passenger
 read -p "Δώσε το Όνομα ή το Επώνυμο του επιβαίνοντα: " NAME
     search_passenger "$NAME"
 
+# Ανάλογα με τα ορίσματα που δόθηκαν, είτε θα καλέσει η συνάρτηση arguement_hander την 
+# συνάρτηση update_passenger(2 ορίσματα), είτε θα καλέσει την find_passenger (1 όρισμα),
+# είτε την generate reports ( όρισμα: reports)
 arguement_handler "$1" "$2"
 
-read -p "Εμφάνιση περιεγχομένου του αρχείου; ΝΑΙ=1|ΟΧΙ=0 " choice
 
+read -p "Εμφάνιση περιεγχομένου του αρχείου; ΝΑΙ=1|ΟΧΙ=0 " choice
+# Αν θέλεις να εμφανιστεί το περιεγχόμενο του αρχείου, κάλεσε τη συνάρτηση display_file, αλλιώς σταμάτα
 if [ $choice = "1" ]; then
     display_file
 else 
     exit
     
 fi
-
-generate_reports
-
 
 
 
