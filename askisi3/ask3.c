@@ -4,42 +4,45 @@
 #include <string.h>
 
 #define MEMORY_CAPACITY 512  // Size of memory in KB
-#define TIME_SLICE 3         // Quantum time slice (3 milliseconds)
+#define TIME_SLICE 3         // Quantum time slice (3 ms)
 #define MAX_PROCESS_COUNT 5  // Maximum number of processes
 
 // Structure to represent a process
 typedef struct {
-    int pid;                // Process ID
-    int arrival_time;       // When the process arrives
-    int duration;     // Total time the process needs to run
-    int remaining_duration; // Remaining execution time
-    int memory_needed;    // Memory needed for the process (in KB)
-    bool in_memory;      // Flag to check if the process is in memory
+    int pid;                 // Process ID
+    int arrival_time;        // When the process arrives
+    int duration;            // Total time the process needs to run
+    int remaining_duration;  // Remaining execution time
+    int memory_needed;       // Memory needed for the process (in KB)
+    bool in_memory;          // Flag to check if the process is in memory
 } Process;
 
 // Structure for memory block
 typedef struct {
-    int start;             // Start address of memory block
-    int size;              // Size of the memory block
-    bool is_free;          // Whether the block is free or occupied
-    int pid;               // Process ID occupying the block
+    int start;               // Start address of memory block
+    int size;                // Size of the memory block
+    bool is_free;            // Whether the block is free or occupied
+    int pid;                 // Process ID occupying the block
 } MemoryBlock;
 
-MemoryBlock memory[MEMORY_CAPACITY]; // Memory array
+MemoryBlock memory[MEMORY_CAPACITY];  // Memory array
 Process processes[MAX_PROCESS_COUNT]; // Processes array
 int process_count = 0;                // Total number of processes
 
 // Initialize memory by creating a single large free memory block
 void initialize_memory() {
-    memory[0].start = 0;
-    memory[0].size = MEMORY_CAPACITY;
-    memory[0].is_free = true;
-    memory[0].pid = -1; // No process occupies it initially
+
+    memory[0].start = 0;              // Start address is 0 (the beginning of memory)
+    memory[0].size = MEMORY_CAPACITY; // Size is the total memory capacity (512 KB)
+    memory[0].is_free = true;         // The block is initially free
+    memory[0].pid = -1;               // No process occupies it initially
+
+    // Mark the rest of the memory entries as unused.
     for (int i = 1; i < MEMORY_CAPACITY; i++) {
-        memory[i].start = -1;
-        memory[i].size = 0;
-        memory[i].is_free = false;
-        memory[i].pid = -1;
+        memory[i].start = -1;         // Invalid start address 
+        memory[i].size = 0;           // No size assigned
+        memory[i].is_free = false;    // Marked as not free (not used yet)
+        memory[i].pid = -1;           // No process occupies it
     }
 }
 
@@ -81,6 +84,7 @@ void deallocate_memory(int pid) {
 void print_memory_status() {
     printf("\nMemory Status:\n");
     for (int i = 0; i < MEMORY_CAPACITY; i++) {
+        // if start address isn't invalid
         if (memory[i].start != -1) {
             printf("Block %d: Start=%d, Size=%d, Free=%s, PID=%d\n",
                    i, memory[i].start, memory[i].size,
@@ -93,25 +97,28 @@ void print_memory_status() {
 
 // Simulate the round robin scheduling and memory management
 void simulate_round_robin() {
-    int time = 0;
+    int time = 0;  //start the time by setting it to 0
     bool all_processes_done = false;
 
     while (!all_processes_done) {
         all_processes_done = true;
+        // for every procedure 
         for (int i = 0; i < process_count; i++) {
-            // Check if the process has arrived and has remaining execution time
+            // check if the process has arrived and has remaining execution time
             if (processes[i].arrival_time <= time && processes[i].remaining_duration > 0) {
                 all_processes_done = false;
 
                 // If the process is not in memory, try loading it
                 if (!processes[i].in_memory) {
+                    // if memory succesfully allocated
                     if (allocate_memory(processes[i].pid, processes[i].memory_needed)) {
                         processes[i].in_memory = true;
                         printf("Time %d: Process %d loaded into memory.\n", time, processes[i].pid);
                         print_memory_status();
+                    // if memory allocation failed
                     } else {
                         printf("Time %d: Process %d waiting for memory.\n", time, processes[i].pid);
-                        continue; // Skip this iteration if no memory is available
+                        continue; // Skip this iteration
                     }
                 }
 
