@@ -3,8 +3,8 @@
 #include <stdlib.h>
 #include "ipc_utils.h"
 
-#define MAX_PASSENGERS 100
-#define MAX_BOATS 10
+#define MAX_PASSENGERS 500
+#define MAX_BOATS 500
 
 // Συνάρτηση για τη δημιουργία διεργασίας επιβάτη
 void create_passenger_process(const char *semaphore_name) {
