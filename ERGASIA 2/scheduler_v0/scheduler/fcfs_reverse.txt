@@ -1,0 +1,2496 @@
+executing ../work/work7
+executing ../work/work6
+executing ../work/work5
+executing ../work/work4
+executing ../work/work3
+executing ../work/work2
+executing ../work/work1
+WORKLOAD TIME: 0.18 secs
+scheduler exits
+executing ../work/work7
+executing ../work/work6
+executing ../work/work5
+executing ../work/work4
+executing ../work/work3
+executing ../work/work2
+PID 525 - CMD: ../work/work1
+	Elapsed time = 0.18 secs
+	Execution time = 0.03 secs
+	Workload time = 0.18 secs
+WORKLOAD TIME: 0.18 secs
+scheduler exits
+executing ../work/work7
+executing ../work/work6
+executing ../work/work5
+executing ../work/work4
+executing ../work/work3
+PID 524 - CMD: ../work/work2
+	Elapsed time = 0.18 secs
+	Execution time = 0.05 secs
+	Workload time = 0.18 secs
+executing ../work/work1
+WORKLOAD TIME: 0.21 secs
+scheduler exits
+executing ../work/work7
+executing ../work/work6
+executing ../work/work5
+executing ../work/work4
+executing ../work/work3
+PID 524 - CMD: ../work/work2
+	Elapsed time = 0.18 secs
+	Execution time = 0.05 secs
+	Workload time = 0.18 secs
+PID 526 - CMD: ../work/work1
+	Elapsed time = 0.21 secs
+	Execution time = 0.03 secs
+	Workload time = 0.21 secs
+WORKLOAD TIME: 0.21 secs
+scheduler exits
+executing ../work/work7
+executing ../work/work6
+executing ../work/work5
+executing ../work/work4
+PID 523 - CMD: ../work/work3
+	Elapsed time = 0.21 secs
+	Execution time = 0.12 secs
+	Workload time = 0.21 secs
+executing ../work/work2
+executing ../work/work1
+WORKLOAD TIME: 0.26 secs
+scheduler exits
+executing ../work/work7
+executing ../work/work6
+executing ../work/work5
+executing ../work/work4
+PID 523 - CMD: ../work/work3
+	Elapsed time = 0.21 secs
+	Execution time = 0.12 secs
+	Workload time = 0.21 secs
+executing ../work/work2
+PID 528 - CMD: ../work/work1
+	Elapsed time = 0.26 secs
+	Execution time = 0.03 secs
+	Workload time = 0.26 secs
+WORKLOAD TIME: 0.26 secs
+scheduler exits
+executing ../work/work7
+executing ../work/work6
+executing ../work/work5
+executing ../work/work4
+PID 523 - CMD: ../work/work3
+	Elapsed time = 0.21 secs
+	Execution time = 0.12 secs
+	Workload time = 0.21 secs
+PID 527 - CMD: ../work/work2
+	Elapsed time = 0.26 secs
+	Execution time = 0.05 secs
+	Workload time = 0.26 secs
+executing ../work/work1
+WORKLOAD TIME: 0.28 secs
+scheduler exits
+executing ../work/work7
+executing ../work/work6
+executing ../work/work5
+executing ../work/work4
+PID 523 - CMD: ../work/work3
+	Elapsed time = 0.21 secs
+	Execution time = 0.12 secs
+	Workload time = 0.21 secs
+PID 527 - CMD: ../work/work2
+	Elapsed time = 0.26 secs
+	Execution time = 0.05 secs
+	Workload time = 0.26 secs
+PID 529 - CMD: ../work/work1
+	Elapsed time = 0.28 secs
+	Execution time = 0.02 secs
+	Workload time = 0.28 secs
+WORKLOAD TIME: 0.28 secs
+scheduler exits
+executing ../work/work7
+executing ../work/work6
+executing ../work/work5
+PID 522 - CMD: ../work/work4
+	Elapsed time = 0.29 secs
+	Execution time = 0.22 secs
+	Workload time = 0.29 secs
+executing ../work/work3
+executing ../work/work2
+executing ../work/work1
+WORKLOAD TIME: 0.36 secs
+scheduler exits
+executing ../work/work7
+executing ../work/work6
+executing ../work/work5
+PID 522 - CMD: ../work/work4
+	Elapsed time = 0.29 secs
+	Execution time = 0.22 secs
+	Workload time = 0.29 secs
+executing ../work/work3
+executing ../work/work2
+PID 532 - CMD: ../work/work1
+	Elapsed time = 0.36 secs
+	Execution time = 0.03 secs
+	Workload time = 0.36 secs
+WORKLOAD TIME: 0.36 secs
+scheduler exits
+executing ../work/work7
+executing ../work/work6
+executing ../work/work5
+PID 522 - CMD: ../work/work4
+	Elapsed time = 0.29 secs
+	Execution time = 0.22 secs
+	Workload time = 0.29 secs
+executing ../work/work3
+PID 531 - CMD: ../work/work2
+	Elapsed time = 0.36 secs
+	Execution time = 0.05 secs
+	Workload time = 0.36 secs
+executing ../work/work1
+WORKLOAD TIME: 0.38 secs
+scheduler exits
+executing ../work/work7
+executing ../work/work6
+executing ../work/work5
+PID 522 - CMD: ../work/work4
+	Elapsed time = 0.29 secs
+	Execution time = 0.22 secs
+	Workload time = 0.29 secs
+executing ../work/work3
+PID 531 - CMD: ../work/work2
+	Elapsed time = 0.36 secs
+	Execution time = 0.05 secs
+	Workload time = 0.36 secs
+PID 533 - CMD: ../work/work1
+	Elapsed time = 0.38 secs
+	Execution time = 0.02 secs
+	Workload time = 0.38 secs
+WORKLOAD TIME: 0.38 secs
+scheduler exits
+executing ../work/work7
+executing ../work/work6
+executing ../work/work5
+PID 522 - CMD: ../work/work4
+	Elapsed time = 0.29 secs
+	Execution time = 0.22 secs
+	Workload time = 0.29 secs
+PID 530 - CMD: ../work/work3
+	Elapsed time = 0.38 secs
+	Execution time = 0.10 secs
+	Workload time = 0.38 secs
+executing ../work/work2
+executing ../work/work1
+WORKLOAD TIME: 0.43 secs
+scheduler exits
+executing ../work/work7
+executing ../work/work6
+executing ../work/work5
+PID 522 - CMD: ../work/work4
+	Elapsed time = 0.29 secs
+	Execution time = 0.22 secs
+	Workload time = 0.29 secs
+PID 530 - CMD: ../work/work3
+	Elapsed time = 0.38 secs
+	Execution time = 0.10 secs
+	Workload time = 0.38 secs
+executing ../work/work2
+PID 535 - CMD: ../work/work1
+	Elapsed time = 0.43 secs
+	Execution time = 0.03 secs
+	Workload time = 0.43 secs
+WORKLOAD TIME: 0.43 secs
+scheduler exits
+executing ../work/work7
+executing ../work/work6
+executing ../work/work5
+PID 522 - CMD: ../work/work4
+	Elapsed time = 0.29 secs
+	Execution time = 0.22 secs
+	Workload time = 0.29 secs
+PID 530 - CMD: ../work/work3
+	Elapsed time = 0.38 secs
+	Execution time = 0.10 secs
+	Workload time = 0.38 secs
+PID 534 - CMD: ../work/work2
+	Elapsed time = 0.43 secs
+	Execution time = 0.05 secs
+	Workload time = 0.43 secs
+executing ../work/work1
+WORKLOAD TIME: 0.46 secs
+scheduler exits
+executing ../work/work7
+executing ../work/work6
+executing ../work/work5
+PID 522 - CMD: ../work/work4
+	Elapsed time = 0.29 secs
+	Execution time = 0.22 secs
+	Workload time = 0.29 secs
+PID 530 - CMD: ../work/work3
+	Elapsed time = 0.38 secs
+	Execution time = 0.10 secs
+	Workload time = 0.38 secs
+PID 534 - CMD: ../work/work2
+	Elapsed time = 0.43 secs
+	Execution time = 0.05 secs
+	Workload time = 0.43 secs
+PID 536 - CMD: ../work/work1
+	Elapsed time = 0.46 secs
+	Execution time = 0.02 secs
+	Workload time = 0.46 secs
+WORKLOAD TIME: 0.46 secs
+scheduler exits
+executing ../work/work7
+executing ../work/work6
+PID 521 - CMD: ../work/work5
+	Elapsed time = 0.46 secs
+	Execution time = 0.41 secs
+	Workload time = 0.46 secs
+executing ../work/work4
+executing ../work/work3
+executing ../work/work2
+executing ../work/work1
+WORKLOAD TIME: 0.56 secs
+scheduler exits
+executing ../work/work7
+executing ../work/work6
+PID 521 - CMD: ../work/work5
+	Elapsed time = 0.46 secs
+	Execution time = 0.41 secs
+	Workload time = 0.46 secs
+executing ../work/work4
+executing ../work/work3
+executing ../work/work2
+PID 540 - CMD: ../work/work1
+	Elapsed time = 0.56 secs
+	Execution time = 0.03 secs
+	Workload time = 0.56 secs
+WORKLOAD TIME: 0.56 secs
+scheduler exits
+executing ../work/work7
+executing ../work/work6
+PID 521 - CMD: ../work/work5
+	Elapsed time = 0.46 secs
+	Execution time = 0.41 secs
+	Workload time = 0.46 secs
+executing ../work/work4
+executing ../work/work3
+PID 539 - CMD: ../work/work2
+	Elapsed time = 0.56 secs
+	Execution time = 0.06 secs
+	Workload time = 0.56 secs
+executing ../work/work1
+WORKLOAD TIME: 0.58 secs
+scheduler exits
+executing ../work/work7
+executing ../work/work6
+PID 521 - CMD: ../work/work5
+	Elapsed time = 0.46 secs
+	Execution time = 0.41 secs
+	Workload time = 0.46 secs
+executing ../work/work4
+executing ../work/work3
+PID 539 - CMD: ../work/work2
+	Elapsed time = 0.56 secs
+	Execution time = 0.06 secs
+	Workload time = 0.56 secs
+PID 541 - CMD: ../work/work1
+	Elapsed time = 0.58 secs
+	Execution time = 0.02 secs
+	Workload time = 0.58 secs
+WORKLOAD TIME: 0.58 secs
+scheduler exits
+executing ../work/work7
+executing ../work/work6
+PID 521 - CMD: ../work/work5
+	Elapsed time = 0.46 secs
+	Execution time = 0.41 secs
+	Workload time = 0.46 secs
+executing ../work/work4
+PID 538 - CMD: ../work/work3
+	Elapsed time = 0.59 secs
+	Execution time = 0.11 secs
+	Workload time = 0.59 secs
+executing ../work/work2
+executing ../work/work1
+WORKLOAD TIME: 0.63 secs
+scheduler exits
+executing ../work/work7
+executing ../work/work6
+PID 521 - CMD: ../work/work5
+	Elapsed time = 0.46 secs
+	Execution time = 0.41 secs
+	Workload time = 0.46 secs
+executing ../work/work4
+PID 538 - CMD: ../work/work3
+	Elapsed time = 0.59 secs
+	Execution time = 0.11 secs
+	Workload time = 0.59 secs
+executing ../work/work2
+PID 543 - CMD: ../work/work1
+	Elapsed time = 0.63 secs
+	Execution time = 0.02 secs
+	Workload time = 0.63 secs
+WORKLOAD TIME: 0.63 secs
+scheduler exits
+executing ../work/work7
+executing ../work/work6
+PID 521 - CMD: ../work/work5
+	Elapsed time = 0.46 secs
+	Execution time = 0.41 secs
+	Workload time = 0.46 secs
+executing ../work/work4
+PID 538 - CMD: ../work/work3
+	Elapsed time = 0.59 secs
+	Execution time = 0.11 secs
+	Workload time = 0.59 secs
+PID 542 - CMD: ../work/work2
+	Elapsed time = 0.64 secs
+	Execution time = 0.05 secs
+	Workload time = 0.64 secs
+executing ../work/work1
+WORKLOAD TIME: 0.66 secs
+scheduler exits
+executing ../work/work7
+executing ../work/work6
+PID 521 - CMD: ../work/work5
+	Elapsed time = 0.46 secs
+	Execution time = 0.41 secs
+	Workload time = 0.46 secs
+executing ../work/work4
+PID 538 - CMD: ../work/work3
+	Elapsed time = 0.59 secs
+	Execution time = 0.11 secs
+	Workload time = 0.59 secs
+PID 542 - CMD: ../work/work2
+	Elapsed time = 0.64 secs
+	Execution time = 0.05 secs
+	Workload time = 0.64 secs
+PID 544 - CMD: ../work/work1
+	Elapsed time = 0.66 secs
+	Execution time = 0.02 secs
+	Workload time = 0.66 secs
+WORKLOAD TIME: 0.66 secs
+scheduler exits
+executing ../work/work7
+executing ../work/work6
+PID 521 - CMD: ../work/work5
+	Elapsed time = 0.46 secs
+	Execution time = 0.41 secs
+	Workload time = 0.46 secs
+PID 537 - CMD: ../work/work4
+	Elapsed time = 0.66 secs
+	Execution time = 0.20 secs
+	Workload time = 0.66 secs
+executing ../work/work3
+executing ../work/work2
+executing ../work/work1
+WORKLOAD TIME: 0.73 secs
+scheduler exits
+executing ../work/work7
+executing ../work/work6
+PID 521 - CMD: ../work/work5
+	Elapsed time = 0.46 secs
+	Execution time = 0.41 secs
+	Workload time = 0.46 secs
+PID 537 - CMD: ../work/work4
+	Elapsed time = 0.66 secs
+	Execution time = 0.20 secs
+	Workload time = 0.66 secs
+executing ../work/work3
+executing ../work/work2
+PID 547 - CMD: ../work/work1
+	Elapsed time = 0.73 secs
+	Execution time = 0.03 secs
+	Workload time = 0.73 secs
+WORKLOAD TIME: 0.74 secs
+scheduler exits
+executing ../work/work7
+executing ../work/work6
+PID 521 - CMD: ../work/work5
+	Elapsed time = 0.46 secs
+	Execution time = 0.41 secs
+	Workload time = 0.46 secs
+PID 537 - CMD: ../work/work4
+	Elapsed time = 0.66 secs
+	Execution time = 0.20 secs
+	Workload time = 0.66 secs
+executing ../work/work3
+PID 546 - CMD: ../work/work2
+	Elapsed time = 0.74 secs
+	Execution time = 0.06 secs
+	Workload time = 0.74 secs
+executing ../work/work1
+WORKLOAD TIME: 0.76 secs
+scheduler exits
+executing ../work/work7
+executing ../work/work6
+PID 521 - CMD: ../work/work5
+	Elapsed time = 0.46 secs
+	Execution time = 0.41 secs
+	Workload time = 0.46 secs
+PID 537 - CMD: ../work/work4
+	Elapsed time = 0.66 secs
+	Execution time = 0.20 secs
+	Workload time = 0.66 secs
+executing ../work/work3
+PID 546 - CMD: ../work/work2
+	Elapsed time = 0.74 secs
+	Execution time = 0.06 secs
+	Workload time = 0.74 secs
+PID 548 - CMD: ../work/work1
+	Elapsed time = 0.76 secs
+	Execution time = 0.02 secs
+	Workload time = 0.76 secs
+WORKLOAD TIME: 0.76 secs
+scheduler exits
+executing ../work/work7
+executing ../work/work6
+PID 521 - CMD: ../work/work5
+	Elapsed time = 0.46 secs
+	Execution time = 0.41 secs
+	Workload time = 0.46 secs
+PID 537 - CMD: ../work/work4
+	Elapsed time = 0.66 secs
+	Execution time = 0.20 secs
+	Workload time = 0.66 secs
+PID 545 - CMD: ../work/work3
+	Elapsed time = 0.76 secs
+	Execution time = 0.10 secs
+	Workload time = 0.76 secs
+executing ../work/work2
+executing ../work/work1
+WORKLOAD TIME: 0.81 secs
+scheduler exits
+executing ../work/work7
+executing ../work/work6
+PID 521 - CMD: ../work/work5
+	Elapsed time = 0.46 secs
+	Execution time = 0.41 secs
+	Workload time = 0.46 secs
+PID 537 - CMD: ../work/work4
+	Elapsed time = 0.66 secs
+	Execution time = 0.20 secs
+	Workload time = 0.66 secs
+PID 545 - CMD: ../work/work3
+	Elapsed time = 0.76 secs
+	Execution time = 0.10 secs
+	Workload time = 0.76 secs
+executing ../work/work2
+PID 550 - CMD: ../work/work1
+	Elapsed time = 0.81 secs
+	Execution time = 0.03 secs
+	Workload time = 0.81 secs
+WORKLOAD TIME: 0.81 secs
+scheduler exits
+executing ../work/work7
+executing ../work/work6
+PID 521 - CMD: ../work/work5
+	Elapsed time = 0.46 secs
+	Execution time = 0.41 secs
+	Workload time = 0.46 secs
+PID 537 - CMD: ../work/work4
+	Elapsed time = 0.66 secs
+	Execution time = 0.20 secs
+	Workload time = 0.66 secs
+PID 545 - CMD: ../work/work3
+	Elapsed time = 0.76 secs
+	Execution time = 0.10 secs
+	Workload time = 0.76 secs
+PID 549 - CMD: ../work/work2
+	Elapsed time = 0.81 secs
+	Execution time = 0.05 secs
+	Workload time = 0.81 secs
+executing ../work/work1
+WORKLOAD TIME: 0.83 secs
+scheduler exits
+executing ../work/work7
+executing ../work/work6
+PID 521 - CMD: ../work/work5
+	Elapsed time = 0.46 secs
+	Execution time = 0.41 secs
+	Workload time = 0.46 secs
+PID 537 - CMD: ../work/work4
+	Elapsed time = 0.66 secs
+	Execution time = 0.20 secs
+	Workload time = 0.66 secs
+PID 545 - CMD: ../work/work3
+	Elapsed time = 0.76 secs
+	Execution time = 0.10 secs
+	Workload time = 0.76 secs
+PID 549 - CMD: ../work/work2
+	Elapsed time = 0.81 secs
+	Execution time = 0.05 secs
+	Workload time = 0.81 secs
+PID 551 - CMD: ../work/work1
+	Elapsed time = 0.83 secs
+	Execution time = 0.02 secs
+	Workload time = 0.83 secs
+WORKLOAD TIME: 0.83 secs
+scheduler exits
+executing ../work/work7
+PID 520 - CMD: ../work/work6
+	Elapsed time = 0.83 secs
+	Execution time = 0.81 secs
+	Workload time = 0.83 secs
+executing ../work/work5
+executing ../work/work4
+executing ../work/work3
+executing ../work/work2
+executing ../work/work1
+WORKLOAD TIME: 0.96 secs
+scheduler exits
+executing ../work/work7
+PID 520 - CMD: ../work/work6
+	Elapsed time = 0.83 secs
+	Execution time = 0.81 secs
+	Workload time = 0.83 secs
+executing ../work/work5
+executing ../work/work4
+executing ../work/work3
+executing ../work/work2
+PID 556 - CMD: ../work/work1
+	Elapsed time = 0.96 secs
+	Execution time = 0.03 secs
+	Workload time = 0.96 secs
+WORKLOAD TIME: 0.96 secs
+scheduler exits
+executing ../work/work7
+PID 520 - CMD: ../work/work6
+	Elapsed time = 0.83 secs
+	Execution time = 0.81 secs
+	Workload time = 0.83 secs
+executing ../work/work5
+executing ../work/work4
+executing ../work/work3
+PID 555 - CMD: ../work/work2
+	Elapsed time = 0.97 secs
+	Execution time = 0.06 secs
+	Workload time = 0.97 secs
+executing ../work/work1
+WORKLOAD TIME: 0.99 secs
+scheduler exits
+executing ../work/work7
+PID 520 - CMD: ../work/work6
+	Elapsed time = 0.83 secs
+	Execution time = 0.81 secs
+	Workload time = 0.83 secs
+executing ../work/work5
+executing ../work/work4
+executing ../work/work3
+PID 555 - CMD: ../work/work2
+	Elapsed time = 0.97 secs
+	Execution time = 0.06 secs
+	Workload time = 0.97 secs
+PID 557 - CMD: ../work/work1
+	Elapsed time = 0.99 secs
+	Execution time = 0.02 secs
+	Workload time = 0.99 secs
+WORKLOAD TIME: 0.99 secs
+scheduler exits
+executing ../work/work7
+PID 520 - CMD: ../work/work6
+	Elapsed time = 0.83 secs
+	Execution time = 0.81 secs
+	Workload time = 0.83 secs
+executing ../work/work5
+executing ../work/work4
+PID 554 - CMD: ../work/work3
+	Elapsed time = 0.99 secs
+	Execution time = 0.11 secs
+	Workload time = 0.99 secs
+executing ../work/work2
+executing ../work/work1
+WORKLOAD TIME: 1.05 secs
+scheduler exits
+executing ../work/work7
+PID 520 - CMD: ../work/work6
+	Elapsed time = 0.83 secs
+	Execution time = 0.81 secs
+	Workload time = 0.83 secs
+executing ../work/work5
+executing ../work/work4
+PID 554 - CMD: ../work/work3
+	Elapsed time = 0.99 secs
+	Execution time = 0.11 secs
+	Workload time = 0.99 secs
+executing ../work/work2
+PID 559 - CMD: ../work/work1
+	Elapsed time = 1.05 secs
+	Execution time = 0.03 secs
+	Workload time = 1.05 secs
+WORKLOAD TIME: 1.05 secs
+scheduler exits
+executing ../work/work7
+PID 520 - CMD: ../work/work6
+	Elapsed time = 0.83 secs
+	Execution time = 0.81 secs
+	Workload time = 0.83 secs
+executing ../work/work5
+executing ../work/work4
+PID 554 - CMD: ../work/work3
+	Elapsed time = 0.99 secs
+	Execution time = 0.11 secs
+	Workload time = 0.99 secs
+PID 558 - CMD: ../work/work2
+	Elapsed time = 1.05 secs
+	Execution time = 0.06 secs
+	Workload time = 1.05 secs
+executing ../work/work1
+WORKLOAD TIME: 1.08 secs
+scheduler exits
+executing ../work/work7
+PID 520 - CMD: ../work/work6
+	Elapsed time = 0.83 secs
+	Execution time = 0.81 secs
+	Workload time = 0.83 secs
+executing ../work/work5
+executing ../work/work4
+PID 554 - CMD: ../work/work3
+	Elapsed time = 0.99 secs
+	Execution time = 0.11 secs
+	Workload time = 0.99 secs
+PID 558 - CMD: ../work/work2
+	Elapsed time = 1.05 secs
+	Execution time = 0.06 secs
+	Workload time = 1.05 secs
+PID 560 - CMD: ../work/work1
+	Elapsed time = 1.08 secs
+	Execution time = 0.03 secs
+	Workload time = 1.08 secs
+WORKLOAD TIME: 1.08 secs
+scheduler exits
+executing ../work/work7
+PID 520 - CMD: ../work/work6
+	Elapsed time = 0.83 secs
+	Execution time = 0.81 secs
+	Workload time = 0.83 secs
+executing ../work/work5
+PID 553 - CMD: ../work/work4
+	Elapsed time = 1.08 secs
+	Execution time = 0.23 secs
+	Workload time = 1.08 secs
+executing ../work/work3
+executing ../work/work2
+executing ../work/work1
+WORKLOAD TIME: 1.21 secs
+scheduler exits
+executing ../work/work7
+PID 520 - CMD: ../work/work6
+	Elapsed time = 0.83 secs
+	Execution time = 0.81 secs
+	Workload time = 0.83 secs
+executing ../work/work5
+PID 553 - CMD: ../work/work4
+	Elapsed time = 1.08 secs
+	Execution time = 0.23 secs
+	Workload time = 1.08 secs
+executing ../work/work3
+executing ../work/work2
+PID 563 - CMD: ../work/work1
+	Elapsed time = 1.21 secs
+	Execution time = 0.05 secs
+	Workload time = 1.21 secs
+WORKLOAD TIME: 1.21 secs
+scheduler exits
+executing ../work/work7
+PID 520 - CMD: ../work/work6
+	Elapsed time = 0.83 secs
+	Execution time = 0.81 secs
+	Workload time = 0.83 secs
+executing ../work/work5
+PID 553 - CMD: ../work/work4
+	Elapsed time = 1.08 secs
+	Execution time = 0.23 secs
+	Workload time = 1.08 secs
+executing ../work/work3
+PID 562 - CMD: ../work/work2
+	Elapsed time = 1.21 secs
+	Execution time = 0.10 secs
+	Workload time = 1.21 secs
+executing ../work/work1
+WORKLOAD TIME: 1.25 secs
+scheduler exits
+executing ../work/work7
+PID 520 - CMD: ../work/work6
+	Elapsed time = 0.83 secs
+	Execution time = 0.81 secs
+	Workload time = 0.83 secs
+executing ../work/work5
+PID 553 - CMD: ../work/work4
+	Elapsed time = 1.08 secs
+	Execution time = 0.23 secs
+	Workload time = 1.08 secs
+executing ../work/work3
+PID 562 - CMD: ../work/work2
+	Elapsed time = 1.21 secs
+	Execution time = 0.10 secs
+	Workload time = 1.21 secs
+PID 564 - CMD: ../work/work1
+	Elapsed time = 1.25 secs
+	Execution time = 0.04 secs
+	Workload time = 1.25 secs
+WORKLOAD TIME: 1.25 secs
+scheduler exits
+executing ../work/work7
+PID 520 - CMD: ../work/work6
+	Elapsed time = 0.83 secs
+	Execution time = 0.81 secs
+	Workload time = 0.83 secs
+executing ../work/work5
+PID 553 - CMD: ../work/work4
+	Elapsed time = 1.08 secs
+	Execution time = 0.23 secs
+	Workload time = 1.08 secs
+PID 561 - CMD: ../work/work3
+	Elapsed time = 1.25 secs
+	Execution time = 0.17 secs
+	Workload time = 1.25 secs
+executing ../work/work2
+executing ../work/work1
+WORKLOAD TIME: 1.34 secs
+scheduler exits
+executing ../work/work7
+PID 520 - CMD: ../work/work6
+	Elapsed time = 0.83 secs
+	Execution time = 0.81 secs
+	Workload time = 0.83 secs
+executing ../work/work5
+PID 553 - CMD: ../work/work4
+	Elapsed time = 1.08 secs
+	Execution time = 0.23 secs
+	Workload time = 1.08 secs
+PID 561 - CMD: ../work/work3
+	Elapsed time = 1.25 secs
+	Execution time = 0.17 secs
+	Workload time = 1.25 secs
+executing ../work/work2
+PID 566 - CMD: ../work/work1
+	Elapsed time = 1.35 secs
+	Execution time = 0.05 secs
+	Workload time = 1.35 secs
+WORKLOAD TIME: 1.35 secs
+scheduler exits
+executing ../work/work7
+PID 520 - CMD: ../work/work6
+	Elapsed time = 0.83 secs
+	Execution time = 0.81 secs
+	Workload time = 0.83 secs
+executing ../work/work5
+PID 553 - CMD: ../work/work4
+	Elapsed time = 1.08 secs
+	Execution time = 0.23 secs
+	Workload time = 1.08 secs
+PID 561 - CMD: ../work/work3
+	Elapsed time = 1.25 secs
+	Execution time = 0.17 secs
+	Workload time = 1.25 secs
+PID 565 - CMD: ../work/work2
+	Elapsed time = 1.35 secs
+	Execution time = 0.09 secs
+	Workload time = 1.35 secs
+executing ../work/work1
+WORKLOAD TIME: 1.39 secs
+scheduler exits
+executing ../work/work7
+PID 520 - CMD: ../work/work6
+	Elapsed time = 0.83 secs
+	Execution time = 0.81 secs
+	Workload time = 0.83 secs
+executing ../work/work5
+PID 553 - CMD: ../work/work4
+	Elapsed time = 1.08 secs
+	Execution time = 0.23 secs
+	Workload time = 1.08 secs
+PID 561 - CMD: ../work/work3
+	Elapsed time = 1.25 secs
+	Execution time = 0.17 secs
+	Workload time = 1.25 secs
+PID 565 - CMD: ../work/work2
+	Elapsed time = 1.35 secs
+	Execution time = 0.09 secs
+	Workload time = 1.35 secs
+PID 567 - CMD: ../work/work1
+	Elapsed time = 1.40 secs
+	Execution time = 0.05 secs
+	Workload time = 1.40 secs
+WORKLOAD TIME: 1.40 secs
+scheduler exits
+executing ../work/work7
+PID 520 - CMD: ../work/work6
+	Elapsed time = 0.83 secs
+	Execution time = 0.81 secs
+	Workload time = 0.83 secs
+PID 552 - CMD: ../work/work5
+	Elapsed time = 1.40 secs
+	Execution time = 0.56 secs
+	Workload time = 1.40 secs
+executing ../work/work4
+executing ../work/work3
+executing ../work/work2
+executing ../work/work1
+WORKLOAD TIME: 1.50 secs
+scheduler exits
+executing ../work/work7
+PID 520 - CMD: ../work/work6
+	Elapsed time = 0.83 secs
+	Execution time = 0.81 secs
+	Workload time = 0.83 secs
+PID 552 - CMD: ../work/work5
+	Elapsed time = 1.40 secs
+	Execution time = 0.56 secs
+	Workload time = 1.40 secs
+executing ../work/work4
+executing ../work/work3
+executing ../work/work2
+PID 571 - CMD: ../work/work1
+	Elapsed time = 1.50 secs
+	Execution time = 0.03 secs
+	Workload time = 1.50 secs
+WORKLOAD TIME: 1.50 secs
+scheduler exits
+executing ../work/work7
+PID 520 - CMD: ../work/work6
+	Elapsed time = 0.83 secs
+	Execution time = 0.81 secs
+	Workload time = 0.83 secs
+PID 552 - CMD: ../work/work5
+	Elapsed time = 1.40 secs
+	Execution time = 0.56 secs
+	Workload time = 1.40 secs
+executing ../work/work4
+executing ../work/work3
+PID 570 - CMD: ../work/work2
+	Elapsed time = 1.51 secs
+	Execution time = 0.06 secs
+	Workload time = 1.51 secs
+executing ../work/work1
+WORKLOAD TIME: 1.53 secs
+scheduler exits
+executing ../work/work7
+PID 520 - CMD: ../work/work6
+	Elapsed time = 0.83 secs
+	Execution time = 0.81 secs
+	Workload time = 0.83 secs
+PID 552 - CMD: ../work/work5
+	Elapsed time = 1.40 secs
+	Execution time = 0.56 secs
+	Workload time = 1.40 secs
+executing ../work/work4
+executing ../work/work3
+PID 570 - CMD: ../work/work2
+	Elapsed time = 1.51 secs
+	Execution time = 0.06 secs
+	Workload time = 1.51 secs
+PID 572 - CMD: ../work/work1
+	Elapsed time = 1.53 secs
+	Execution time = 0.02 secs
+	Workload time = 1.53 secs
+WORKLOAD TIME: 1.53 secs
+scheduler exits
+executing ../work/work7
+PID 520 - CMD: ../work/work6
+	Elapsed time = 0.83 secs
+	Execution time = 0.81 secs
+	Workload time = 0.83 secs
+PID 552 - CMD: ../work/work5
+	Elapsed time = 1.40 secs
+	Execution time = 0.56 secs
+	Workload time = 1.40 secs
+executing ../work/work4
+PID 569 - CMD: ../work/work3
+	Elapsed time = 1.53 secs
+	Execution time = 0.11 secs
+	Workload time = 1.53 secs
+executing ../work/work2
+executing ../work/work1
+WORKLOAD TIME: 1.57 secs
+scheduler exits
+executing ../work/work7
+PID 520 - CMD: ../work/work6
+	Elapsed time = 0.83 secs
+	Execution time = 0.81 secs
+	Workload time = 0.83 secs
+PID 552 - CMD: ../work/work5
+	Elapsed time = 1.40 secs
+	Execution time = 0.56 secs
+	Workload time = 1.40 secs
+executing ../work/work4
+PID 569 - CMD: ../work/work3
+	Elapsed time = 1.53 secs
+	Execution time = 0.11 secs
+	Workload time = 1.53 secs
+executing ../work/work2
+PID 574 - CMD: ../work/work1
+	Elapsed time = 1.57 secs
+	Execution time = 0.02 secs
+	Workload time = 1.57 secs
+WORKLOAD TIME: 1.57 secs
+scheduler exits
+executing ../work/work7
+PID 520 - CMD: ../work/work6
+	Elapsed time = 0.83 secs
+	Execution time = 0.81 secs
+	Workload time = 0.83 secs
+PID 552 - CMD: ../work/work5
+	Elapsed time = 1.40 secs
+	Execution time = 0.56 secs
+	Workload time = 1.40 secs
+executing ../work/work4
+PID 569 - CMD: ../work/work3
+	Elapsed time = 1.53 secs
+	Execution time = 0.11 secs
+	Workload time = 1.53 secs
+PID 573 - CMD: ../work/work2
+	Elapsed time = 1.57 secs
+	Execution time = 0.04 secs
+	Workload time = 1.57 secs
+executing ../work/work1
+WORKLOAD TIME: 1.60 secs
+scheduler exits
+executing ../work/work7
+PID 520 - CMD: ../work/work6
+	Elapsed time = 0.83 secs
+	Execution time = 0.81 secs
+	Workload time = 0.83 secs
+PID 552 - CMD: ../work/work5
+	Elapsed time = 1.40 secs
+	Execution time = 0.56 secs
+	Workload time = 1.40 secs
+executing ../work/work4
+PID 569 - CMD: ../work/work3
+	Elapsed time = 1.53 secs
+	Execution time = 0.11 secs
+	Workload time = 1.53 secs
+PID 573 - CMD: ../work/work2
+	Elapsed time = 1.57 secs
+	Execution time = 0.04 secs
+	Workload time = 1.57 secs
+PID 575 - CMD: ../work/work1
+	Elapsed time = 1.60 secs
+	Execution time = 0.02 secs
+	Workload time = 1.60 secs
+WORKLOAD TIME: 1.60 secs
+scheduler exits
+executing ../work/work7
+PID 520 - CMD: ../work/work6
+	Elapsed time = 0.83 secs
+	Execution time = 0.81 secs
+	Workload time = 0.83 secs
+PID 552 - CMD: ../work/work5
+	Elapsed time = 1.40 secs
+	Execution time = 0.56 secs
+	Workload time = 1.40 secs
+PID 568 - CMD: ../work/work4
+	Elapsed time = 1.60 secs
+	Execution time = 0.20 secs
+	Workload time = 1.60 secs
+executing ../work/work3
+executing ../work/work2
+executing ../work/work1
+WORKLOAD TIME: 1.67 secs
+scheduler exits
+executing ../work/work7
+PID 520 - CMD: ../work/work6
+	Elapsed time = 0.83 secs
+	Execution time = 0.81 secs
+	Workload time = 0.83 secs
+PID 552 - CMD: ../work/work5
+	Elapsed time = 1.40 secs
+	Execution time = 0.56 secs
+	Workload time = 1.40 secs
+PID 568 - CMD: ../work/work4
+	Elapsed time = 1.60 secs
+	Execution time = 0.20 secs
+	Workload time = 1.60 secs
+executing ../work/work3
+executing ../work/work2
+PID 578 - CMD: ../work/work1
+	Elapsed time = 1.67 secs
+	Execution time = 0.03 secs
+	Workload time = 1.67 secs
+WORKLOAD TIME: 1.67 secs
+scheduler exits
+executing ../work/work7
+PID 520 - CMD: ../work/work6
+	Elapsed time = 0.83 secs
+	Execution time = 0.81 secs
+	Workload time = 0.83 secs
+PID 552 - CMD: ../work/work5
+	Elapsed time = 1.40 secs
+	Execution time = 0.56 secs
+	Workload time = 1.40 secs
+PID 568 - CMD: ../work/work4
+	Elapsed time = 1.60 secs
+	Execution time = 0.20 secs
+	Workload time = 1.60 secs
+executing ../work/work3
+PID 577 - CMD: ../work/work2
+	Elapsed time = 1.67 secs
+	Execution time = 0.05 secs
+	Workload time = 1.67 secs
+executing ../work/work1
+WORKLOAD TIME: 1.70 secs
+scheduler exits
+executing ../work/work7
+PID 520 - CMD: ../work/work6
+	Elapsed time = 0.83 secs
+	Execution time = 0.81 secs
+	Workload time = 0.83 secs
+PID 552 - CMD: ../work/work5
+	Elapsed time = 1.40 secs
+	Execution time = 0.56 secs
+	Workload time = 1.40 secs
+PID 568 - CMD: ../work/work4
+	Elapsed time = 1.60 secs
+	Execution time = 0.20 secs
+	Workload time = 1.60 secs
+executing ../work/work3
+PID 577 - CMD: ../work/work2
+	Elapsed time = 1.67 secs
+	Execution time = 0.05 secs
+	Workload time = 1.67 secs
+PID 579 - CMD: ../work/work1
+	Elapsed time = 1.70 secs
+	Execution time = 0.03 secs
+	Workload time = 1.70 secs
+WORKLOAD TIME: 1.70 secs
+scheduler exits
+executing ../work/work7
+PID 520 - CMD: ../work/work6
+	Elapsed time = 0.83 secs
+	Execution time = 0.81 secs
+	Workload time = 0.83 secs
+PID 552 - CMD: ../work/work5
+	Elapsed time = 1.40 secs
+	Execution time = 0.56 secs
+	Workload time = 1.40 secs
+PID 568 - CMD: ../work/work4
+	Elapsed time = 1.60 secs
+	Execution time = 0.20 secs
+	Workload time = 1.60 secs
+PID 576 - CMD: ../work/work3
+	Elapsed time = 1.70 secs
+	Execution time = 0.10 secs
+	Workload time = 1.70 secs
+executing ../work/work2
+executing ../work/work1
+WORKLOAD TIME: 1.76 secs
+scheduler exits
+executing ../work/work7
+PID 520 - CMD: ../work/work6
+	Elapsed time = 0.83 secs
+	Execution time = 0.81 secs
+	Workload time = 0.83 secs
+PID 552 - CMD: ../work/work5
+	Elapsed time = 1.40 secs
+	Execution time = 0.56 secs
+	Workload time = 1.40 secs
+PID 568 - CMD: ../work/work4
+	Elapsed time = 1.60 secs
+	Execution time = 0.20 secs
+	Workload time = 1.60 secs
+PID 576 - CMD: ../work/work3
+	Elapsed time = 1.70 secs
+	Execution time = 0.10 secs
+	Workload time = 1.70 secs
+executing ../work/work2
+PID 581 - CMD: ../work/work1
+	Elapsed time = 1.76 secs
+	Execution time = 0.03 secs
+	Workload time = 1.76 secs
+WORKLOAD TIME: 1.76 secs
+scheduler exits
+executing ../work/work7
+PID 520 - CMD: ../work/work6
+	Elapsed time = 0.83 secs
+	Execution time = 0.81 secs
+	Workload time = 0.83 secs
+PID 552 - CMD: ../work/work5
+	Elapsed time = 1.40 secs
+	Execution time = 0.56 secs
+	Workload time = 1.40 secs
+PID 568 - CMD: ../work/work4
+	Elapsed time = 1.60 secs
+	Execution time = 0.20 secs
+	Workload time = 1.60 secs
+PID 576 - CMD: ../work/work3
+	Elapsed time = 1.70 secs
+	Execution time = 0.10 secs
+	Workload time = 1.70 secs
+PID 580 - CMD: ../work/work2
+	Elapsed time = 1.76 secs
+	Execution time = 0.06 secs
+	Workload time = 1.76 secs
+executing ../work/work1
+WORKLOAD TIME: 1.79 secs
+scheduler exits
+executing ../work/work7
+PID 520 - CMD: ../work/work6
+	Elapsed time = 0.83 secs
+	Execution time = 0.81 secs
+	Workload time = 0.83 secs
+PID 552 - CMD: ../work/work5
+	Elapsed time = 1.40 secs
+	Execution time = 0.56 secs
+	Workload time = 1.40 secs
+PID 568 - CMD: ../work/work4
+	Elapsed time = 1.60 secs
+	Execution time = 0.20 secs
+	Workload time = 1.60 secs
+PID 576 - CMD: ../work/work3
+	Elapsed time = 1.70 secs
+	Execution time = 0.10 secs
+	Workload time = 1.70 secs
+PID 580 - CMD: ../work/work2
+	Elapsed time = 1.76 secs
+	Execution time = 0.06 secs
+	Workload time = 1.76 secs
+PID 582 - CMD: ../work/work1
+	Elapsed time = 1.79 secs
+	Execution time = 0.03 secs
+	Workload time = 1.79 secs
+WORKLOAD TIME: 1.79 secs
+scheduler exits
+PID 519 - CMD: ../work/work7
+	Elapsed time = 1.80 secs
+	Execution time = 1.80 secs
+	Workload time = 1.80 secs
+executing ../work/work6
+executing ../work/work5
+executing ../work/work4
+executing ../work/work3
+executing ../work/work2
+executing ../work/work1
+WORKLOAD TIME: 1.94 secs
+scheduler exits
+PID 519 - CMD: ../work/work7
+	Elapsed time = 1.80 secs
+	Execution time = 1.80 secs
+	Workload time = 1.80 secs
+executing ../work/work6
+executing ../work/work5
+executing ../work/work4
+executing ../work/work3
+executing ../work/work2
+PID 588 - CMD: ../work/work1
+	Elapsed time = 1.95 secs
+	Execution time = 0.03 secs
+	Workload time = 1.95 secs
+WORKLOAD TIME: 1.95 secs
+scheduler exits
+PID 519 - CMD: ../work/work7
+	Elapsed time = 1.80 secs
+	Execution time = 1.80 secs
+	Workload time = 1.80 secs
+executing ../work/work6
+executing ../work/work5
+executing ../work/work4
+executing ../work/work3
+PID 587 - CMD: ../work/work2
+	Elapsed time = 1.95 secs
+	Execution time = 0.05 secs
+	Workload time = 1.95 secs
+executing ../work/work1
+WORKLOAD TIME: 1.97 secs
+scheduler exits
+PID 519 - CMD: ../work/work7
+	Elapsed time = 1.80 secs
+	Execution time = 1.80 secs
+	Workload time = 1.80 secs
+executing ../work/work6
+executing ../work/work5
+executing ../work/work4
+executing ../work/work3
+PID 587 - CMD: ../work/work2
+	Elapsed time = 1.95 secs
+	Execution time = 0.05 secs
+	Workload time = 1.95 secs
+PID 589 - CMD: ../work/work1
+	Elapsed time = 1.97 secs
+	Execution time = 0.03 secs
+	Workload time = 1.97 secs
+WORKLOAD TIME: 1.97 secs
+scheduler exits
+PID 519 - CMD: ../work/work7
+	Elapsed time = 1.80 secs
+	Execution time = 1.80 secs
+	Workload time = 1.80 secs
+executing ../work/work6
+executing ../work/work5
+executing ../work/work4
+PID 586 - CMD: ../work/work3
+	Elapsed time = 1.97 secs
+	Execution time = 0.11 secs
+	Workload time = 1.97 secs
+executing ../work/work2
+executing ../work/work1
+WORKLOAD TIME: 2.02 secs
+scheduler exits
+PID 519 - CMD: ../work/work7
+	Elapsed time = 1.80 secs
+	Execution time = 1.80 secs
+	Workload time = 1.80 secs
+executing ../work/work6
+executing ../work/work5
+executing ../work/work4
+PID 586 - CMD: ../work/work3
+	Elapsed time = 1.97 secs
+	Execution time = 0.11 secs
+	Workload time = 1.97 secs
+executing ../work/work2
+PID 591 - CMD: ../work/work1
+	Elapsed time = 2.02 secs
+	Execution time = 0.02 secs
+	Workload time = 2.02 secs
+WORKLOAD TIME: 2.02 secs
+scheduler exits
+PID 519 - CMD: ../work/work7
+	Elapsed time = 1.80 secs
+	Execution time = 1.80 secs
+	Workload time = 1.80 secs
+executing ../work/work6
+executing ../work/work5
+executing ../work/work4
+PID 586 - CMD: ../work/work3
+	Elapsed time = 1.97 secs
+	Execution time = 0.11 secs
+	Workload time = 1.97 secs
+PID 590 - CMD: ../work/work2
+	Elapsed time = 2.02 secs
+	Execution time = 0.05 secs
+	Workload time = 2.02 secs
+executing ../work/work1
+WORKLOAD TIME: 2.04 secs
+scheduler exits
+PID 519 - CMD: ../work/work7
+	Elapsed time = 1.80 secs
+	Execution time = 1.80 secs
+	Workload time = 1.80 secs
+executing ../work/work6
+executing ../work/work5
+executing ../work/work4
+PID 586 - CMD: ../work/work3
+	Elapsed time = 1.97 secs
+	Execution time = 0.11 secs
+	Workload time = 1.97 secs
+PID 590 - CMD: ../work/work2
+	Elapsed time = 2.02 secs
+	Execution time = 0.05 secs
+	Workload time = 2.02 secs
+PID 592 - CMD: ../work/work1
+	Elapsed time = 2.04 secs
+	Execution time = 0.02 secs
+	Workload time = 2.04 secs
+WORKLOAD TIME: 2.04 secs
+scheduler exits
+PID 519 - CMD: ../work/work7
+	Elapsed time = 1.80 secs
+	Execution time = 1.80 secs
+	Workload time = 1.80 secs
+executing ../work/work6
+executing ../work/work5
+PID 585 - CMD: ../work/work4
+	Elapsed time = 2.04 secs
+	Execution time = 0.20 secs
+	Workload time = 2.04 secs
+executing ../work/work3
+executing ../work/work2
+executing ../work/work1
+WORKLOAD TIME: 2.11 secs
+scheduler exits
+PID 519 - CMD: ../work/work7
+	Elapsed time = 1.80 secs
+	Execution time = 1.80 secs
+	Workload time = 1.80 secs
+executing ../work/work6
+executing ../work/work5
+PID 585 - CMD: ../work/work4
+	Elapsed time = 2.04 secs
+	Execution time = 0.20 secs
+	Workload time = 2.04 secs
+executing ../work/work3
+executing ../work/work2
+PID 595 - CMD: ../work/work1
+	Elapsed time = 2.11 secs
+	Execution time = 0.02 secs
+	Workload time = 2.11 secs
+WORKLOAD TIME: 2.11 secs
+scheduler exits
+PID 519 - CMD: ../work/work7
+	Elapsed time = 1.80 secs
+	Execution time = 1.80 secs
+	Workload time = 1.80 secs
+executing ../work/work6
+executing ../work/work5
+PID 585 - CMD: ../work/work4
+	Elapsed time = 2.04 secs
+	Execution time = 0.20 secs
+	Workload time = 2.04 secs
+executing ../work/work3
+PID 594 - CMD: ../work/work2
+	Elapsed time = 2.11 secs
+	Execution time = 0.05 secs
+	Workload time = 2.11 secs
+executing ../work/work1
+WORKLOAD TIME: 2.13 secs
+scheduler exits
+PID 519 - CMD: ../work/work7
+	Elapsed time = 1.80 secs
+	Execution time = 1.80 secs
+	Workload time = 1.80 secs
+executing ../work/work6
+executing ../work/work5
+PID 585 - CMD: ../work/work4
+	Elapsed time = 2.04 secs
+	Execution time = 0.20 secs
+	Workload time = 2.04 secs
+executing ../work/work3
+PID 594 - CMD: ../work/work2
+	Elapsed time = 2.11 secs
+	Execution time = 0.05 secs
+	Workload time = 2.11 secs
+PID 596 - CMD: ../work/work1
+	Elapsed time = 2.13 secs
+	Execution time = 0.02 secs
+	Workload time = 2.13 secs
+WORKLOAD TIME: 2.13 secs
+scheduler exits
+PID 519 - CMD: ../work/work7
+	Elapsed time = 1.80 secs
+	Execution time = 1.80 secs
+	Workload time = 1.80 secs
+executing ../work/work6
+executing ../work/work5
+PID 585 - CMD: ../work/work4
+	Elapsed time = 2.04 secs
+	Execution time = 0.20 secs
+	Workload time = 2.04 secs
+PID 593 - CMD: ../work/work3
+	Elapsed time = 2.13 secs
+	Execution time = 0.09 secs
+	Workload time = 2.13 secs
+executing ../work/work2
+executing ../work/work1
+WORKLOAD TIME: 2.18 secs
+scheduler exits
+PID 519 - CMD: ../work/work7
+	Elapsed time = 1.80 secs
+	Execution time = 1.80 secs
+	Workload time = 1.80 secs
+executing ../work/work6
+executing ../work/work5
+PID 585 - CMD: ../work/work4
+	Elapsed time = 2.04 secs
+	Execution time = 0.20 secs
+	Workload time = 2.04 secs
+PID 593 - CMD: ../work/work3
+	Elapsed time = 2.13 secs
+	Execution time = 0.09 secs
+	Workload time = 2.13 secs
+executing ../work/work2
+PID 598 - CMD: ../work/work1
+	Elapsed time = 2.18 secs
+	Execution time = 0.03 secs
+	Workload time = 2.18 secs
+WORKLOAD TIME: 2.18 secs
+scheduler exits
+PID 519 - CMD: ../work/work7
+	Elapsed time = 1.80 secs
+	Execution time = 1.80 secs
+	Workload time = 1.80 secs
+executing ../work/work6
+executing ../work/work5
+PID 585 - CMD: ../work/work4
+	Elapsed time = 2.04 secs
+	Execution time = 0.20 secs
+	Workload time = 2.04 secs
+PID 593 - CMD: ../work/work3
+	Elapsed time = 2.13 secs
+	Execution time = 0.09 secs
+	Workload time = 2.13 secs
+PID 597 - CMD: ../work/work2
+	Elapsed time = 2.18 secs
+	Execution time = 0.05 secs
+	Workload time = 2.18 secs
+executing ../work/work1
+WORKLOAD TIME: 2.21 secs
+scheduler exits
+PID 519 - CMD: ../work/work7
+	Elapsed time = 1.80 secs
+	Execution time = 1.80 secs
+	Workload time = 1.80 secs
+executing ../work/work6
+executing ../work/work5
+PID 585 - CMD: ../work/work4
+	Elapsed time = 2.04 secs
+	Execution time = 0.20 secs
+	Workload time = 2.04 secs
+PID 593 - CMD: ../work/work3
+	Elapsed time = 2.13 secs
+	Execution time = 0.09 secs
+	Workload time = 2.13 secs
+PID 597 - CMD: ../work/work2
+	Elapsed time = 2.18 secs
+	Execution time = 0.05 secs
+	Workload time = 2.18 secs
+PID 599 - CMD: ../work/work1
+	Elapsed time = 2.21 secs
+	Execution time = 0.02 secs
+	Workload time = 2.21 secs
+WORKLOAD TIME: 2.21 secs
+scheduler exits
+PID 519 - CMD: ../work/work7
+	Elapsed time = 1.80 secs
+	Execution time = 1.80 secs
+	Workload time = 1.80 secs
+executing ../work/work6
+PID 584 - CMD: ../work/work5
+	Elapsed time = 2.21 secs
+	Execution time = 0.39 secs
+	Workload time = 2.21 secs
+executing ../work/work4
+executing ../work/work3
+executing ../work/work2
+executing ../work/work1
+WORKLOAD TIME: 2.30 secs
+scheduler exits
+PID 519 - CMD: ../work/work7
+	Elapsed time = 1.80 secs
+	Execution time = 1.80 secs
+	Workload time = 1.80 secs
+executing ../work/work6
+PID 584 - CMD: ../work/work5
+	Elapsed time = 2.21 secs
+	Execution time = 0.39 secs
+	Workload time = 2.21 secs
+executing ../work/work4
+executing ../work/work3
+executing ../work/work2
+PID 603 - CMD: ../work/work1
+	Elapsed time = 2.30 secs
+	Execution time = 0.03 secs
+	Workload time = 2.30 secs
+WORKLOAD TIME: 2.30 secs
+scheduler exits
+PID 519 - CMD: ../work/work7
+	Elapsed time = 1.80 secs
+	Execution time = 1.80 secs
+	Workload time = 1.80 secs
+executing ../work/work6
+PID 584 - CMD: ../work/work5
+	Elapsed time = 2.21 secs
+	Execution time = 0.39 secs
+	Workload time = 2.21 secs
+executing ../work/work4
+executing ../work/work3
+PID 602 - CMD: ../work/work2
+	Elapsed time = 2.30 secs
+	Execution time = 0.05 secs
+	Workload time = 2.30 secs
+executing ../work/work1
+WORKLOAD TIME: 2.32 secs
+scheduler exits
+PID 519 - CMD: ../work/work7
+	Elapsed time = 1.80 secs
+	Execution time = 1.80 secs
+	Workload time = 1.80 secs
+executing ../work/work6
+PID 584 - CMD: ../work/work5
+	Elapsed time = 2.21 secs
+	Execution time = 0.39 secs
+	Workload time = 2.21 secs
+executing ../work/work4
+executing ../work/work3
+PID 602 - CMD: ../work/work2
+	Elapsed time = 2.30 secs
+	Execution time = 0.05 secs
+	Workload time = 2.30 secs
+PID 604 - CMD: ../work/work1
+	Elapsed time = 2.32 secs
+	Execution time = 0.02 secs
+	Workload time = 2.32 secs
+WORKLOAD TIME: 2.32 secs
+scheduler exits
+PID 519 - CMD: ../work/work7
+	Elapsed time = 1.80 secs
+	Execution time = 1.80 secs
+	Workload time = 1.80 secs
+executing ../work/work6
+PID 584 - CMD: ../work/work5
+	Elapsed time = 2.21 secs
+	Execution time = 0.39 secs
+	Workload time = 2.21 secs
+executing ../work/work4
+PID 601 - CMD: ../work/work3
+	Elapsed time = 2.32 secs
+	Execution time = 0.10 secs
+	Workload time = 2.32 secs
+executing ../work/work2
+executing ../work/work1
+WORKLOAD TIME: 2.38 secs
+scheduler exits
+PID 519 - CMD: ../work/work7
+	Elapsed time = 1.80 secs
+	Execution time = 1.80 secs
+	Workload time = 1.80 secs
+executing ../work/work6
+PID 584 - CMD: ../work/work5
+	Elapsed time = 2.21 secs
+	Execution time = 0.39 secs
+	Workload time = 2.21 secs
+executing ../work/work4
+PID 601 - CMD: ../work/work3
+	Elapsed time = 2.32 secs
+	Execution time = 0.10 secs
+	Workload time = 2.32 secs
+executing ../work/work2
+PID 606 - CMD: ../work/work1
+	Elapsed time = 2.38 secs
+	Execution time = 0.03 secs
+	Workload time = 2.38 secs
+WORKLOAD TIME: 2.38 secs
+scheduler exits
+PID 519 - CMD: ../work/work7
+	Elapsed time = 1.80 secs
+	Execution time = 1.80 secs
+	Workload time = 1.80 secs
+executing ../work/work6
+PID 584 - CMD: ../work/work5
+	Elapsed time = 2.21 secs
+	Execution time = 0.39 secs
+	Workload time = 2.21 secs
+executing ../work/work4
+PID 601 - CMD: ../work/work3
+	Elapsed time = 2.32 secs
+	Execution time = 0.10 secs
+	Workload time = 2.32 secs
+PID 605 - CMD: ../work/work2
+	Elapsed time = 2.38 secs
+	Execution time = 0.05 secs
+	Workload time = 2.38 secs
+executing ../work/work1
+WORKLOAD TIME: 2.40 secs
+scheduler exits
+PID 519 - CMD: ../work/work7
+	Elapsed time = 1.80 secs
+	Execution time = 1.80 secs
+	Workload time = 1.80 secs
+executing ../work/work6
+PID 584 - CMD: ../work/work5
+	Elapsed time = 2.21 secs
+	Execution time = 0.39 secs
+	Workload time = 2.21 secs
+executing ../work/work4
+PID 601 - CMD: ../work/work3
+	Elapsed time = 2.32 secs
+	Execution time = 0.10 secs
+	Workload time = 2.32 secs
+PID 605 - CMD: ../work/work2
+	Elapsed time = 2.38 secs
+	Execution time = 0.05 secs
+	Workload time = 2.38 secs
+PID 607 - CMD: ../work/work1
+	Elapsed time = 2.40 secs
+	Execution time = 0.02 secs
+	Workload time = 2.40 secs
+WORKLOAD TIME: 2.40 secs
+scheduler exits
+PID 519 - CMD: ../work/work7
+	Elapsed time = 1.80 secs
+	Execution time = 1.80 secs
+	Workload time = 1.80 secs
+executing ../work/work6
+PID 584 - CMD: ../work/work5
+	Elapsed time = 2.21 secs
+	Execution time = 0.39 secs
+	Workload time = 2.21 secs
+PID 600 - CMD: ../work/work4
+	Elapsed time = 2.40 secs
+	Execution time = 0.19 secs
+	Workload time = 2.40 secs
+executing ../work/work3
+executing ../work/work2
+executing ../work/work1
+WORKLOAD TIME: 2.46 secs
+scheduler exits
+PID 519 - CMD: ../work/work7
+	Elapsed time = 1.80 secs
+	Execution time = 1.80 secs
+	Workload time = 1.80 secs
+executing ../work/work6
+PID 584 - CMD: ../work/work5
+	Elapsed time = 2.21 secs
+	Execution time = 0.39 secs
+	Workload time = 2.21 secs
+PID 600 - CMD: ../work/work4
+	Elapsed time = 2.40 secs
+	Execution time = 0.19 secs
+	Workload time = 2.40 secs
+executing ../work/work3
+executing ../work/work2
+PID 610 - CMD: ../work/work1
+	Elapsed time = 2.47 secs
+	Execution time = 0.02 secs
+	Workload time = 2.47 secs
+WORKLOAD TIME: 2.47 secs
+scheduler exits
+PID 519 - CMD: ../work/work7
+	Elapsed time = 1.80 secs
+	Execution time = 1.80 secs
+	Workload time = 1.80 secs
+executing ../work/work6
+PID 584 - CMD: ../work/work5
+	Elapsed time = 2.21 secs
+	Execution time = 0.39 secs
+	Workload time = 2.21 secs
+PID 600 - CMD: ../work/work4
+	Elapsed time = 2.40 secs
+	Execution time = 0.19 secs
+	Workload time = 2.40 secs
+executing ../work/work3
+PID 609 - CMD: ../work/work2
+	Elapsed time = 2.47 secs
+	Execution time = 0.05 secs
+	Workload time = 2.47 secs
+executing ../work/work1
+WORKLOAD TIME: 2.49 secs
+scheduler exits
+PID 519 - CMD: ../work/work7
+	Elapsed time = 1.80 secs
+	Execution time = 1.80 secs
+	Workload time = 1.80 secs
+executing ../work/work6
+PID 584 - CMD: ../work/work5
+	Elapsed time = 2.21 secs
+	Execution time = 0.39 secs
+	Workload time = 2.21 secs
+PID 600 - CMD: ../work/work4
+	Elapsed time = 2.40 secs
+	Execution time = 0.19 secs
+	Workload time = 2.40 secs
+executing ../work/work3
+PID 609 - CMD: ../work/work2
+	Elapsed time = 2.47 secs
+	Execution time = 0.05 secs
+	Workload time = 2.47 secs
+PID 611 - CMD: ../work/work1
+	Elapsed time = 2.49 secs
+	Execution time = 0.02 secs
+	Workload time = 2.49 secs
+WORKLOAD TIME: 2.49 secs
+scheduler exits
+PID 519 - CMD: ../work/work7
+	Elapsed time = 1.80 secs
+	Execution time = 1.80 secs
+	Workload time = 1.80 secs
+executing ../work/work6
+PID 584 - CMD: ../work/work5
+	Elapsed time = 2.21 secs
+	Execution time = 0.39 secs
+	Workload time = 2.21 secs
+PID 600 - CMD: ../work/work4
+	Elapsed time = 2.40 secs
+	Execution time = 0.19 secs
+	Workload time = 2.40 secs
+PID 608 - CMD: ../work/work3
+	Elapsed time = 2.49 secs
+	Execution time = 0.09 secs
+	Workload time = 2.49 secs
+executing ../work/work2
+executing ../work/work1
+WORKLOAD TIME: 2.53 secs
+scheduler exits
+PID 519 - CMD: ../work/work7
+	Elapsed time = 1.80 secs
+	Execution time = 1.80 secs
+	Workload time = 1.80 secs
+executing ../work/work6
+PID 584 - CMD: ../work/work5
+	Elapsed time = 2.21 secs
+	Execution time = 0.39 secs
+	Workload time = 2.21 secs
+PID 600 - CMD: ../work/work4
+	Elapsed time = 2.40 secs
+	Execution time = 0.19 secs
+	Workload time = 2.40 secs
+PID 608 - CMD: ../work/work3
+	Elapsed time = 2.49 secs
+	Execution time = 0.09 secs
+	Workload time = 2.49 secs
+executing ../work/work2
+PID 613 - CMD: ../work/work1
+	Elapsed time = 2.53 secs
+	Execution time = 0.02 secs
+	Workload time = 2.53 secs
+WORKLOAD TIME: 2.53 secs
+scheduler exits
+PID 519 - CMD: ../work/work7
+	Elapsed time = 1.80 secs
+	Execution time = 1.80 secs
+	Workload time = 1.80 secs
+executing ../work/work6
+PID 584 - CMD: ../work/work5
+	Elapsed time = 2.21 secs
+	Execution time = 0.39 secs
+	Workload time = 2.21 secs
+PID 600 - CMD: ../work/work4
+	Elapsed time = 2.40 secs
+	Execution time = 0.19 secs
+	Workload time = 2.40 secs
+PID 608 - CMD: ../work/work3
+	Elapsed time = 2.49 secs
+	Execution time = 0.09 secs
+	Workload time = 2.49 secs
+PID 612 - CMD: ../work/work2
+	Elapsed time = 2.53 secs
+	Execution time = 0.04 secs
+	Workload time = 2.53 secs
+executing ../work/work1
+WORKLOAD TIME: 2.55 secs
+scheduler exits
+PID 519 - CMD: ../work/work7
+	Elapsed time = 1.80 secs
+	Execution time = 1.80 secs
+	Workload time = 1.80 secs
+executing ../work/work6
+PID 584 - CMD: ../work/work5
+	Elapsed time = 2.21 secs
+	Execution time = 0.39 secs
+	Workload time = 2.21 secs
+PID 600 - CMD: ../work/work4
+	Elapsed time = 2.40 secs
+	Execution time = 0.19 secs
+	Workload time = 2.40 secs
+PID 608 - CMD: ../work/work3
+	Elapsed time = 2.49 secs
+	Execution time = 0.09 secs
+	Workload time = 2.49 secs
+PID 612 - CMD: ../work/work2
+	Elapsed time = 2.53 secs
+	Execution time = 0.04 secs
+	Workload time = 2.53 secs
+PID 614 - CMD: ../work/work1
+	Elapsed time = 2.55 secs
+	Execution time = 0.02 secs
+	Workload time = 2.55 secs
+WORKLOAD TIME: 2.55 secs
+scheduler exits
+PID 519 - CMD: ../work/work7
+	Elapsed time = 1.80 secs
+	Execution time = 1.80 secs
+	Workload time = 1.80 secs
+PID 583 - CMD: ../work/work6
+	Elapsed time = 2.55 secs
+	Execution time = 0.75 secs
+	Workload time = 2.55 secs
+executing ../work/work5
+executing ../work/work4
+executing ../work/work3
+executing ../work/work2
+executing ../work/work1
+WORKLOAD TIME: 2.66 secs
+scheduler exits
+PID 519 - CMD: ../work/work7
+	Elapsed time = 1.80 secs
+	Execution time = 1.80 secs
+	Workload time = 1.80 secs
+PID 583 - CMD: ../work/work6
+	Elapsed time = 2.55 secs
+	Execution time = 0.75 secs
+	Workload time = 2.55 secs
+executing ../work/work5
+executing ../work/work4
+executing ../work/work3
+executing ../work/work2
+PID 619 - CMD: ../work/work1
+	Elapsed time = 2.66 secs
+	Execution time = 0.02 secs
+	Workload time = 2.66 secs
+WORKLOAD TIME: 2.66 secs
+scheduler exits
+PID 519 - CMD: ../work/work7
+	Elapsed time = 1.80 secs
+	Execution time = 1.80 secs
+	Workload time = 1.80 secs
+PID 583 - CMD: ../work/work6
+	Elapsed time = 2.55 secs
+	Execution time = 0.75 secs
+	Workload time = 2.55 secs
+executing ../work/work5
+executing ../work/work4
+executing ../work/work3
+PID 618 - CMD: ../work/work2
+	Elapsed time = 2.66 secs
+	Execution time = 0.05 secs
+	Workload time = 2.66 secs
+executing ../work/work1
+WORKLOAD TIME: 2.68 secs
+scheduler exits
+PID 519 - CMD: ../work/work7
+	Elapsed time = 1.80 secs
+	Execution time = 1.80 secs
+	Workload time = 1.80 secs
+PID 583 - CMD: ../work/work6
+	Elapsed time = 2.55 secs
+	Execution time = 0.75 secs
+	Workload time = 2.55 secs
+executing ../work/work5
+executing ../work/work4
+executing ../work/work3
+PID 618 - CMD: ../work/work2
+	Elapsed time = 2.66 secs
+	Execution time = 0.05 secs
+	Workload time = 2.66 secs
+PID 620 - CMD: ../work/work1
+	Elapsed time = 2.69 secs
+	Execution time = 0.02 secs
+	Workload time = 2.69 secs
+WORKLOAD TIME: 2.69 secs
+scheduler exits
+PID 519 - CMD: ../work/work7
+	Elapsed time = 1.80 secs
+	Execution time = 1.80 secs
+	Workload time = 1.80 secs
+PID 583 - CMD: ../work/work6
+	Elapsed time = 2.55 secs
+	Execution time = 0.75 secs
+	Workload time = 2.55 secs
+executing ../work/work5
+executing ../work/work4
+PID 617 - CMD: ../work/work3
+	Elapsed time = 2.69 secs
+	Execution time = 0.09 secs
+	Workload time = 2.69 secs
+executing ../work/work2
+executing ../work/work1
+WORKLOAD TIME: 2.74 secs
+scheduler exits
+PID 519 - CMD: ../work/work7
+	Elapsed time = 1.80 secs
+	Execution time = 1.80 secs
+	Workload time = 1.80 secs
+PID 583 - CMD: ../work/work6
+	Elapsed time = 2.55 secs
+	Execution time = 0.75 secs
+	Workload time = 2.55 secs
+executing ../work/work5
+executing ../work/work4
+PID 617 - CMD: ../work/work3
+	Elapsed time = 2.69 secs
+	Execution time = 0.09 secs
+	Workload time = 2.69 secs
+executing ../work/work2
+PID 622 - CMD: ../work/work1
+	Elapsed time = 2.74 secs
+	Execution time = 0.03 secs
+	Workload time = 2.74 secs
+WORKLOAD TIME: 2.74 secs
+scheduler exits
+PID 519 - CMD: ../work/work7
+	Elapsed time = 1.80 secs
+	Execution time = 1.80 secs
+	Workload time = 1.80 secs
+PID 583 - CMD: ../work/work6
+	Elapsed time = 2.55 secs
+	Execution time = 0.75 secs
+	Workload time = 2.55 secs
+executing ../work/work5
+executing ../work/work4
+PID 617 - CMD: ../work/work3
+	Elapsed time = 2.69 secs
+	Execution time = 0.09 secs
+	Workload time = 2.69 secs
+PID 621 - CMD: ../work/work2
+	Elapsed time = 2.74 secs
+	Execution time = 0.06 secs
+	Workload time = 2.74 secs
+executing ../work/work1
+WORKLOAD TIME: 2.77 secs
+scheduler exits
+PID 519 - CMD: ../work/work7
+	Elapsed time = 1.80 secs
+	Execution time = 1.80 secs
+	Workload time = 1.80 secs
+PID 583 - CMD: ../work/work6
+	Elapsed time = 2.55 secs
+	Execution time = 0.75 secs
+	Workload time = 2.55 secs
+executing ../work/work5
+executing ../work/work4
+PID 617 - CMD: ../work/work3
+	Elapsed time = 2.69 secs
+	Execution time = 0.09 secs
+	Workload time = 2.69 secs
+PID 621 - CMD: ../work/work2
+	Elapsed time = 2.74 secs
+	Execution time = 0.06 secs
+	Workload time = 2.74 secs
+PID 623 - CMD: ../work/work1
+	Elapsed time = 2.77 secs
+	Execution time = 0.02 secs
+	Workload time = 2.77 secs
+WORKLOAD TIME: 2.77 secs
+scheduler exits
+PID 519 - CMD: ../work/work7
+	Elapsed time = 1.80 secs
+	Execution time = 1.80 secs
+	Workload time = 1.80 secs
+PID 583 - CMD: ../work/work6
+	Elapsed time = 2.55 secs
+	Execution time = 0.75 secs
+	Workload time = 2.55 secs
+executing ../work/work5
+PID 616 - CMD: ../work/work4
+	Elapsed time = 2.77 secs
+	Execution time = 0.20 secs
+	Workload time = 2.77 secs
+executing ../work/work3
+executing ../work/work2
+executing ../work/work1
+WORKLOAD TIME: 2.85 secs
+scheduler exits
+PID 519 - CMD: ../work/work7
+	Elapsed time = 1.80 secs
+	Execution time = 1.80 secs
+	Workload time = 1.80 secs
+PID 583 - CMD: ../work/work6
+	Elapsed time = 2.55 secs
+	Execution time = 0.75 secs
+	Workload time = 2.55 secs
+executing ../work/work5
+PID 616 - CMD: ../work/work4
+	Elapsed time = 2.77 secs
+	Execution time = 0.20 secs
+	Workload time = 2.77 secs
+executing ../work/work3
+executing ../work/work2
+PID 626 - CMD: ../work/work1
+	Elapsed time = 2.85 secs
+	Execution time = 0.03 secs
+	Workload time = 2.85 secs
+WORKLOAD TIME: 2.85 secs
+scheduler exits
+PID 519 - CMD: ../work/work7
+	Elapsed time = 1.80 secs
+	Execution time = 1.80 secs
+	Workload time = 1.80 secs
+PID 583 - CMD: ../work/work6
+	Elapsed time = 2.55 secs
+	Execution time = 0.75 secs
+	Workload time = 2.55 secs
+executing ../work/work5
+PID 616 - CMD: ../work/work4
+	Elapsed time = 2.77 secs
+	Execution time = 0.20 secs
+	Workload time = 2.77 secs
+executing ../work/work3
+PID 625 - CMD: ../work/work2
+	Elapsed time = 2.86 secs
+	Execution time = 0.06 secs
+	Workload time = 2.86 secs
+executing ../work/work1
+WORKLOAD TIME: 2.88 secs
+scheduler exits
+PID 519 - CMD: ../work/work7
+	Elapsed time = 1.80 secs
+	Execution time = 1.80 secs
+	Workload time = 1.80 secs
+PID 583 - CMD: ../work/work6
+	Elapsed time = 2.55 secs
+	Execution time = 0.75 secs
+	Workload time = 2.55 secs
+executing ../work/work5
+PID 616 - CMD: ../work/work4
+	Elapsed time = 2.77 secs
+	Execution time = 0.20 secs
+	Workload time = 2.77 secs
+executing ../work/work3
+PID 625 - CMD: ../work/work2
+	Elapsed time = 2.86 secs
+	Execution time = 0.06 secs
+	Workload time = 2.86 secs
+PID 627 - CMD: ../work/work1
+	Elapsed time = 2.88 secs
+	Execution time = 0.03 secs
+	Workload time = 2.88 secs
+WORKLOAD TIME: 2.88 secs
+scheduler exits
+PID 519 - CMD: ../work/work7
+	Elapsed time = 1.80 secs
+	Execution time = 1.80 secs
+	Workload time = 1.80 secs
+PID 583 - CMD: ../work/work6
+	Elapsed time = 2.55 secs
+	Execution time = 0.75 secs
+	Workload time = 2.55 secs
+executing ../work/work5
+PID 616 - CMD: ../work/work4
+	Elapsed time = 2.77 secs
+	Execution time = 0.20 secs
+	Workload time = 2.77 secs
+PID 624 - CMD: ../work/work3
+	Elapsed time = 2.88 secs
+	Execution time = 0.11 secs
+	Workload time = 2.88 secs
+executing ../work/work2
+executing ../work/work1
+WORKLOAD TIME: 2.93 secs
+scheduler exits
+PID 519 - CMD: ../work/work7
+	Elapsed time = 1.80 secs
+	Execution time = 1.80 secs
+	Workload time = 1.80 secs
+PID 583 - CMD: ../work/work6
+	Elapsed time = 2.55 secs
+	Execution time = 0.75 secs
+	Workload time = 2.55 secs
+executing ../work/work5
+PID 616 - CMD: ../work/work4
+	Elapsed time = 2.77 secs
+	Execution time = 0.20 secs
+	Workload time = 2.77 secs
+PID 624 - CMD: ../work/work3
+	Elapsed time = 2.88 secs
+	Execution time = 0.11 secs
+	Workload time = 2.88 secs
+executing ../work/work2
+PID 629 - CMD: ../work/work1
+	Elapsed time = 2.93 secs
+	Execution time = 0.03 secs
+	Workload time = 2.93 secs
+WORKLOAD TIME: 2.93 secs
+scheduler exits
+PID 519 - CMD: ../work/work7
+	Elapsed time = 1.80 secs
+	Execution time = 1.80 secs
+	Workload time = 1.80 secs
+PID 583 - CMD: ../work/work6
+	Elapsed time = 2.55 secs
+	Execution time = 0.75 secs
+	Workload time = 2.55 secs
+executing ../work/work5
+PID 616 - CMD: ../work/work4
+	Elapsed time = 2.77 secs
+	Execution time = 0.20 secs
+	Workload time = 2.77 secs
+PID 624 - CMD: ../work/work3
+	Elapsed time = 2.88 secs
+	Execution time = 0.11 secs
+	Workload time = 2.88 secs
+PID 628 - CMD: ../work/work2
+	Elapsed time = 2.93 secs
+	Execution time = 0.05 secs
+	Workload time = 2.93 secs
+executing ../work/work1
+WORKLOAD TIME: 2.96 secs
+scheduler exits
+PID 519 - CMD: ../work/work7
+	Elapsed time = 1.80 secs
+	Execution time = 1.80 secs
+	Workload time = 1.80 secs
+PID 583 - CMD: ../work/work6
+	Elapsed time = 2.55 secs
+	Execution time = 0.75 secs
+	Workload time = 2.55 secs
+executing ../work/work5
+PID 616 - CMD: ../work/work4
+	Elapsed time = 2.77 secs
+	Execution time = 0.20 secs
+	Workload time = 2.77 secs
+PID 624 - CMD: ../work/work3
+	Elapsed time = 2.88 secs
+	Execution time = 0.11 secs
+	Workload time = 2.88 secs
+PID 628 - CMD: ../work/work2
+	Elapsed time = 2.93 secs
+	Execution time = 0.05 secs
+	Workload time = 2.93 secs
+PID 630 - CMD: ../work/work1
+	Elapsed time = 2.96 secs
+	Execution time = 0.03 secs
+	Workload time = 2.96 secs
+WORKLOAD TIME: 2.96 secs
+scheduler exits
+PID 519 - CMD: ../work/work7
+	Elapsed time = 1.80 secs
+	Execution time = 1.80 secs
+	Workload time = 1.80 secs
+PID 583 - CMD: ../work/work6
+	Elapsed time = 2.55 secs
+	Execution time = 0.75 secs
+	Workload time = 2.55 secs
+PID 615 - CMD: ../work/work5
+	Elapsed time = 2.96 secs
+	Execution time = 0.41 secs
+	Workload time = 2.96 secs
+executing ../work/work4
+executing ../work/work3
+executing ../work/work2
+executing ../work/work1
+WORKLOAD TIME: 3.05 secs
+scheduler exits
+PID 519 - CMD: ../work/work7
+	Elapsed time = 1.80 secs
+	Execution time = 1.80 secs
+	Workload time = 1.80 secs
+PID 583 - CMD: ../work/work6
+	Elapsed time = 2.55 secs
+	Execution time = 0.75 secs
+	Workload time = 2.55 secs
+PID 615 - CMD: ../work/work5
+	Elapsed time = 2.96 secs
+	Execution time = 0.41 secs
+	Workload time = 2.96 secs
+executing ../work/work4
+executing ../work/work3
+executing ../work/work2
+PID 634 - CMD: ../work/work1
+	Elapsed time = 3.05 secs
+	Execution time = 0.02 secs
+	Workload time = 3.05 secs
+WORKLOAD TIME: 3.05 secs
+scheduler exits
+PID 519 - CMD: ../work/work7
+	Elapsed time = 1.80 secs
+	Execution time = 1.80 secs
+	Workload time = 1.80 secs
+PID 583 - CMD: ../work/work6
+	Elapsed time = 2.55 secs
+	Execution time = 0.75 secs
+	Workload time = 2.55 secs
+PID 615 - CMD: ../work/work5
+	Elapsed time = 2.96 secs
+	Execution time = 0.41 secs
+	Workload time = 2.96 secs
+executing ../work/work4
+executing ../work/work3
+PID 633 - CMD: ../work/work2
+	Elapsed time = 3.05 secs
+	Execution time = 0.05 secs
+	Workload time = 3.05 secs
+executing ../work/work1
+WORKLOAD TIME: 3.08 secs
+scheduler exits
+PID 519 - CMD: ../work/work7
+	Elapsed time = 1.80 secs
+	Execution time = 1.80 secs
+	Workload time = 1.80 secs
+PID 583 - CMD: ../work/work6
+	Elapsed time = 2.55 secs
+	Execution time = 0.75 secs
+	Workload time = 2.55 secs
+PID 615 - CMD: ../work/work5
+	Elapsed time = 2.96 secs
+	Execution time = 0.41 secs
+	Workload time = 2.96 secs
+executing ../work/work4
+executing ../work/work3
+PID 633 - CMD: ../work/work2
+	Elapsed time = 3.05 secs
+	Execution time = 0.05 secs
+	Workload time = 3.05 secs
+PID 635 - CMD: ../work/work1
+	Elapsed time = 3.08 secs
+	Execution time = 0.02 secs
+	Workload time = 3.08 secs
+WORKLOAD TIME: 3.08 secs
+scheduler exits
+PID 519 - CMD: ../work/work7
+	Elapsed time = 1.80 secs
+	Execution time = 1.80 secs
+	Workload time = 1.80 secs
+PID 583 - CMD: ../work/work6
+	Elapsed time = 2.55 secs
+	Execution time = 0.75 secs
+	Workload time = 2.55 secs
+PID 615 - CMD: ../work/work5
+	Elapsed time = 2.96 secs
+	Execution time = 0.41 secs
+	Workload time = 2.96 secs
+executing ../work/work4
+PID 632 - CMD: ../work/work3
+	Elapsed time = 3.08 secs
+	Execution time = 0.10 secs
+	Workload time = 3.08 secs
+executing ../work/work2
+executing ../work/work1
+WORKLOAD TIME: 3.12 secs
+scheduler exits
+PID 519 - CMD: ../work/work7
+	Elapsed time = 1.80 secs
+	Execution time = 1.80 secs
+	Workload time = 1.80 secs
+PID 583 - CMD: ../work/work6
+	Elapsed time = 2.55 secs
+	Execution time = 0.75 secs
+	Workload time = 2.55 secs
+PID 615 - CMD: ../work/work5
+	Elapsed time = 2.96 secs
+	Execution time = 0.41 secs
+	Workload time = 2.96 secs
+executing ../work/work4
+PID 632 - CMD: ../work/work3
+	Elapsed time = 3.08 secs
+	Execution time = 0.10 secs
+	Workload time = 3.08 secs
+executing ../work/work2
+PID 637 - CMD: ../work/work1
+	Elapsed time = 3.12 secs
+	Execution time = 0.02 secs
+	Workload time = 3.12 secs
+WORKLOAD TIME: 3.12 secs
+scheduler exits
+PID 519 - CMD: ../work/work7
+	Elapsed time = 1.80 secs
+	Execution time = 1.80 secs
+	Workload time = 1.80 secs
+PID 583 - CMD: ../work/work6
+	Elapsed time = 2.55 secs
+	Execution time = 0.75 secs
+	Workload time = 2.55 secs
+PID 615 - CMD: ../work/work5
+	Elapsed time = 2.96 secs
+	Execution time = 0.41 secs
+	Workload time = 2.96 secs
+executing ../work/work4
+PID 632 - CMD: ../work/work3
+	Elapsed time = 3.08 secs
+	Execution time = 0.10 secs
+	Workload time = 3.08 secs
+PID 636 - CMD: ../work/work2
+	Elapsed time = 3.12 secs
+	Execution time = 0.04 secs
+	Workload time = 3.12 secs
+executing ../work/work1
+WORKLOAD TIME: 3.15 secs
+scheduler exits
+PID 519 - CMD: ../work/work7
+	Elapsed time = 1.80 secs
+	Execution time = 1.80 secs
+	Workload time = 1.80 secs
+PID 583 - CMD: ../work/work6
+	Elapsed time = 2.55 secs
+	Execution time = 0.75 secs
+	Workload time = 2.55 secs
+PID 615 - CMD: ../work/work5
+	Elapsed time = 2.96 secs
+	Execution time = 0.41 secs
+	Workload time = 2.96 secs
+executing ../work/work4
+PID 632 - CMD: ../work/work3
+	Elapsed time = 3.08 secs
+	Execution time = 0.10 secs
+	Workload time = 3.08 secs
+PID 636 - CMD: ../work/work2
+	Elapsed time = 3.12 secs
+	Execution time = 0.04 secs
+	Workload time = 3.12 secs
+PID 638 - CMD: ../work/work1
+	Elapsed time = 3.15 secs
+	Execution time = 0.03 secs
+	Workload time = 3.15 secs
+WORKLOAD TIME: 3.15 secs
+scheduler exits
+PID 519 - CMD: ../work/work7
+	Elapsed time = 1.80 secs
+	Execution time = 1.80 secs
+	Workload time = 1.80 secs
+PID 583 - CMD: ../work/work6
+	Elapsed time = 2.55 secs
+	Execution time = 0.75 secs
+	Workload time = 2.55 secs
+PID 615 - CMD: ../work/work5
+	Elapsed time = 2.96 secs
+	Execution time = 0.41 secs
+	Workload time = 2.96 secs
+PID 631 - CMD: ../work/work4
+	Elapsed time = 3.16 secs
+	Execution time = 0.19 secs
+	Workload time = 3.16 secs
+executing ../work/work3
+executing ../work/work2
+executing ../work/work1
+WORKLOAD TIME: 3.24 secs
+scheduler exits
+PID 519 - CMD: ../work/work7
+	Elapsed time = 1.80 secs
+	Execution time = 1.80 secs
+	Workload time = 1.80 secs
+PID 583 - CMD: ../work/work6
+	Elapsed time = 2.55 secs
+	Execution time = 0.75 secs
+	Workload time = 2.55 secs
+PID 615 - CMD: ../work/work5
+	Elapsed time = 2.96 secs
+	Execution time = 0.41 secs
+	Workload time = 2.96 secs
+PID 631 - CMD: ../work/work4
+	Elapsed time = 3.16 secs
+	Execution time = 0.19 secs
+	Workload time = 3.16 secs
+executing ../work/work3
+executing ../work/work2
+PID 641 - CMD: ../work/work1
+	Elapsed time = 3.24 secs
+	Execution time = 0.03 secs
+	Workload time = 3.24 secs
+WORKLOAD TIME: 3.24 secs
+scheduler exits
+PID 519 - CMD: ../work/work7
+	Elapsed time = 1.80 secs
+	Execution time = 1.80 secs
+	Workload time = 1.80 secs
+PID 583 - CMD: ../work/work6
+	Elapsed time = 2.55 secs
+	Execution time = 0.75 secs
+	Workload time = 2.55 secs
+PID 615 - CMD: ../work/work5
+	Elapsed time = 2.96 secs
+	Execution time = 0.41 secs
+	Workload time = 2.96 secs
+PID 631 - CMD: ../work/work4
+	Elapsed time = 3.16 secs
+	Execution time = 0.19 secs
+	Workload time = 3.16 secs
+executing ../work/work3
+PID 640 - CMD: ../work/work2
+	Elapsed time = 3.25 secs
+	Execution time = 0.06 secs
+	Workload time = 3.25 secs
+executing ../work/work1
+WORKLOAD TIME: 3.27 secs
+scheduler exits
+PID 519 - CMD: ../work/work7
+	Elapsed time = 1.80 secs
+	Execution time = 1.80 secs
+	Workload time = 1.80 secs
+PID 583 - CMD: ../work/work6
+	Elapsed time = 2.55 secs
+	Execution time = 0.75 secs
+	Workload time = 2.55 secs
+PID 615 - CMD: ../work/work5
+	Elapsed time = 2.96 secs
+	Execution time = 0.41 secs
+	Workload time = 2.96 secs
+PID 631 - CMD: ../work/work4
+	Elapsed time = 3.16 secs
+	Execution time = 0.19 secs
+	Workload time = 3.16 secs
+executing ../work/work3
+PID 640 - CMD: ../work/work2
+	Elapsed time = 3.25 secs
+	Execution time = 0.06 secs
+	Workload time = 3.25 secs
+PID 642 - CMD: ../work/work1
+	Elapsed time = 3.27 secs
+	Execution time = 0.02 secs
+	Workload time = 3.27 secs
+WORKLOAD TIME: 3.27 secs
+scheduler exits
+PID 519 - CMD: ../work/work7
+	Elapsed time = 1.80 secs
+	Execution time = 1.80 secs
+	Workload time = 1.80 secs
+PID 583 - CMD: ../work/work6
+	Elapsed time = 2.55 secs
+	Execution time = 0.75 secs
+	Workload time = 2.55 secs
+PID 615 - CMD: ../work/work5
+	Elapsed time = 2.96 secs
+	Execution time = 0.41 secs
+	Workload time = 2.96 secs
+PID 631 - CMD: ../work/work4
+	Elapsed time = 3.16 secs
+	Execution time = 0.19 secs
+	Workload time = 3.16 secs
+PID 639 - CMD: ../work/work3
+	Elapsed time = 3.27 secs
+	Execution time = 0.11 secs
+	Workload time = 3.27 secs
+executing ../work/work2
+executing ../work/work1
+WORKLOAD TIME: 3.31 secs
+scheduler exits
+PID 519 - CMD: ../work/work7
+	Elapsed time = 1.80 secs
+	Execution time = 1.80 secs
+	Workload time = 1.80 secs
+PID 583 - CMD: ../work/work6
+	Elapsed time = 2.55 secs
+	Execution time = 0.75 secs
+	Workload time = 2.55 secs
+PID 615 - CMD: ../work/work5
+	Elapsed time = 2.96 secs
+	Execution time = 0.41 secs
+	Workload time = 2.96 secs
+PID 631 - CMD: ../work/work4
+	Elapsed time = 3.16 secs
+	Execution time = 0.19 secs
+	Workload time = 3.16 secs
+PID 639 - CMD: ../work/work3
+	Elapsed time = 3.27 secs
+	Execution time = 0.11 secs
+	Workload time = 3.27 secs
+executing ../work/work2
+PID 644 - CMD: ../work/work1
+	Elapsed time = 3.32 secs
+	Execution time = 0.02 secs
+	Workload time = 3.32 secs
+WORKLOAD TIME: 3.32 secs
+scheduler exits
+PID 519 - CMD: ../work/work7
+	Elapsed time = 1.80 secs
+	Execution time = 1.80 secs
+	Workload time = 1.80 secs
+PID 583 - CMD: ../work/work6
+	Elapsed time = 2.55 secs
+	Execution time = 0.75 secs
+	Workload time = 2.55 secs
+PID 615 - CMD: ../work/work5
+	Elapsed time = 2.96 secs
+	Execution time = 0.41 secs
+	Workload time = 2.96 secs
+PID 631 - CMD: ../work/work4
+	Elapsed time = 3.16 secs
+	Execution time = 0.19 secs
+	Workload time = 3.16 secs
+PID 639 - CMD: ../work/work3
+	Elapsed time = 3.27 secs
+	Execution time = 0.11 secs
+	Workload time = 3.27 secs
+PID 643 - CMD: ../work/work2
+	Elapsed time = 3.32 secs
+	Execution time = 0.05 secs
+	Workload time = 3.32 secs
+executing ../work/work1
+WORKLOAD TIME: 3.35 secs
+scheduler exits
+PID 519 - CMD: ../work/work7
+	Elapsed time = 1.80 secs
+	Execution time = 1.80 secs
+	Workload time = 1.80 secs
+PID 583 - CMD: ../work/work6
+	Elapsed time = 2.55 secs
+	Execution time = 0.75 secs
+	Workload time = 2.55 secs
+PID 615 - CMD: ../work/work5
+	Elapsed time = 2.96 secs
+	Execution time = 0.41 secs
+	Workload time = 2.96 secs
+PID 631 - CMD: ../work/work4
+	Elapsed time = 3.16 secs
+	Execution time = 0.19 secs
+	Workload time = 3.16 secs
+PID 639 - CMD: ../work/work3
+	Elapsed time = 3.27 secs
+	Execution time = 0.11 secs
+	Workload time = 3.27 secs
+PID 643 - CMD: ../work/work2
+	Elapsed time = 3.32 secs
+	Execution time = 0.05 secs
+	Workload time = 3.32 secs
+PID 645 - CMD: ../work/work1
+	Elapsed time = 3.35 secs
+	Execution time = 0.03 secs
+	Workload time = 3.35 secs
+WORKLOAD TIME: 3.35 secs
+scheduler exits
