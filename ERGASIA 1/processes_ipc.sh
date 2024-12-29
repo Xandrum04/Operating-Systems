@@ -1,5 +1,11 @@
 #!/bin/bash
 
+
+# Spiridon Mantadakis, 1100613 
+# Apostolos Zekyrias, 1100554
+# Alexandros Georgios Chalampakis, 1100754
+# Panagiwths Papanikolaou, 1104804
+
 # Δήλωση μεταβλητής FILE
 FILE="passengers.csv"
 
