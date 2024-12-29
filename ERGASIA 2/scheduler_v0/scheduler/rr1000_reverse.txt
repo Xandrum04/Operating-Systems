@@ -1,0 +1,1184 @@
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+executing ../work/work6
+executing ../work/work5
+executing ../work/work4
+executing ../work/work3
+executing ../work/work2
+executing ../work/work1
+WORKLOAD TIME: 0.21 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+executing ../work/work6
+executing ../work/work5
+executing ../work/work4
+executing ../work/work3
+executing ../work/work2
+child 1457 exited
+PID 1457 - CMD: ../work/work1
+	Elapsed time = 0.21 secs
+	Execution time = 0.03 secs
+	Workload time = 0.21 secs
+WORKLOAD TIME: 0.21 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+executing ../work/work6
+executing ../work/work5
+executing ../work/work4
+executing ../work/work3
+child 1456 exited
+PID 1456 - CMD: ../work/work2
+	Elapsed time = 0.21 secs
+	Execution time = 0.06 secs
+	Workload time = 0.21 secs
+executing ../work/work1
+WORKLOAD TIME: 0.24 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+executing ../work/work6
+executing ../work/work5
+executing ../work/work4
+executing ../work/work3
+child 1456 exited
+PID 1456 - CMD: ../work/work2
+	Elapsed time = 0.21 secs
+	Execution time = 0.06 secs
+	Workload time = 0.21 secs
+child 1458 exited
+PID 1458 - CMD: ../work/work1
+	Elapsed time = 0.24 secs
+	Execution time = 0.03 secs
+	Workload time = 0.24 secs
+WORKLOAD TIME: 0.24 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+executing ../work/work6
+executing ../work/work5
+executing ../work/work4
+child 1455 exited
+PID 1455 - CMD: ../work/work3
+	Elapsed time = 0.24 secs
+	Execution time = 0.12 secs
+	Workload time = 0.24 secs
+executing ../work/work2
+executing ../work/work1
+WORKLOAD TIME: 0.30 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+executing ../work/work6
+executing ../work/work5
+executing ../work/work4
+child 1455 exited
+PID 1455 - CMD: ../work/work3
+	Elapsed time = 0.24 secs
+	Execution time = 0.12 secs
+	Workload time = 0.24 secs
+executing ../work/work2
+child 1460 exited
+PID 1460 - CMD: ../work/work1
+	Elapsed time = 0.30 secs
+	Execution time = 0.03 secs
+	Workload time = 0.30 secs
+WORKLOAD TIME: 0.30 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+executing ../work/work6
+executing ../work/work5
+executing ../work/work4
+child 1455 exited
+PID 1455 - CMD: ../work/work3
+	Elapsed time = 0.24 secs
+	Execution time = 0.12 secs
+	Workload time = 0.24 secs
+child 1459 exited
+PID 1459 - CMD: ../work/work2
+	Elapsed time = 0.30 secs
+	Execution time = 0.06 secs
+	Workload time = 0.30 secs
+executing ../work/work1
+WORKLOAD TIME: 0.33 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+executing ../work/work6
+executing ../work/work5
+executing ../work/work4
+child 1455 exited
+PID 1455 - CMD: ../work/work3
+	Elapsed time = 0.24 secs
+	Execution time = 0.12 secs
+	Workload time = 0.24 secs
+child 1459 exited
+PID 1459 - CMD: ../work/work2
+	Elapsed time = 0.30 secs
+	Execution time = 0.06 secs
+	Workload time = 0.30 secs
+child 1461 exited
+PID 1461 - CMD: ../work/work1
+	Elapsed time = 0.34 secs
+	Execution time = 0.03 secs
+	Workload time = 0.34 secs
+WORKLOAD TIME: 0.34 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+executing ../work/work6
+executing ../work/work5
+child 1454 exited
+PID 1454 - CMD: ../work/work4
+	Elapsed time = 0.34 secs
+	Execution time = 0.24 secs
+	Workload time = 0.34 secs
+executing ../work/work3
+executing ../work/work2
+executing ../work/work1
+WORKLOAD TIME: 0.42 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+executing ../work/work6
+executing ../work/work5
+child 1454 exited
+PID 1454 - CMD: ../work/work4
+	Elapsed time = 0.34 secs
+	Execution time = 0.24 secs
+	Workload time = 0.34 secs
+executing ../work/work3
+executing ../work/work2
+child 1464 exited
+PID 1464 - CMD: ../work/work1
+	Elapsed time = 0.42 secs
+	Execution time = 0.03 secs
+	Workload time = 0.42 secs
+WORKLOAD TIME: 0.42 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+executing ../work/work6
+executing ../work/work5
+child 1454 exited
+PID 1454 - CMD: ../work/work4
+	Elapsed time = 0.34 secs
+	Execution time = 0.24 secs
+	Workload time = 0.34 secs
+executing ../work/work3
+child 1463 exited
+PID 1463 - CMD: ../work/work2
+	Elapsed time = 0.43 secs
+	Execution time = 0.06 secs
+	Workload time = 0.43 secs
+executing ../work/work1
+WORKLOAD TIME: 0.45 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+executing ../work/work6
+executing ../work/work5
+child 1454 exited
+PID 1454 - CMD: ../work/work4
+	Elapsed time = 0.34 secs
+	Execution time = 0.24 secs
+	Workload time = 0.34 secs
+executing ../work/work3
+child 1463 exited
+PID 1463 - CMD: ../work/work2
+	Elapsed time = 0.43 secs
+	Execution time = 0.06 secs
+	Workload time = 0.43 secs
+child 1465 exited
+PID 1465 - CMD: ../work/work1
+	Elapsed time = 0.45 secs
+	Execution time = 0.03 secs
+	Workload time = 0.45 secs
+WORKLOAD TIME: 0.45 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+executing ../work/work6
+executing ../work/work5
+child 1454 exited
+PID 1454 - CMD: ../work/work4
+	Elapsed time = 0.34 secs
+	Execution time = 0.24 secs
+	Workload time = 0.34 secs
+child 1462 exited
+PID 1462 - CMD: ../work/work3
+	Elapsed time = 0.46 secs
+	Execution time = 0.12 secs
+	Workload time = 0.46 secs
+executing ../work/work2
+executing ../work/work1
+WORKLOAD TIME: 0.51 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+executing ../work/work6
+executing ../work/work5
+child 1454 exited
+PID 1454 - CMD: ../work/work4
+	Elapsed time = 0.34 secs
+	Execution time = 0.24 secs
+	Workload time = 0.34 secs
+child 1462 exited
+PID 1462 - CMD: ../work/work3
+	Elapsed time = 0.46 secs
+	Execution time = 0.12 secs
+	Workload time = 0.46 secs
+executing ../work/work2
+child 1467 exited
+PID 1467 - CMD: ../work/work1
+	Elapsed time = 0.51 secs
+	Execution time = 0.03 secs
+	Workload time = 0.51 secs
+WORKLOAD TIME: 0.51 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+executing ../work/work6
+executing ../work/work5
+child 1454 exited
+PID 1454 - CMD: ../work/work4
+	Elapsed time = 0.34 secs
+	Execution time = 0.24 secs
+	Workload time = 0.34 secs
+child 1462 exited
+PID 1462 - CMD: ../work/work3
+	Elapsed time = 0.46 secs
+	Execution time = 0.12 secs
+	Workload time = 0.46 secs
+child 1466 exited
+PID 1466 - CMD: ../work/work2
+	Elapsed time = 0.51 secs
+	Execution time = 0.06 secs
+	Workload time = 0.51 secs
+executing ../work/work1
+WORKLOAD TIME: 0.54 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+executing ../work/work6
+executing ../work/work5
+child 1454 exited
+PID 1454 - CMD: ../work/work4
+	Elapsed time = 0.34 secs
+	Execution time = 0.24 secs
+	Workload time = 0.34 secs
+child 1462 exited
+PID 1462 - CMD: ../work/work3
+	Elapsed time = 0.46 secs
+	Execution time = 0.12 secs
+	Workload time = 0.46 secs
+child 1466 exited
+PID 1466 - CMD: ../work/work2
+	Elapsed time = 0.51 secs
+	Execution time = 0.06 secs
+	Workload time = 0.51 secs
+child 1468 exited
+PID 1468 - CMD: ../work/work1
+	Elapsed time = 0.54 secs
+	Execution time = 0.03 secs
+	Workload time = 0.54 secs
+WORKLOAD TIME: 0.54 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+executing ../work/work6
+child 1453 exited
+PID 1453 - CMD: ../work/work5
+	Elapsed time = 0.54 secs
+	Execution time = 0.47 secs
+	Workload time = 0.54 secs
+executing ../work/work4
+executing ../work/work3
+executing ../work/work2
+executing ../work/work1
+WORKLOAD TIME: 0.65 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+executing ../work/work6
+child 1453 exited
+PID 1453 - CMD: ../work/work5
+	Elapsed time = 0.54 secs
+	Execution time = 0.47 secs
+	Workload time = 0.54 secs
+executing ../work/work4
+executing ../work/work3
+executing ../work/work2
+child 1472 exited
+PID 1472 - CMD: ../work/work1
+	Elapsed time = 0.65 secs
+	Execution time = 0.03 secs
+	Workload time = 0.65 secs
+WORKLOAD TIME: 0.65 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+executing ../work/work6
+child 1453 exited
+PID 1453 - CMD: ../work/work5
+	Elapsed time = 0.54 secs
+	Execution time = 0.47 secs
+	Workload time = 0.54 secs
+executing ../work/work4
+executing ../work/work3
+child 1471 exited
+PID 1471 - CMD: ../work/work2
+	Elapsed time = 0.65 secs
+	Execution time = 0.06 secs
+	Workload time = 0.65 secs
+executing ../work/work1
+WORKLOAD TIME: 0.68 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+executing ../work/work6
+child 1453 exited
+PID 1453 - CMD: ../work/work5
+	Elapsed time = 0.54 secs
+	Execution time = 0.47 secs
+	Workload time = 0.54 secs
+executing ../work/work4
+executing ../work/work3
+child 1471 exited
+PID 1471 - CMD: ../work/work2
+	Elapsed time = 0.65 secs
+	Execution time = 0.06 secs
+	Workload time = 0.65 secs
+child 1473 exited
+PID 1473 - CMD: ../work/work1
+	Elapsed time = 0.68 secs
+	Execution time = 0.03 secs
+	Workload time = 0.68 secs
+WORKLOAD TIME: 0.68 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+executing ../work/work6
+child 1453 exited
+PID 1453 - CMD: ../work/work5
+	Elapsed time = 0.54 secs
+	Execution time = 0.47 secs
+	Workload time = 0.54 secs
+executing ../work/work4
+child 1470 exited
+PID 1470 - CMD: ../work/work3
+	Elapsed time = 0.68 secs
+	Execution time = 0.12 secs
+	Workload time = 0.68 secs
+executing ../work/work2
+executing ../work/work1
+WORKLOAD TIME: 0.75 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+executing ../work/work6
+child 1453 exited
+PID 1453 - CMD: ../work/work5
+	Elapsed time = 0.54 secs
+	Execution time = 0.47 secs
+	Workload time = 0.54 secs
+executing ../work/work4
+child 1470 exited
+PID 1470 - CMD: ../work/work3
+	Elapsed time = 0.68 secs
+	Execution time = 0.12 secs
+	Workload time = 0.68 secs
+executing ../work/work2
+child 1475 exited
+PID 1475 - CMD: ../work/work1
+	Elapsed time = 0.75 secs
+	Execution time = 0.03 secs
+	Workload time = 0.75 secs
+WORKLOAD TIME: 0.75 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+executing ../work/work6
+child 1453 exited
+PID 1453 - CMD: ../work/work5
+	Elapsed time = 0.54 secs
+	Execution time = 0.47 secs
+	Workload time = 0.54 secs
+executing ../work/work4
+child 1470 exited
+PID 1470 - CMD: ../work/work3
+	Elapsed time = 0.68 secs
+	Execution time = 0.12 secs
+	Workload time = 0.68 secs
+child 1474 exited
+PID 1474 - CMD: ../work/work2
+	Elapsed time = 0.75 secs
+	Execution time = 0.07 secs
+	Workload time = 0.75 secs
+executing ../work/work1
+WORKLOAD TIME: 0.78 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+executing ../work/work6
+child 1453 exited
+PID 1453 - CMD: ../work/work5
+	Elapsed time = 0.54 secs
+	Execution time = 0.47 secs
+	Workload time = 0.54 secs
+executing ../work/work4
+child 1470 exited
+PID 1470 - CMD: ../work/work3
+	Elapsed time = 0.68 secs
+	Execution time = 0.12 secs
+	Workload time = 0.68 secs
+child 1474 exited
+PID 1474 - CMD: ../work/work2
+	Elapsed time = 0.75 secs
+	Execution time = 0.07 secs
+	Workload time = 0.75 secs
+child 1476 exited
+PID 1476 - CMD: ../work/work1
+	Elapsed time = 0.78 secs
+	Execution time = 0.03 secs
+	Workload time = 0.78 secs
+WORKLOAD TIME: 0.78 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+executing ../work/work6
+child 1453 exited
+PID 1453 - CMD: ../work/work5
+	Elapsed time = 0.54 secs
+	Execution time = 0.47 secs
+	Workload time = 0.54 secs
+child 1469 exited
+PID 1469 - CMD: ../work/work4
+	Elapsed time = 0.78 secs
+	Execution time = 0.24 secs
+	Workload time = 0.78 secs
+executing ../work/work3
+executing ../work/work2
+executing ../work/work1
+WORKLOAD TIME: 0.86 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+executing ../work/work6
+child 1453 exited
+PID 1453 - CMD: ../work/work5
+	Elapsed time = 0.54 secs
+	Execution time = 0.47 secs
+	Workload time = 0.54 secs
+child 1469 exited
+PID 1469 - CMD: ../work/work4
+	Elapsed time = 0.78 secs
+	Execution time = 0.24 secs
+	Workload time = 0.78 secs
+executing ../work/work3
+executing ../work/work2
+child 1479 exited
+PID 1479 - CMD: ../work/work1
+	Elapsed time = 0.86 secs
+	Execution time = 0.03 secs
+	Workload time = 0.86 secs
+WORKLOAD TIME: 0.86 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+executing ../work/work6
+child 1453 exited
+PID 1453 - CMD: ../work/work5
+	Elapsed time = 0.54 secs
+	Execution time = 0.47 secs
+	Workload time = 0.54 secs
+child 1469 exited
+PID 1469 - CMD: ../work/work4
+	Elapsed time = 0.78 secs
+	Execution time = 0.24 secs
+	Workload time = 0.78 secs
+executing ../work/work3
+child 1478 exited
+PID 1478 - CMD: ../work/work2
+	Elapsed time = 0.86 secs
+	Execution time = 0.06 secs
+	Workload time = 0.86 secs
+executing ../work/work1
+WORKLOAD TIME: 0.89 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+executing ../work/work6
+child 1453 exited
+PID 1453 - CMD: ../work/work5
+	Elapsed time = 0.54 secs
+	Execution time = 0.47 secs
+	Workload time = 0.54 secs
+child 1469 exited
+PID 1469 - CMD: ../work/work4
+	Elapsed time = 0.78 secs
+	Execution time = 0.24 secs
+	Workload time = 0.78 secs
+executing ../work/work3
+child 1478 exited
+PID 1478 - CMD: ../work/work2
+	Elapsed time = 0.86 secs
+	Execution time = 0.06 secs
+	Workload time = 0.86 secs
+child 1480 exited
+PID 1480 - CMD: ../work/work1
+	Elapsed time = 0.89 secs
+	Execution time = 0.03 secs
+	Workload time = 0.89 secs
+WORKLOAD TIME: 0.89 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+executing ../work/work6
+child 1453 exited
+PID 1453 - CMD: ../work/work5
+	Elapsed time = 0.54 secs
+	Execution time = 0.47 secs
+	Workload time = 0.54 secs
+child 1469 exited
+PID 1469 - CMD: ../work/work4
+	Elapsed time = 0.78 secs
+	Execution time = 0.24 secs
+	Workload time = 0.78 secs
+child 1477 exited
+PID 1477 - CMD: ../work/work3
+	Elapsed time = 0.89 secs
+	Execution time = 0.11 secs
+	Workload time = 0.89 secs
+executing ../work/work2
+executing ../work/work1
+WORKLOAD TIME: 0.95 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+executing ../work/work6
+child 1453 exited
+PID 1453 - CMD: ../work/work5
+	Elapsed time = 0.54 secs
+	Execution time = 0.47 secs
+	Workload time = 0.54 secs
+child 1469 exited
+PID 1469 - CMD: ../work/work4
+	Elapsed time = 0.78 secs
+	Execution time = 0.24 secs
+	Workload time = 0.78 secs
+child 1477 exited
+PID 1477 - CMD: ../work/work3
+	Elapsed time = 0.89 secs
+	Execution time = 0.11 secs
+	Workload time = 0.89 secs
+executing ../work/work2
+child 1482 exited
+PID 1482 - CMD: ../work/work1
+	Elapsed time = 0.95 secs
+	Execution time = 0.03 secs
+	Workload time = 0.95 secs
+WORKLOAD TIME: 0.95 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+executing ../work/work6
+child 1453 exited
+PID 1453 - CMD: ../work/work5
+	Elapsed time = 0.54 secs
+	Execution time = 0.47 secs
+	Workload time = 0.54 secs
+child 1469 exited
+PID 1469 - CMD: ../work/work4
+	Elapsed time = 0.78 secs
+	Execution time = 0.24 secs
+	Workload time = 0.78 secs
+child 1477 exited
+PID 1477 - CMD: ../work/work3
+	Elapsed time = 0.89 secs
+	Execution time = 0.11 secs
+	Workload time = 0.89 secs
+child 1481 exited
+PID 1481 - CMD: ../work/work2
+	Elapsed time = 0.95 secs
+	Execution time = 0.06 secs
+	Workload time = 0.95 secs
+executing ../work/work1
+WORKLOAD TIME: 0.98 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+executing ../work/work6
+child 1453 exited
+PID 1453 - CMD: ../work/work5
+	Elapsed time = 0.54 secs
+	Execution time = 0.47 secs
+	Workload time = 0.54 secs
+child 1469 exited
+PID 1469 - CMD: ../work/work4
+	Elapsed time = 0.78 secs
+	Execution time = 0.24 secs
+	Workload time = 0.78 secs
+child 1477 exited
+PID 1477 - CMD: ../work/work3
+	Elapsed time = 0.89 secs
+	Execution time = 0.11 secs
+	Workload time = 0.89 secs
+child 1481 exited
+PID 1481 - CMD: ../work/work2
+	Elapsed time = 0.95 secs
+	Execution time = 0.06 secs
+	Workload time = 0.95 secs
+child 1483 exited
+PID 1483 - CMD: ../work/work1
+	Elapsed time = 0.98 secs
+	Execution time = 0.03 secs
+	Workload time = 0.98 secs
+WORKLOAD TIME: 0.98 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+child 1452 exited
+PID 1452 - CMD: ../work/work6
+	Elapsed time = 0.98 secs
+	Execution time = 0.94 secs
+	Workload time = 0.98 secs
+executing ../work/work5
+executing ../work/work4
+executing ../work/work3
+executing ../work/work2
+executing ../work/work1
+WORKLOAD TIME: 1.13 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+child 1452 exited
+PID 1452 - CMD: ../work/work6
+	Elapsed time = 0.98 secs
+	Execution time = 0.94 secs
+	Workload time = 0.98 secs
+executing ../work/work5
+executing ../work/work4
+executing ../work/work3
+executing ../work/work2
+child 1490 exited
+PID 1490 - CMD: ../work/work1
+	Elapsed time = 1.13 secs
+	Execution time = 0.04 secs
+	Workload time = 1.13 secs
+WORKLOAD TIME: 1.13 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+child 1452 exited
+PID 1452 - CMD: ../work/work6
+	Elapsed time = 0.98 secs
+	Execution time = 0.94 secs
+	Workload time = 0.98 secs
+executing ../work/work5
+executing ../work/work4
+executing ../work/work3
+child 1488 exited
+PID 1488 - CMD: ../work/work2
+	Elapsed time = 1.13 secs
+	Execution time = 0.07 secs
+	Workload time = 1.13 secs
+executing ../work/work1
+WORKLOAD TIME: 1.16 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+child 1452 exited
+PID 1452 - CMD: ../work/work6
+	Elapsed time = 0.98 secs
+	Execution time = 0.94 secs
+	Workload time = 0.98 secs
+executing ../work/work5
+executing ../work/work4
+executing ../work/work3
+child 1488 exited
+PID 1488 - CMD: ../work/work2
+	Elapsed time = 1.13 secs
+	Execution time = 0.07 secs
+	Workload time = 1.13 secs
+child 1492 exited
+PID 1492 - CMD: ../work/work1
+	Elapsed time = 1.16 secs
+	Execution time = 0.03 secs
+	Workload time = 1.16 secs
+WORKLOAD TIME: 1.16 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+child 1452 exited
+PID 1452 - CMD: ../work/work6
+	Elapsed time = 0.98 secs
+	Execution time = 0.94 secs
+	Workload time = 0.98 secs
+executing ../work/work5
+executing ../work/work4
+child 1486 exited
+PID 1486 - CMD: ../work/work3
+	Elapsed time = 1.17 secs
+	Execution time = 0.13 secs
+	Workload time = 1.17 secs
+executing ../work/work2
+executing ../work/work1
+WORKLOAD TIME: 1.22 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+child 1452 exited
+PID 1452 - CMD: ../work/work6
+	Elapsed time = 0.98 secs
+	Execution time = 0.94 secs
+	Workload time = 0.98 secs
+executing ../work/work5
+executing ../work/work4
+child 1486 exited
+PID 1486 - CMD: ../work/work3
+	Elapsed time = 1.17 secs
+	Execution time = 0.13 secs
+	Workload time = 1.17 secs
+executing ../work/work2
+child 1496 exited
+PID 1496 - CMD: ../work/work1
+	Elapsed time = 1.22 secs
+	Execution time = 0.03 secs
+	Workload time = 1.22 secs
+WORKLOAD TIME: 1.22 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+child 1452 exited
+PID 1452 - CMD: ../work/work6
+	Elapsed time = 0.98 secs
+	Execution time = 0.94 secs
+	Workload time = 0.98 secs
+executing ../work/work5
+executing ../work/work4
+child 1486 exited
+PID 1486 - CMD: ../work/work3
+	Elapsed time = 1.17 secs
+	Execution time = 0.13 secs
+	Workload time = 1.17 secs
+child 1494 exited
+PID 1494 - CMD: ../work/work2
+	Elapsed time = 1.23 secs
+	Execution time = 0.06 secs
+	Workload time = 1.23 secs
+executing ../work/work1
+WORKLOAD TIME: 1.25 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+child 1452 exited
+PID 1452 - CMD: ../work/work6
+	Elapsed time = 0.98 secs
+	Execution time = 0.94 secs
+	Workload time = 0.98 secs
+executing ../work/work5
+executing ../work/work4
+child 1486 exited
+PID 1486 - CMD: ../work/work3
+	Elapsed time = 1.17 secs
+	Execution time = 0.13 secs
+	Workload time = 1.17 secs
+child 1494 exited
+PID 1494 - CMD: ../work/work2
+	Elapsed time = 1.23 secs
+	Execution time = 0.06 secs
+	Workload time = 1.23 secs
+child 1498 exited
+PID 1498 - CMD: ../work/work1
+	Elapsed time = 1.26 secs
+	Execution time = 0.03 secs
+	Workload time = 1.26 secs
+WORKLOAD TIME: 1.26 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+child 1452 exited
+PID 1452 - CMD: ../work/work6
+	Elapsed time = 0.98 secs
+	Execution time = 0.94 secs
+	Workload time = 0.98 secs
+executing ../work/work5
+child 1485 exited
+PID 1485 - CMD: ../work/work4
+	Elapsed time = 1.36 secs
+	Execution time = 0.36 secs
+	Workload time = 1.36 secs
+executing ../work/work3
+executing ../work/work2
+executing ../work/work1
+WORKLOAD TIME: 1.46 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+child 1452 exited
+PID 1452 - CMD: ../work/work6
+	Elapsed time = 0.98 secs
+	Execution time = 0.94 secs
+	Workload time = 0.98 secs
+executing ../work/work5
+child 1485 exited
+PID 1485 - CMD: ../work/work4
+	Elapsed time = 1.36 secs
+	Execution time = 0.36 secs
+	Workload time = 1.36 secs
+executing ../work/work3
+executing ../work/work2
+child 1505 exited
+PID 1505 - CMD: ../work/work1
+	Elapsed time = 1.46 secs
+	Execution time = 0.03 secs
+	Workload time = 1.46 secs
+WORKLOAD TIME: 1.46 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+child 1452 exited
+PID 1452 - CMD: ../work/work6
+	Elapsed time = 0.98 secs
+	Execution time = 0.94 secs
+	Workload time = 0.98 secs
+executing ../work/work5
+child 1485 exited
+PID 1485 - CMD: ../work/work4
+	Elapsed time = 1.36 secs
+	Execution time = 0.36 secs
+	Workload time = 1.36 secs
+executing ../work/work3
+child 1504 exited
+PID 1504 - CMD: ../work/work2
+	Elapsed time = 1.46 secs
+	Execution time = 0.07 secs
+	Workload time = 1.46 secs
+executing ../work/work1
+WORKLOAD TIME: 1.49 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+child 1452 exited
+PID 1452 - CMD: ../work/work6
+	Elapsed time = 0.98 secs
+	Execution time = 0.94 secs
+	Workload time = 0.98 secs
+executing ../work/work5
+child 1485 exited
+PID 1485 - CMD: ../work/work4
+	Elapsed time = 1.36 secs
+	Execution time = 0.36 secs
+	Workload time = 1.36 secs
+executing ../work/work3
+child 1504 exited
+PID 1504 - CMD: ../work/work2
+	Elapsed time = 1.46 secs
+	Execution time = 0.07 secs
+	Workload time = 1.46 secs
+child 1506 exited
+PID 1506 - CMD: ../work/work1
+	Elapsed time = 1.49 secs
+	Execution time = 0.03 secs
+	Workload time = 1.49 secs
+WORKLOAD TIME: 1.49 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+child 1452 exited
+PID 1452 - CMD: ../work/work6
+	Elapsed time = 0.98 secs
+	Execution time = 0.94 secs
+	Workload time = 0.98 secs
+executing ../work/work5
+child 1485 exited
+PID 1485 - CMD: ../work/work4
+	Elapsed time = 1.36 secs
+	Execution time = 0.36 secs
+	Workload time = 1.36 secs
+child 1503 exited
+PID 1503 - CMD: ../work/work3
+	Elapsed time = 1.49 secs
+	Execution time = 0.13 secs
+	Workload time = 1.49 secs
+executing ../work/work2
+executing ../work/work1
+WORKLOAD TIME: 1.55 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+child 1452 exited
+PID 1452 - CMD: ../work/work6
+	Elapsed time = 0.98 secs
+	Execution time = 0.94 secs
+	Workload time = 0.98 secs
+executing ../work/work5
+child 1485 exited
+PID 1485 - CMD: ../work/work4
+	Elapsed time = 1.36 secs
+	Execution time = 0.36 secs
+	Workload time = 1.36 secs
+child 1503 exited
+PID 1503 - CMD: ../work/work3
+	Elapsed time = 1.49 secs
+	Execution time = 0.13 secs
+	Workload time = 1.49 secs
+executing ../work/work2
+child 1508 exited
+PID 1508 - CMD: ../work/work1
+	Elapsed time = 1.55 secs
+	Execution time = 0.03 secs
+	Workload time = 1.55 secs
+WORKLOAD TIME: 1.55 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+child 1452 exited
+PID 1452 - CMD: ../work/work6
+	Elapsed time = 0.98 secs
+	Execution time = 0.94 secs
+	Workload time = 0.98 secs
+executing ../work/work5
+child 1485 exited
+PID 1485 - CMD: ../work/work4
+	Elapsed time = 1.36 secs
+	Execution time = 0.36 secs
+	Workload time = 1.36 secs
+child 1503 exited
+PID 1503 - CMD: ../work/work3
+	Elapsed time = 1.49 secs
+	Execution time = 0.13 secs
+	Workload time = 1.49 secs
+child 1507 exited
+PID 1507 - CMD: ../work/work2
+	Elapsed time = 1.55 secs
+	Execution time = 0.06 secs
+	Workload time = 1.55 secs
+executing ../work/work1
+WORKLOAD TIME: 1.58 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+child 1452 exited
+PID 1452 - CMD: ../work/work6
+	Elapsed time = 0.98 secs
+	Execution time = 0.94 secs
+	Workload time = 0.98 secs
+executing ../work/work5
+child 1485 exited
+PID 1485 - CMD: ../work/work4
+	Elapsed time = 1.36 secs
+	Execution time = 0.36 secs
+	Workload time = 1.36 secs
+child 1503 exited
+PID 1503 - CMD: ../work/work3
+	Elapsed time = 1.49 secs
+	Execution time = 0.13 secs
+	Workload time = 1.49 secs
+child 1507 exited
+PID 1507 - CMD: ../work/work2
+	Elapsed time = 1.55 secs
+	Execution time = 0.06 secs
+	Workload time = 1.55 secs
+child 1509 exited
+PID 1509 - CMD: ../work/work1
+	Elapsed time = 1.58 secs
+	Execution time = 0.03 secs
+	Workload time = 1.58 secs
+WORKLOAD TIME: 1.58 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+child 1452 exited
+PID 1452 - CMD: ../work/work6
+	Elapsed time = 0.98 secs
+	Execution time = 0.94 secs
+	Workload time = 0.98 secs
+child 1484 exited
+PID 1484 - CMD: ../work/work5
+	Elapsed time = 1.26 secs
+	Execution time = 0.29 secs
+	Workload time = 1.26 secs
+child 1484 exited
+warning: running 1499 exited 1484
+child 1499 exited
+PID 1499 - CMD: ../work/work4
+	Elapsed time = 1.61 secs
+	Execution time = 0.37 secs
+	Workload time = 1.61 secs
+child 1510 exited
+PID 1510 - CMD: ../work/work3
+	Elapsed time = 2.25 secs
+	Execution time = 0.67 secs
+	Workload time = 2.25 secs
+executing ../work/work2
+executing ../work/work1
+process has exited
+process has exited
+process has exited
+WORKLOAD TIME: 2.31 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+child 1452 exited
+PID 1452 - CMD: ../work/work6
+	Elapsed time = 0.98 secs
+	Execution time = 0.94 secs
+	Workload time = 0.98 secs
+child 1484 exited
+PID 1484 - CMD: ../work/work5
+	Elapsed time = 1.26 secs
+	Execution time = 0.29 secs
+	Workload time = 1.26 secs
+child 1484 exited
+warning: running 1499 exited 1484
+child 1499 exited
+PID 1499 - CMD: ../work/work4
+	Elapsed time = 1.61 secs
+	Execution time = 0.37 secs
+	Workload time = 1.61 secs
+child 1510 exited
+PID 1510 - CMD: ../work/work3
+	Elapsed time = 2.25 secs
+	Execution time = 0.67 secs
+	Workload time = 2.25 secs
+executing ../work/work2
+child 1525 exited
+PID 1525 - CMD: ../work/work1
+	Elapsed time = 2.31 secs
+	Execution time = 0.03 secs
+	Workload time = 2.31 secs
+process has exited
+process has exited
+process has exited
+WORKLOAD TIME: 2.31 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+child 1452 exited
+PID 1452 - CMD: ../work/work6
+	Elapsed time = 0.98 secs
+	Execution time = 0.94 secs
+	Workload time = 0.98 secs
+child 1484 exited
+PID 1484 - CMD: ../work/work5
+	Elapsed time = 1.26 secs
+	Execution time = 0.29 secs
+	Workload time = 1.26 secs
+child 1484 exited
+warning: running 1499 exited 1484
+child 1499 exited
+PID 1499 - CMD: ../work/work4
+	Elapsed time = 1.61 secs
+	Execution time = 0.37 secs
+	Workload time = 1.61 secs
+child 1510 exited
+PID 1510 - CMD: ../work/work3
+	Elapsed time = 2.25 secs
+	Execution time = 0.67 secs
+	Workload time = 2.25 secs
+child 1524 exited
+PID 1524 - CMD: ../work/work2
+	Elapsed time = 2.31 secs
+	Execution time = 0.06 secs
+	Workload time = 2.31 secs
+executing ../work/work1
+process has exited
+process has exited
+process has exited
+WORKLOAD TIME: 2.34 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+child 1452 exited
+PID 1452 - CMD: ../work/work6
+	Elapsed time = 0.98 secs
+	Execution time = 0.94 secs
+	Workload time = 0.98 secs
+child 1484 exited
+PID 1484 - CMD: ../work/work5
+	Elapsed time = 1.26 secs
+	Execution time = 0.29 secs
+	Workload time = 1.26 secs
+child 1484 exited
+warning: running 1499 exited 1484
+child 1499 exited
+PID 1499 - CMD: ../work/work4
+	Elapsed time = 1.61 secs
+	Execution time = 0.37 secs
+	Workload time = 1.61 secs
+child 1510 exited
+PID 1510 - CMD: ../work/work3
+	Elapsed time = 2.25 secs
+	Execution time = 0.67 secs
+	Workload time = 2.25 secs
+child 1524 exited
+PID 1524 - CMD: ../work/work2
+	Elapsed time = 2.31 secs
+	Execution time = 0.06 secs
+	Workload time = 2.31 secs
+child 1526 exited
+PID 1526 - CMD: ../work/work1
+	Elapsed time = 2.34 secs
+	Execution time = 0.03 secs
+	Workload time = 2.34 secs
+process has exited
+process has exited
+process has exited
+WORKLOAD TIME: 2.34 secs
+scheduler exits
