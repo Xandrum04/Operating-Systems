@@ -267,7 +267,7 @@ echo -e "Μέση ηλικία πληρώματος: $crew_avg_age\nΜέση η�
 # Αποθήκευσε στην rescued τις εγγραφές οι οποίες περιέχουν το pattern: "yes" και αντέγραψε τις στο αρχείο rescued.txt
 local rescued=$(grep "\byes\b" "$AGES")
 echo "code;fullname;age;country;status;rescued" > "$RESCUED"
-echo $rescued >> "$RESCUED"
+echo -e "$rescued\n" >> "$RESCUED"
 }
 
 
