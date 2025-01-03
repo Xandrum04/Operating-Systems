@@ -1,0 +1,1740 @@
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+executing ../work/work6
+executing ../work/work5
+Skipping ../work/work4: not enough available processors.
+Skipping ../work/work3: not enough available processors.
+Skipping ../work/work2: not enough available processors.
+Skipping ../work/work1: not enough available processors.
+WORKLOAD TIME: 0.08 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+executing ../work/work6
+child 1805 exited
+PID 1805 - CMD: ../work/work5
+	Elapsed time = 0.08 secs
+	Execution time = 0.02 secs
+	Workload time = 0.08 secs
+executing ../work/work4
+Skipping ../work/work3: not enough available processors.
+Skipping ../work/work2: not enough available processors.
+Skipping ../work/work1: not enough available processors.
+WORKLOAD TIME: 0.10 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+executing ../work/work6
+child 1805 exited
+PID 1805 - CMD: ../work/work5
+	Elapsed time = 0.08 secs
+	Execution time = 0.02 secs
+	Workload time = 0.08 secs
+child 1806 exited
+PID 1806 - CMD: ../work/work4
+	Elapsed time = 0.10 secs
+	Execution time = 0.02 secs
+	Workload time = 0.10 secs
+executing ../work/work3
+Skipping ../work/work2: not enough available processors.
+Skipping ../work/work1: not enough available processors.
+WORKLOAD TIME: 0.12 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+executing ../work/work6
+child 1805 exited
+PID 1805 - CMD: ../work/work5
+	Elapsed time = 0.08 secs
+	Execution time = 0.02 secs
+	Workload time = 0.08 secs
+child 1806 exited
+PID 1806 - CMD: ../work/work4
+	Elapsed time = 0.10 secs
+	Execution time = 0.02 secs
+	Workload time = 0.10 secs
+child 1807 exited
+PID 1807 - CMD: ../work/work3
+	Elapsed time = 0.12 secs
+	Execution time = 0.02 secs
+	Workload time = 0.12 secs
+executing ../work/work2
+Skipping ../work/work1: not enough available processors.
+WORKLOAD TIME: 0.14 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+executing ../work/work6
+child 1805 exited
+PID 1805 - CMD: ../work/work5
+	Elapsed time = 0.08 secs
+	Execution time = 0.02 secs
+	Workload time = 0.08 secs
+child 1806 exited
+PID 1806 - CMD: ../work/work4
+	Elapsed time = 0.10 secs
+	Execution time = 0.02 secs
+	Workload time = 0.10 secs
+child 1807 exited
+PID 1807 - CMD: ../work/work3
+	Elapsed time = 0.12 secs
+	Execution time = 0.02 secs
+	Workload time = 0.12 secs
+child 1808 exited
+PID 1808 - CMD: ../work/work2
+	Elapsed time = 0.14 secs
+	Execution time = 0.02 secs
+	Workload time = 0.14 secs
+executing ../work/work1
+WORKLOAD TIME: 0.16 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+executing ../work/work6
+child 1805 exited
+PID 1805 - CMD: ../work/work5
+	Elapsed time = 0.08 secs
+	Execution time = 0.02 secs
+	Workload time = 0.08 secs
+child 1806 exited
+PID 1806 - CMD: ../work/work4
+	Elapsed time = 0.10 secs
+	Execution time = 0.02 secs
+	Workload time = 0.10 secs
+child 1807 exited
+PID 1807 - CMD: ../work/work3
+	Elapsed time = 0.12 secs
+	Execution time = 0.02 secs
+	Workload time = 0.12 secs
+child 1808 exited
+PID 1808 - CMD: ../work/work2
+	Elapsed time = 0.14 secs
+	Execution time = 0.02 secs
+	Workload time = 0.14 secs
+child 1809 exited
+PID 1809 - CMD: ../work/work1
+	Elapsed time = 0.16 secs
+	Execution time = 0.02 secs
+	Workload time = 0.16 secs
+WORKLOAD TIME: 0.16 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+child 1804 exited
+PID 1804 - CMD: ../work/work6
+	Elapsed time = 0.17 secs
+	Execution time = 0.14 secs
+	Workload time = 0.17 secs
+executing ../work/work5
+executing ../work/work4
+Skipping ../work/work3: not enough available processors.
+Skipping ../work/work2: not enough available processors.
+Skipping ../work/work1: not enough available processors.
+WORKLOAD TIME: 0.21 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+child 1804 exited
+PID 1804 - CMD: ../work/work6
+	Elapsed time = 0.17 secs
+	Execution time = 0.14 secs
+	Workload time = 0.17 secs
+executing ../work/work5
+child 1811 exited
+PID 1811 - CMD: ../work/work4
+	Elapsed time = 0.21 secs
+	Execution time = 0.02 secs
+	Workload time = 0.21 secs
+executing ../work/work3
+Skipping ../work/work2: not enough available processors.
+Skipping ../work/work1: not enough available processors.
+WORKLOAD TIME: 0.23 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+child 1804 exited
+PID 1804 - CMD: ../work/work6
+	Elapsed time = 0.17 secs
+	Execution time = 0.14 secs
+	Workload time = 0.17 secs
+executing ../work/work5
+child 1811 exited
+PID 1811 - CMD: ../work/work4
+	Elapsed time = 0.21 secs
+	Execution time = 0.02 secs
+	Workload time = 0.21 secs
+child 1812 exited
+PID 1812 - CMD: ../work/work3
+	Elapsed time = 0.23 secs
+	Execution time = 0.02 secs
+	Workload time = 0.23 secs
+executing ../work/work2
+Skipping ../work/work1: not enough available processors.
+WORKLOAD TIME: 0.25 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+child 1804 exited
+PID 1804 - CMD: ../work/work6
+	Elapsed time = 0.17 secs
+	Execution time = 0.14 secs
+	Workload time = 0.17 secs
+executing ../work/work5
+child 1811 exited
+PID 1811 - CMD: ../work/work4
+	Elapsed time = 0.21 secs
+	Execution time = 0.02 secs
+	Workload time = 0.21 secs
+child 1812 exited
+PID 1812 - CMD: ../work/work3
+	Elapsed time = 0.23 secs
+	Execution time = 0.02 secs
+	Workload time = 0.23 secs
+child 1813 exited
+PID 1813 - CMD: ../work/work2
+	Elapsed time = 0.25 secs
+	Execution time = 0.02 secs
+	Workload time = 0.25 secs
+executing ../work/work1
+WORKLOAD TIME: 0.27 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+child 1804 exited
+PID 1804 - CMD: ../work/work6
+	Elapsed time = 0.17 secs
+	Execution time = 0.14 secs
+	Workload time = 0.17 secs
+executing ../work/work5
+child 1811 exited
+PID 1811 - CMD: ../work/work4
+	Elapsed time = 0.21 secs
+	Execution time = 0.02 secs
+	Workload time = 0.21 secs
+child 1812 exited
+PID 1812 - CMD: ../work/work3
+	Elapsed time = 0.23 secs
+	Execution time = 0.02 secs
+	Workload time = 0.23 secs
+child 1813 exited
+PID 1813 - CMD: ../work/work2
+	Elapsed time = 0.25 secs
+	Execution time = 0.02 secs
+	Workload time = 0.25 secs
+child 1814 exited
+PID 1814 - CMD: ../work/work1
+	Elapsed time = 0.27 secs
+	Execution time = 0.02 secs
+	Workload time = 0.27 secs
+WORKLOAD TIME: 0.27 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+child 1804 exited
+PID 1804 - CMD: ../work/work6
+	Elapsed time = 0.17 secs
+	Execution time = 0.14 secs
+	Workload time = 0.17 secs
+child 1810 exited
+PID 1810 - CMD: ../work/work5
+	Elapsed time = 0.27 secs
+	Execution time = 0.11 secs
+	Workload time = 0.27 secs
+executing ../work/work4
+executing ../work/work3
+Skipping ../work/work2: not enough available processors.
+Skipping ../work/work1: not enough available processors.
+WORKLOAD TIME: 0.32 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+child 1804 exited
+PID 1804 - CMD: ../work/work6
+	Elapsed time = 0.17 secs
+	Execution time = 0.14 secs
+	Workload time = 0.17 secs
+child 1810 exited
+PID 1810 - CMD: ../work/work5
+	Elapsed time = 0.27 secs
+	Execution time = 0.11 secs
+	Workload time = 0.27 secs
+executing ../work/work4
+child 1816 exited
+PID 1816 - CMD: ../work/work3
+	Elapsed time = 0.32 secs
+	Execution time = 0.02 secs
+	Workload time = 0.32 secs
+executing ../work/work2
+Skipping ../work/work1: not enough available processors.
+WORKLOAD TIME: 0.34 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+child 1804 exited
+PID 1804 - CMD: ../work/work6
+	Elapsed time = 0.17 secs
+	Execution time = 0.14 secs
+	Workload time = 0.17 secs
+child 1810 exited
+PID 1810 - CMD: ../work/work5
+	Elapsed time = 0.27 secs
+	Execution time = 0.11 secs
+	Workload time = 0.27 secs
+executing ../work/work4
+child 1816 exited
+PID 1816 - CMD: ../work/work3
+	Elapsed time = 0.32 secs
+	Execution time = 0.02 secs
+	Workload time = 0.32 secs
+child 1817 exited
+PID 1817 - CMD: ../work/work2
+	Elapsed time = 0.34 secs
+	Execution time = 0.02 secs
+	Workload time = 0.34 secs
+executing ../work/work1
+WORKLOAD TIME: 0.36 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+child 1804 exited
+PID 1804 - CMD: ../work/work6
+	Elapsed time = 0.17 secs
+	Execution time = 0.14 secs
+	Workload time = 0.17 secs
+child 1810 exited
+PID 1810 - CMD: ../work/work5
+	Elapsed time = 0.27 secs
+	Execution time = 0.11 secs
+	Workload time = 0.27 secs
+executing ../work/work4
+child 1816 exited
+PID 1816 - CMD: ../work/work3
+	Elapsed time = 0.32 secs
+	Execution time = 0.02 secs
+	Workload time = 0.32 secs
+child 1817 exited
+PID 1817 - CMD: ../work/work2
+	Elapsed time = 0.34 secs
+	Execution time = 0.02 secs
+	Workload time = 0.34 secs
+child 1818 exited
+PID 1818 - CMD: ../work/work1
+	Elapsed time = 0.36 secs
+	Execution time = 0.02 secs
+	Workload time = 0.36 secs
+WORKLOAD TIME: 0.36 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+child 1804 exited
+PID 1804 - CMD: ../work/work6
+	Elapsed time = 0.17 secs
+	Execution time = 0.14 secs
+	Workload time = 0.17 secs
+child 1810 exited
+PID 1810 - CMD: ../work/work5
+	Elapsed time = 0.27 secs
+	Execution time = 0.11 secs
+	Workload time = 0.27 secs
+child 1815 exited
+PID 1815 - CMD: ../work/work4
+	Elapsed time = 0.36 secs
+	Execution time = 0.09 secs
+	Workload time = 0.36 secs
+executing ../work/work3
+executing ../work/work2
+Skipping ../work/work1: not enough available processors.
+WORKLOAD TIME: 0.40 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+child 1804 exited
+PID 1804 - CMD: ../work/work6
+	Elapsed time = 0.17 secs
+	Execution time = 0.14 secs
+	Workload time = 0.17 secs
+child 1810 exited
+PID 1810 - CMD: ../work/work5
+	Elapsed time = 0.27 secs
+	Execution time = 0.11 secs
+	Workload time = 0.27 secs
+child 1815 exited
+PID 1815 - CMD: ../work/work4
+	Elapsed time = 0.36 secs
+	Execution time = 0.09 secs
+	Workload time = 0.36 secs
+executing ../work/work3
+child 1820 exited
+PID 1820 - CMD: ../work/work2
+	Elapsed time = 0.40 secs
+	Execution time = 0.02 secs
+	Workload time = 0.40 secs
+executing ../work/work1
+WORKLOAD TIME: 0.43 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+child 1804 exited
+PID 1804 - CMD: ../work/work6
+	Elapsed time = 0.17 secs
+	Execution time = 0.14 secs
+	Workload time = 0.17 secs
+child 1810 exited
+PID 1810 - CMD: ../work/work5
+	Elapsed time = 0.27 secs
+	Execution time = 0.11 secs
+	Workload time = 0.27 secs
+child 1815 exited
+PID 1815 - CMD: ../work/work4
+	Elapsed time = 0.36 secs
+	Execution time = 0.09 secs
+	Workload time = 0.36 secs
+executing ../work/work3
+child 1820 exited
+PID 1820 - CMD: ../work/work2
+	Elapsed time = 0.40 secs
+	Execution time = 0.02 secs
+	Workload time = 0.40 secs
+child 1821 exited
+PID 1821 - CMD: ../work/work1
+	Elapsed time = 0.43 secs
+	Execution time = 0.03 secs
+	Workload time = 0.43 secs
+WORKLOAD TIME: 0.43 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+child 1804 exited
+PID 1804 - CMD: ../work/work6
+	Elapsed time = 0.17 secs
+	Execution time = 0.14 secs
+	Workload time = 0.17 secs
+child 1810 exited
+PID 1810 - CMD: ../work/work5
+	Elapsed time = 0.27 secs
+	Execution time = 0.11 secs
+	Workload time = 0.27 secs
+child 1815 exited
+PID 1815 - CMD: ../work/work4
+	Elapsed time = 0.36 secs
+	Execution time = 0.09 secs
+	Workload time = 0.36 secs
+child 1819 exited
+PID 1819 - CMD: ../work/work3
+	Elapsed time = 0.43 secs
+	Execution time = 0.07 secs
+	Workload time = 0.43 secs
+executing ../work/work2
+executing ../work/work1
+WORKLOAD TIME: 0.48 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+child 1804 exited
+PID 1804 - CMD: ../work/work6
+	Elapsed time = 0.17 secs
+	Execution time = 0.14 secs
+	Workload time = 0.17 secs
+child 1810 exited
+PID 1810 - CMD: ../work/work5
+	Elapsed time = 0.27 secs
+	Execution time = 0.11 secs
+	Workload time = 0.27 secs
+child 1815 exited
+PID 1815 - CMD: ../work/work4
+	Elapsed time = 0.36 secs
+	Execution time = 0.09 secs
+	Workload time = 0.36 secs
+child 1819 exited
+PID 1819 - CMD: ../work/work3
+	Elapsed time = 0.43 secs
+	Execution time = 0.07 secs
+	Workload time = 0.43 secs
+executing ../work/work2
+child 1823 exited
+PID 1823 - CMD: ../work/work1
+	Elapsed time = 0.48 secs
+	Execution time = 0.02 secs
+	Workload time = 0.48 secs
+WORKLOAD TIME: 0.48 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+child 1804 exited
+PID 1804 - CMD: ../work/work6
+	Elapsed time = 0.17 secs
+	Execution time = 0.14 secs
+	Workload time = 0.17 secs
+child 1810 exited
+PID 1810 - CMD: ../work/work5
+	Elapsed time = 0.27 secs
+	Execution time = 0.11 secs
+	Workload time = 0.27 secs
+child 1815 exited
+PID 1815 - CMD: ../work/work4
+	Elapsed time = 0.36 secs
+	Execution time = 0.09 secs
+	Workload time = 0.36 secs
+child 1819 exited
+PID 1819 - CMD: ../work/work3
+	Elapsed time = 0.43 secs
+	Execution time = 0.07 secs
+	Workload time = 0.43 secs
+child 1822 exited
+PID 1822 - CMD: ../work/work2
+	Elapsed time = 0.48 secs
+	Execution time = 0.05 secs
+	Workload time = 0.48 secs
+executing ../work/work1
+WORKLOAD TIME: 0.51 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+executing ../work/work7
+child 1804 exited
+PID 1804 - CMD: ../work/work6
+	Elapsed time = 0.17 secs
+	Execution time = 0.14 secs
+	Workload time = 0.17 secs
+child 1810 exited
+PID 1810 - CMD: ../work/work5
+	Elapsed time = 0.27 secs
+	Execution time = 0.11 secs
+	Workload time = 0.27 secs
+child 1815 exited
+PID 1815 - CMD: ../work/work4
+	Elapsed time = 0.36 secs
+	Execution time = 0.09 secs
+	Workload time = 0.36 secs
+child 1819 exited
+PID 1819 - CMD: ../work/work3
+	Elapsed time = 0.43 secs
+	Execution time = 0.07 secs
+	Workload time = 0.43 secs
+child 1822 exited
+PID 1822 - CMD: ../work/work2
+	Elapsed time = 0.48 secs
+	Execution time = 0.05 secs
+	Workload time = 0.48 secs
+child 1824 exited
+PID 1824 - CMD: ../work/work1
+	Elapsed time = 0.51 secs
+	Execution time = 0.03 secs
+	Workload time = 0.51 secs
+WORKLOAD TIME: 0.51 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+child 1803 exited
+PID 1803 - CMD: ../work/work7
+	Elapsed time = 0.52 secs
+	Execution time = 0.52 secs
+	Workload time = 0.52 secs
+executing ../work/work6
+executing ../work/work5
+executing ../work/work4
+Skipping ../work/work3: not enough available processors.
+Skipping ../work/work2: not enough available processors.
+Skipping ../work/work1: not enough available processors.
+WORKLOAD TIME: 0.59 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+child 1803 exited
+PID 1803 - CMD: ../work/work7
+	Elapsed time = 0.52 secs
+	Execution time = 0.52 secs
+	Workload time = 0.52 secs
+executing ../work/work6
+executing ../work/work5
+child 1827 exited
+PID 1827 - CMD: ../work/work4
+	Elapsed time = 0.59 secs
+	Execution time = 0.03 secs
+	Workload time = 0.59 secs
+executing ../work/work3
+Skipping ../work/work2: not enough available processors.
+Skipping ../work/work1: not enough available processors.
+WORKLOAD TIME: 0.62 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+child 1803 exited
+PID 1803 - CMD: ../work/work7
+	Elapsed time = 0.52 secs
+	Execution time = 0.52 secs
+	Workload time = 0.52 secs
+executing ../work/work6
+executing ../work/work5
+child 1827 exited
+PID 1827 - CMD: ../work/work4
+	Elapsed time = 0.59 secs
+	Execution time = 0.03 secs
+	Workload time = 0.59 secs
+child 1828 exited
+PID 1828 - CMD: ../work/work3
+	Elapsed time = 0.62 secs
+	Execution time = 0.02 secs
+	Workload time = 0.62 secs
+executing ../work/work2
+Skipping ../work/work1: not enough available processors.
+WORKLOAD TIME: 0.64 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+child 1803 exited
+PID 1803 - CMD: ../work/work7
+	Elapsed time = 0.52 secs
+	Execution time = 0.52 secs
+	Workload time = 0.52 secs
+executing ../work/work6
+executing ../work/work5
+child 1827 exited
+PID 1827 - CMD: ../work/work4
+	Elapsed time = 0.59 secs
+	Execution time = 0.03 secs
+	Workload time = 0.59 secs
+child 1828 exited
+PID 1828 - CMD: ../work/work3
+	Elapsed time = 0.62 secs
+	Execution time = 0.02 secs
+	Workload time = 0.62 secs
+child 1829 exited
+PID 1829 - CMD: ../work/work2
+	Elapsed time = 0.64 secs
+	Execution time = 0.02 secs
+	Workload time = 0.64 secs
+executing ../work/work1
+WORKLOAD TIME: 0.68 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+child 1803 exited
+PID 1803 - CMD: ../work/work7
+	Elapsed time = 0.52 secs
+	Execution time = 0.52 secs
+	Workload time = 0.52 secs
+executing ../work/work6
+executing ../work/work5
+child 1827 exited
+PID 1827 - CMD: ../work/work4
+	Elapsed time = 0.59 secs
+	Execution time = 0.03 secs
+	Workload time = 0.59 secs
+child 1828 exited
+PID 1828 - CMD: ../work/work3
+	Elapsed time = 0.62 secs
+	Execution time = 0.02 secs
+	Workload time = 0.62 secs
+child 1829 exited
+PID 1829 - CMD: ../work/work2
+	Elapsed time = 0.64 secs
+	Execution time = 0.02 secs
+	Workload time = 0.64 secs
+child 1830 exited
+PID 1830 - CMD: ../work/work1
+	Elapsed time = 0.68 secs
+	Execution time = 0.04 secs
+	Workload time = 0.68 secs
+WORKLOAD TIME: 0.68 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+child 1803 exited
+PID 1803 - CMD: ../work/work7
+	Elapsed time = 0.52 secs
+	Execution time = 0.52 secs
+	Workload time = 0.52 secs
+executing ../work/work6
+child 1826 exited
+PID 1826 - CMD: ../work/work5
+	Elapsed time = 0.68 secs
+	Execution time = 0.14 secs
+	Workload time = 0.68 secs
+executing ../work/work4
+executing ../work/work3
+Skipping ../work/work2: not enough available processors.
+Skipping ../work/work1: not enough available processors.
+WORKLOAD TIME: 0.74 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+child 1803 exited
+PID 1803 - CMD: ../work/work7
+	Elapsed time = 0.52 secs
+	Execution time = 0.52 secs
+	Workload time = 0.52 secs
+executing ../work/work6
+child 1826 exited
+PID 1826 - CMD: ../work/work5
+	Elapsed time = 0.68 secs
+	Execution time = 0.14 secs
+	Workload time = 0.68 secs
+executing ../work/work4
+child 1832 exited
+PID 1832 - CMD: ../work/work3
+	Elapsed time = 0.74 secs
+	Execution time = 0.03 secs
+	Workload time = 0.74 secs
+executing ../work/work2
+Skipping ../work/work1: not enough available processors.
+WORKLOAD TIME: 0.76 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+child 1803 exited
+PID 1803 - CMD: ../work/work7
+	Elapsed time = 0.52 secs
+	Execution time = 0.52 secs
+	Workload time = 0.52 secs
+executing ../work/work6
+child 1826 exited
+PID 1826 - CMD: ../work/work5
+	Elapsed time = 0.68 secs
+	Execution time = 0.14 secs
+	Workload time = 0.68 secs
+executing ../work/work4
+child 1832 exited
+PID 1832 - CMD: ../work/work3
+	Elapsed time = 0.74 secs
+	Execution time = 0.03 secs
+	Workload time = 0.74 secs
+child 1833 exited
+PID 1833 - CMD: ../work/work2
+	Elapsed time = 0.77 secs
+	Execution time = 0.02 secs
+	Workload time = 0.77 secs
+executing ../work/work1
+WORKLOAD TIME: 0.79 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+child 1803 exited
+PID 1803 - CMD: ../work/work7
+	Elapsed time = 0.52 secs
+	Execution time = 0.52 secs
+	Workload time = 0.52 secs
+executing ../work/work6
+child 1826 exited
+PID 1826 - CMD: ../work/work5
+	Elapsed time = 0.68 secs
+	Execution time = 0.14 secs
+	Workload time = 0.68 secs
+executing ../work/work4
+child 1832 exited
+PID 1832 - CMD: ../work/work3
+	Elapsed time = 0.74 secs
+	Execution time = 0.03 secs
+	Workload time = 0.74 secs
+child 1833 exited
+PID 1833 - CMD: ../work/work2
+	Elapsed time = 0.77 secs
+	Execution time = 0.02 secs
+	Workload time = 0.77 secs
+child 1834 exited
+PID 1834 - CMD: ../work/work1
+	Elapsed time = 0.79 secs
+	Execution time = 0.02 secs
+	Workload time = 0.79 secs
+WORKLOAD TIME: 0.79 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+child 1803 exited
+PID 1803 - CMD: ../work/work7
+	Elapsed time = 0.52 secs
+	Execution time = 0.52 secs
+	Workload time = 0.52 secs
+executing ../work/work6
+child 1826 exited
+PID 1826 - CMD: ../work/work5
+	Elapsed time = 0.68 secs
+	Execution time = 0.14 secs
+	Workload time = 0.68 secs
+child 1831 exited
+PID 1831 - CMD: ../work/work4
+	Elapsed time = 0.79 secs
+	Execution time = 0.11 secs
+	Workload time = 0.79 secs
+executing ../work/work3
+executing ../work/work2
+Skipping ../work/work1: not enough available processors.
+WORKLOAD TIME: 0.84 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+child 1803 exited
+PID 1803 - CMD: ../work/work7
+	Elapsed time = 0.52 secs
+	Execution time = 0.52 secs
+	Workload time = 0.52 secs
+executing ../work/work6
+child 1826 exited
+PID 1826 - CMD: ../work/work5
+	Elapsed time = 0.68 secs
+	Execution time = 0.14 secs
+	Workload time = 0.68 secs
+child 1831 exited
+PID 1831 - CMD: ../work/work4
+	Elapsed time = 0.79 secs
+	Execution time = 0.11 secs
+	Workload time = 0.79 secs
+executing ../work/work3
+child 1836 exited
+PID 1836 - CMD: ../work/work2
+	Elapsed time = 0.84 secs
+	Execution time = 0.03 secs
+	Workload time = 0.84 secs
+executing ../work/work1
+WORKLOAD TIME: 0.86 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+child 1803 exited
+PID 1803 - CMD: ../work/work7
+	Elapsed time = 0.52 secs
+	Execution time = 0.52 secs
+	Workload time = 0.52 secs
+executing ../work/work6
+child 1826 exited
+PID 1826 - CMD: ../work/work5
+	Elapsed time = 0.68 secs
+	Execution time = 0.14 secs
+	Workload time = 0.68 secs
+child 1831 exited
+PID 1831 - CMD: ../work/work4
+	Elapsed time = 0.79 secs
+	Execution time = 0.11 secs
+	Workload time = 0.79 secs
+executing ../work/work3
+child 1836 exited
+PID 1836 - CMD: ../work/work2
+	Elapsed time = 0.84 secs
+	Execution time = 0.03 secs
+	Workload time = 0.84 secs
+child 1837 exited
+PID 1837 - CMD: ../work/work1
+	Elapsed time = 0.86 secs
+	Execution time = 0.02 secs
+	Workload time = 0.86 secs
+WORKLOAD TIME: 0.86 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+child 1803 exited
+PID 1803 - CMD: ../work/work7
+	Elapsed time = 0.52 secs
+	Execution time = 0.52 secs
+	Workload time = 0.52 secs
+executing ../work/work6
+child 1826 exited
+PID 1826 - CMD: ../work/work5
+	Elapsed time = 0.68 secs
+	Execution time = 0.14 secs
+	Workload time = 0.68 secs
+child 1831 exited
+PID 1831 - CMD: ../work/work4
+	Elapsed time = 0.79 secs
+	Execution time = 0.11 secs
+	Workload time = 0.79 secs
+child 1835 exited
+PID 1835 - CMD: ../work/work3
+	Elapsed time = 0.87 secs
+	Execution time = 0.08 secs
+	Workload time = 0.87 secs
+executing ../work/work2
+executing ../work/work1
+WORKLOAD TIME: 0.91 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+child 1803 exited
+PID 1803 - CMD: ../work/work7
+	Elapsed time = 0.52 secs
+	Execution time = 0.52 secs
+	Workload time = 0.52 secs
+executing ../work/work6
+child 1826 exited
+PID 1826 - CMD: ../work/work5
+	Elapsed time = 0.68 secs
+	Execution time = 0.14 secs
+	Workload time = 0.68 secs
+child 1831 exited
+PID 1831 - CMD: ../work/work4
+	Elapsed time = 0.79 secs
+	Execution time = 0.11 secs
+	Workload time = 0.79 secs
+child 1835 exited
+PID 1835 - CMD: ../work/work3
+	Elapsed time = 0.87 secs
+	Execution time = 0.08 secs
+	Workload time = 0.87 secs
+executing ../work/work2
+child 1839 exited
+PID 1839 - CMD: ../work/work1
+	Elapsed time = 0.91 secs
+	Execution time = 0.03 secs
+	Workload time = 0.91 secs
+WORKLOAD TIME: 0.91 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+child 1803 exited
+PID 1803 - CMD: ../work/work7
+	Elapsed time = 0.52 secs
+	Execution time = 0.52 secs
+	Workload time = 0.52 secs
+executing ../work/work6
+child 1826 exited
+PID 1826 - CMD: ../work/work5
+	Elapsed time = 0.68 secs
+	Execution time = 0.14 secs
+	Workload time = 0.68 secs
+child 1831 exited
+PID 1831 - CMD: ../work/work4
+	Elapsed time = 0.79 secs
+	Execution time = 0.11 secs
+	Workload time = 0.79 secs
+child 1835 exited
+PID 1835 - CMD: ../work/work3
+	Elapsed time = 0.87 secs
+	Execution time = 0.08 secs
+	Workload time = 0.87 secs
+child 1838 exited
+PID 1838 - CMD: ../work/work2
+	Elapsed time = 0.91 secs
+	Execution time = 0.05 secs
+	Workload time = 0.91 secs
+executing ../work/work1
+WORKLOAD TIME: 0.93 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+child 1803 exited
+PID 1803 - CMD: ../work/work7
+	Elapsed time = 0.52 secs
+	Execution time = 0.52 secs
+	Workload time = 0.52 secs
+executing ../work/work6
+child 1826 exited
+PID 1826 - CMD: ../work/work5
+	Elapsed time = 0.68 secs
+	Execution time = 0.14 secs
+	Workload time = 0.68 secs
+child 1831 exited
+PID 1831 - CMD: ../work/work4
+	Elapsed time = 0.79 secs
+	Execution time = 0.11 secs
+	Workload time = 0.79 secs
+child 1835 exited
+PID 1835 - CMD: ../work/work3
+	Elapsed time = 0.87 secs
+	Execution time = 0.08 secs
+	Workload time = 0.87 secs
+child 1838 exited
+PID 1838 - CMD: ../work/work2
+	Elapsed time = 0.91 secs
+	Execution time = 0.05 secs
+	Workload time = 0.91 secs
+child 1840 exited
+PID 1840 - CMD: ../work/work1
+	Elapsed time = 0.94 secs
+	Execution time = 0.02 secs
+	Workload time = 0.94 secs
+WORKLOAD TIME: 0.94 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+child 1803 exited
+PID 1803 - CMD: ../work/work7
+	Elapsed time = 0.52 secs
+	Execution time = 0.52 secs
+	Workload time = 0.52 secs
+child 1825 exited
+PID 1825 - CMD: ../work/work6
+	Elapsed time = 0.94 secs
+	Execution time = 0.42 secs
+	Workload time = 0.94 secs
+executing ../work/work5
+executing ../work/work4
+executing ../work/work3
+Skipping ../work/work2: not enough available processors.
+Skipping ../work/work1: not enough available processors.
+WORKLOAD TIME: 1.01 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+child 1803 exited
+PID 1803 - CMD: ../work/work7
+	Elapsed time = 0.52 secs
+	Execution time = 0.52 secs
+	Workload time = 0.52 secs
+child 1825 exited
+PID 1825 - CMD: ../work/work6
+	Elapsed time = 0.94 secs
+	Execution time = 0.42 secs
+	Workload time = 0.94 secs
+executing ../work/work5
+executing ../work/work4
+child 1843 exited
+PID 1843 - CMD: ../work/work3
+	Elapsed time = 1.01 secs
+	Execution time = 0.03 secs
+	Workload time = 1.01 secs
+executing ../work/work2
+Skipping ../work/work1: not enough available processors.
+WORKLOAD TIME: 1.04 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+child 1803 exited
+PID 1803 - CMD: ../work/work7
+	Elapsed time = 0.52 secs
+	Execution time = 0.52 secs
+	Workload time = 0.52 secs
+child 1825 exited
+PID 1825 - CMD: ../work/work6
+	Elapsed time = 0.94 secs
+	Execution time = 0.42 secs
+	Workload time = 0.94 secs
+executing ../work/work5
+executing ../work/work4
+child 1843 exited
+PID 1843 - CMD: ../work/work3
+	Elapsed time = 1.01 secs
+	Execution time = 0.03 secs
+	Workload time = 1.01 secs
+child 1844 exited
+PID 1844 - CMD: ../work/work2
+	Elapsed time = 1.04 secs
+	Execution time = 0.02 secs
+	Workload time = 1.04 secs
+executing ../work/work1
+WORKLOAD TIME: 1.06 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+child 1803 exited
+PID 1803 - CMD: ../work/work7
+	Elapsed time = 0.52 secs
+	Execution time = 0.52 secs
+	Workload time = 0.52 secs
+child 1825 exited
+PID 1825 - CMD: ../work/work6
+	Elapsed time = 0.94 secs
+	Execution time = 0.42 secs
+	Workload time = 0.94 secs
+executing ../work/work5
+executing ../work/work4
+child 1843 exited
+PID 1843 - CMD: ../work/work3
+	Elapsed time = 1.01 secs
+	Execution time = 0.03 secs
+	Workload time = 1.01 secs
+child 1844 exited
+PID 1844 - CMD: ../work/work2
+	Elapsed time = 1.04 secs
+	Execution time = 0.02 secs
+	Workload time = 1.04 secs
+child 1845 exited
+PID 1845 - CMD: ../work/work1
+	Elapsed time = 1.06 secs
+	Execution time = 0.02 secs
+	Workload time = 1.06 secs
+WORKLOAD TIME: 1.06 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+child 1803 exited
+PID 1803 - CMD: ../work/work7
+	Elapsed time = 0.52 secs
+	Execution time = 0.52 secs
+	Workload time = 0.52 secs
+child 1825 exited
+PID 1825 - CMD: ../work/work6
+	Elapsed time = 0.94 secs
+	Execution time = 0.42 secs
+	Workload time = 0.94 secs
+executing ../work/work5
+child 1842 exited
+PID 1842 - CMD: ../work/work4
+	Elapsed time = 1.06 secs
+	Execution time = 0.10 secs
+	Workload time = 1.06 secs
+executing ../work/work3
+executing ../work/work2
+Skipping ../work/work1: not enough available processors.
+WORKLOAD TIME: 1.11 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+child 1803 exited
+PID 1803 - CMD: ../work/work7
+	Elapsed time = 0.52 secs
+	Execution time = 0.52 secs
+	Workload time = 0.52 secs
+child 1825 exited
+PID 1825 - CMD: ../work/work6
+	Elapsed time = 0.94 secs
+	Execution time = 0.42 secs
+	Workload time = 0.94 secs
+executing ../work/work5
+child 1842 exited
+PID 1842 - CMD: ../work/work4
+	Elapsed time = 1.06 secs
+	Execution time = 0.10 secs
+	Workload time = 1.06 secs
+executing ../work/work3
+child 1847 exited
+PID 1847 - CMD: ../work/work2
+	Elapsed time = 1.11 secs
+	Execution time = 0.03 secs
+	Workload time = 1.11 secs
+executing ../work/work1
+WORKLOAD TIME: 1.13 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+child 1803 exited
+PID 1803 - CMD: ../work/work7
+	Elapsed time = 0.52 secs
+	Execution time = 0.52 secs
+	Workload time = 0.52 secs
+child 1825 exited
+PID 1825 - CMD: ../work/work6
+	Elapsed time = 0.94 secs
+	Execution time = 0.42 secs
+	Workload time = 0.94 secs
+executing ../work/work5
+child 1842 exited
+PID 1842 - CMD: ../work/work4
+	Elapsed time = 1.06 secs
+	Execution time = 0.10 secs
+	Workload time = 1.06 secs
+executing ../work/work3
+child 1847 exited
+PID 1847 - CMD: ../work/work2
+	Elapsed time = 1.11 secs
+	Execution time = 0.03 secs
+	Workload time = 1.11 secs
+child 1848 exited
+PID 1848 - CMD: ../work/work1
+	Elapsed time = 1.13 secs
+	Execution time = 0.02 secs
+	Workload time = 1.13 secs
+WORKLOAD TIME: 1.13 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+child 1803 exited
+PID 1803 - CMD: ../work/work7
+	Elapsed time = 0.52 secs
+	Execution time = 0.52 secs
+	Workload time = 0.52 secs
+child 1825 exited
+PID 1825 - CMD: ../work/work6
+	Elapsed time = 0.94 secs
+	Execution time = 0.42 secs
+	Workload time = 0.94 secs
+executing ../work/work5
+child 1842 exited
+PID 1842 - CMD: ../work/work4
+	Elapsed time = 1.06 secs
+	Execution time = 0.10 secs
+	Workload time = 1.06 secs
+child 1846 exited
+PID 1846 - CMD: ../work/work3
+	Elapsed time = 1.13 secs
+	Execution time = 0.07 secs
+	Workload time = 1.13 secs
+executing ../work/work2
+executing ../work/work1
+WORKLOAD TIME: 1.18 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+child 1803 exited
+PID 1803 - CMD: ../work/work7
+	Elapsed time = 0.52 secs
+	Execution time = 0.52 secs
+	Workload time = 0.52 secs
+child 1825 exited
+PID 1825 - CMD: ../work/work6
+	Elapsed time = 0.94 secs
+	Execution time = 0.42 secs
+	Workload time = 0.94 secs
+executing ../work/work5
+child 1842 exited
+PID 1842 - CMD: ../work/work4
+	Elapsed time = 1.06 secs
+	Execution time = 0.10 secs
+	Workload time = 1.06 secs
+child 1846 exited
+PID 1846 - CMD: ../work/work3
+	Elapsed time = 1.13 secs
+	Execution time = 0.07 secs
+	Workload time = 1.13 secs
+executing ../work/work2
+child 1850 exited
+PID 1850 - CMD: ../work/work1
+	Elapsed time = 1.18 secs
+	Execution time = 0.02 secs
+	Workload time = 1.18 secs
+WORKLOAD TIME: 1.18 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+child 1803 exited
+PID 1803 - CMD: ../work/work7
+	Elapsed time = 0.52 secs
+	Execution time = 0.52 secs
+	Workload time = 0.52 secs
+child 1825 exited
+PID 1825 - CMD: ../work/work6
+	Elapsed time = 0.94 secs
+	Execution time = 0.42 secs
+	Workload time = 0.94 secs
+executing ../work/work5
+child 1842 exited
+PID 1842 - CMD: ../work/work4
+	Elapsed time = 1.06 secs
+	Execution time = 0.10 secs
+	Workload time = 1.06 secs
+child 1846 exited
+PID 1846 - CMD: ../work/work3
+	Elapsed time = 1.13 secs
+	Execution time = 0.07 secs
+	Workload time = 1.13 secs
+child 1849 exited
+PID 1849 - CMD: ../work/work2
+	Elapsed time = 1.18 secs
+	Execution time = 0.05 secs
+	Workload time = 1.18 secs
+executing ../work/work1
+WORKLOAD TIME: 1.21 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+child 1803 exited
+PID 1803 - CMD: ../work/work7
+	Elapsed time = 0.52 secs
+	Execution time = 0.52 secs
+	Workload time = 0.52 secs
+child 1825 exited
+PID 1825 - CMD: ../work/work6
+	Elapsed time = 0.94 secs
+	Execution time = 0.42 secs
+	Workload time = 0.94 secs
+executing ../work/work5
+child 1842 exited
+PID 1842 - CMD: ../work/work4
+	Elapsed time = 1.06 secs
+	Execution time = 0.10 secs
+	Workload time = 1.06 secs
+child 1846 exited
+PID 1846 - CMD: ../work/work3
+	Elapsed time = 1.13 secs
+	Execution time = 0.07 secs
+	Workload time = 1.13 secs
+child 1849 exited
+PID 1849 - CMD: ../work/work2
+	Elapsed time = 1.18 secs
+	Execution time = 0.05 secs
+	Workload time = 1.18 secs
+child 1851 exited
+PID 1851 - CMD: ../work/work1
+	Elapsed time = 1.21 secs
+	Execution time = 0.02 secs
+	Workload time = 1.21 secs
+WORKLOAD TIME: 1.21 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+child 1803 exited
+PID 1803 - CMD: ../work/work7
+	Elapsed time = 0.52 secs
+	Execution time = 0.52 secs
+	Workload time = 0.52 secs
+child 1825 exited
+PID 1825 - CMD: ../work/work6
+	Elapsed time = 0.94 secs
+	Execution time = 0.42 secs
+	Workload time = 0.94 secs
+child 1841 exited
+PID 1841 - CMD: ../work/work5
+	Elapsed time = 1.21 secs
+	Execution time = 0.27 secs
+	Workload time = 1.21 secs
+executing ../work/work4
+executing ../work/work3
+executing ../work/work2
+Skipping ../work/work1: not enough available processors.
+WORKLOAD TIME: 1.28 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+child 1803 exited
+PID 1803 - CMD: ../work/work7
+	Elapsed time = 0.52 secs
+	Execution time = 0.52 secs
+	Workload time = 0.52 secs
+child 1825 exited
+PID 1825 - CMD: ../work/work6
+	Elapsed time = 0.94 secs
+	Execution time = 0.42 secs
+	Workload time = 0.94 secs
+child 1841 exited
+PID 1841 - CMD: ../work/work5
+	Elapsed time = 1.21 secs
+	Execution time = 0.27 secs
+	Workload time = 1.21 secs
+executing ../work/work4
+executing ../work/work3
+child 1854 exited
+PID 1854 - CMD: ../work/work2
+	Elapsed time = 1.28 secs
+	Execution time = 0.03 secs
+	Workload time = 1.28 secs
+executing ../work/work1
+WORKLOAD TIME: 1.30 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+child 1803 exited
+PID 1803 - CMD: ../work/work7
+	Elapsed time = 0.52 secs
+	Execution time = 0.52 secs
+	Workload time = 0.52 secs
+child 1825 exited
+PID 1825 - CMD: ../work/work6
+	Elapsed time = 0.94 secs
+	Execution time = 0.42 secs
+	Workload time = 0.94 secs
+child 1841 exited
+PID 1841 - CMD: ../work/work5
+	Elapsed time = 1.21 secs
+	Execution time = 0.27 secs
+	Workload time = 1.21 secs
+executing ../work/work4
+executing ../work/work3
+child 1854 exited
+PID 1854 - CMD: ../work/work2
+	Elapsed time = 1.28 secs
+	Execution time = 0.03 secs
+	Workload time = 1.28 secs
+child 1855 exited
+PID 1855 - CMD: ../work/work1
+	Elapsed time = 1.30 secs
+	Execution time = 0.02 secs
+	Workload time = 1.30 secs
+WORKLOAD TIME: 1.30 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+child 1803 exited
+PID 1803 - CMD: ../work/work7
+	Elapsed time = 0.52 secs
+	Execution time = 0.52 secs
+	Workload time = 0.52 secs
+child 1825 exited
+PID 1825 - CMD: ../work/work6
+	Elapsed time = 0.94 secs
+	Execution time = 0.42 secs
+	Workload time = 0.94 secs
+child 1841 exited
+PID 1841 - CMD: ../work/work5
+	Elapsed time = 1.21 secs
+	Execution time = 0.27 secs
+	Workload time = 1.21 secs
+executing ../work/work4
+child 1853 exited
+PID 1853 - CMD: ../work/work3
+	Elapsed time = 1.30 secs
+	Execution time = 0.08 secs
+	Workload time = 1.30 secs
+executing ../work/work2
+executing ../work/work1
+WORKLOAD TIME: 1.35 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+child 1803 exited
+PID 1803 - CMD: ../work/work7
+	Elapsed time = 0.52 secs
+	Execution time = 0.52 secs
+	Workload time = 0.52 secs
+child 1825 exited
+PID 1825 - CMD: ../work/work6
+	Elapsed time = 0.94 secs
+	Execution time = 0.42 secs
+	Workload time = 0.94 secs
+child 1841 exited
+PID 1841 - CMD: ../work/work5
+	Elapsed time = 1.21 secs
+	Execution time = 0.27 secs
+	Workload time = 1.21 secs
+executing ../work/work4
+child 1853 exited
+PID 1853 - CMD: ../work/work3
+	Elapsed time = 1.30 secs
+	Execution time = 0.08 secs
+	Workload time = 1.30 secs
+executing ../work/work2
+child 1857 exited
+PID 1857 - CMD: ../work/work1
+	Elapsed time = 1.35 secs
+	Execution time = 0.02 secs
+	Workload time = 1.35 secs
+WORKLOAD TIME: 1.35 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+child 1803 exited
+PID 1803 - CMD: ../work/work7
+	Elapsed time = 0.52 secs
+	Execution time = 0.52 secs
+	Workload time = 0.52 secs
+child 1825 exited
+PID 1825 - CMD: ../work/work6
+	Elapsed time = 0.94 secs
+	Execution time = 0.42 secs
+	Workload time = 0.94 secs
+child 1841 exited
+PID 1841 - CMD: ../work/work5
+	Elapsed time = 1.21 secs
+	Execution time = 0.27 secs
+	Workload time = 1.21 secs
+executing ../work/work4
+child 1853 exited
+PID 1853 - CMD: ../work/work3
+	Elapsed time = 1.30 secs
+	Execution time = 0.08 secs
+	Workload time = 1.30 secs
+child 1856 exited
+PID 1856 - CMD: ../work/work2
+	Elapsed time = 1.35 secs
+	Execution time = 0.05 secs
+	Workload time = 1.35 secs
+executing ../work/work1
+WORKLOAD TIME: 1.37 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+child 1803 exited
+PID 1803 - CMD: ../work/work7
+	Elapsed time = 0.52 secs
+	Execution time = 0.52 secs
+	Workload time = 0.52 secs
+child 1825 exited
+PID 1825 - CMD: ../work/work6
+	Elapsed time = 0.94 secs
+	Execution time = 0.42 secs
+	Workload time = 0.94 secs
+child 1841 exited
+PID 1841 - CMD: ../work/work5
+	Elapsed time = 1.21 secs
+	Execution time = 0.27 secs
+	Workload time = 1.21 secs
+executing ../work/work4
+child 1853 exited
+PID 1853 - CMD: ../work/work3
+	Elapsed time = 1.30 secs
+	Execution time = 0.08 secs
+	Workload time = 1.30 secs
+child 1856 exited
+PID 1856 - CMD: ../work/work2
+	Elapsed time = 1.35 secs
+	Execution time = 0.05 secs
+	Workload time = 1.35 secs
+child 1858 exited
+PID 1858 - CMD: ../work/work1
+	Elapsed time = 1.37 secs
+	Execution time = 0.02 secs
+	Workload time = 1.37 secs
+WORKLOAD TIME: 1.37 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+child 1803 exited
+PID 1803 - CMD: ../work/work7
+	Elapsed time = 0.52 secs
+	Execution time = 0.52 secs
+	Workload time = 0.52 secs
+child 1825 exited
+PID 1825 - CMD: ../work/work6
+	Elapsed time = 0.94 secs
+	Execution time = 0.42 secs
+	Workload time = 0.94 secs
+child 1841 exited
+PID 1841 - CMD: ../work/work5
+	Elapsed time = 1.21 secs
+	Execution time = 0.27 secs
+	Workload time = 1.21 secs
+child 1852 exited
+PID 1852 - CMD: ../work/work4
+	Elapsed time = 1.37 secs
+	Execution time = 0.16 secs
+	Workload time = 1.37 secs
+executing ../work/work3
+executing ../work/work2
+executing ../work/work1
+WORKLOAD TIME: 1.44 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+child 1803 exited
+PID 1803 - CMD: ../work/work7
+	Elapsed time = 0.52 secs
+	Execution time = 0.52 secs
+	Workload time = 0.52 secs
+child 1825 exited
+PID 1825 - CMD: ../work/work6
+	Elapsed time = 0.94 secs
+	Execution time = 0.42 secs
+	Workload time = 0.94 secs
+child 1841 exited
+PID 1841 - CMD: ../work/work5
+	Elapsed time = 1.21 secs
+	Execution time = 0.27 secs
+	Workload time = 1.21 secs
+child 1852 exited
+PID 1852 - CMD: ../work/work4
+	Elapsed time = 1.37 secs
+	Execution time = 0.16 secs
+	Workload time = 1.37 secs
+executing ../work/work3
+executing ../work/work2
+child 1861 exited
+PID 1861 - CMD: ../work/work1
+	Elapsed time = 1.44 secs
+	Execution time = 0.03 secs
+	Workload time = 1.44 secs
+WORKLOAD TIME: 1.44 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+child 1803 exited
+PID 1803 - CMD: ../work/work7
+	Elapsed time = 0.52 secs
+	Execution time = 0.52 secs
+	Workload time = 0.52 secs
+child 1825 exited
+PID 1825 - CMD: ../work/work6
+	Elapsed time = 0.94 secs
+	Execution time = 0.42 secs
+	Workload time = 0.94 secs
+child 1841 exited
+PID 1841 - CMD: ../work/work5
+	Elapsed time = 1.21 secs
+	Execution time = 0.27 secs
+	Workload time = 1.21 secs
+child 1852 exited
+PID 1852 - CMD: ../work/work4
+	Elapsed time = 1.37 secs
+	Execution time = 0.16 secs
+	Workload time = 1.37 secs
+executing ../work/work3
+child 1860 exited
+PID 1860 - CMD: ../work/work2
+	Elapsed time = 1.44 secs
+	Execution time = 0.05 secs
+	Workload time = 1.44 secs
+executing ../work/work1
+WORKLOAD TIME: 1.47 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+child 1803 exited
+PID 1803 - CMD: ../work/work7
+	Elapsed time = 0.52 secs
+	Execution time = 0.52 secs
+	Workload time = 0.52 secs
+child 1825 exited
+PID 1825 - CMD: ../work/work6
+	Elapsed time = 0.94 secs
+	Execution time = 0.42 secs
+	Workload time = 0.94 secs
+child 1841 exited
+PID 1841 - CMD: ../work/work5
+	Elapsed time = 1.21 secs
+	Execution time = 0.27 secs
+	Workload time = 1.21 secs
+child 1852 exited
+PID 1852 - CMD: ../work/work4
+	Elapsed time = 1.37 secs
+	Execution time = 0.16 secs
+	Workload time = 1.37 secs
+executing ../work/work3
+child 1860 exited
+PID 1860 - CMD: ../work/work2
+	Elapsed time = 1.44 secs
+	Execution time = 0.05 secs
+	Workload time = 1.44 secs
+child 1862 exited
+PID 1862 - CMD: ../work/work1
+	Elapsed time = 1.47 secs
+	Execution time = 0.02 secs
+	Workload time = 1.47 secs
+WORKLOAD TIME: 1.47 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+child 1803 exited
+PID 1803 - CMD: ../work/work7
+	Elapsed time = 0.52 secs
+	Execution time = 0.52 secs
+	Workload time = 0.52 secs
+child 1825 exited
+PID 1825 - CMD: ../work/work6
+	Elapsed time = 0.94 secs
+	Execution time = 0.42 secs
+	Workload time = 0.94 secs
+child 1841 exited
+PID 1841 - CMD: ../work/work5
+	Elapsed time = 1.21 secs
+	Execution time = 0.27 secs
+	Workload time = 1.21 secs
+child 1852 exited
+PID 1852 - CMD: ../work/work4
+	Elapsed time = 1.37 secs
+	Execution time = 0.16 secs
+	Workload time = 1.37 secs
+child 1859 exited
+PID 1859 - CMD: ../work/work3
+	Elapsed time = 1.47 secs
+	Execution time = 0.10 secs
+	Workload time = 1.47 secs
+executing ../work/work2
+executing ../work/work1
+WORKLOAD TIME: 1.51 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+child 1803 exited
+PID 1803 - CMD: ../work/work7
+	Elapsed time = 0.52 secs
+	Execution time = 0.52 secs
+	Workload time = 0.52 secs
+child 1825 exited
+PID 1825 - CMD: ../work/work6
+	Elapsed time = 0.94 secs
+	Execution time = 0.42 secs
+	Workload time = 0.94 secs
+child 1841 exited
+PID 1841 - CMD: ../work/work5
+	Elapsed time = 1.21 secs
+	Execution time = 0.27 secs
+	Workload time = 1.21 secs
+child 1852 exited
+PID 1852 - CMD: ../work/work4
+	Elapsed time = 1.37 secs
+	Execution time = 0.16 secs
+	Workload time = 1.37 secs
+child 1859 exited
+PID 1859 - CMD: ../work/work3
+	Elapsed time = 1.47 secs
+	Execution time = 0.10 secs
+	Workload time = 1.47 secs
+executing ../work/work2
+child 1864 exited
+PID 1864 - CMD: ../work/work1
+	Elapsed time = 1.51 secs
+	Execution time = 0.02 secs
+	Workload time = 1.51 secs
+WORKLOAD TIME: 1.51 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+child 1803 exited
+PID 1803 - CMD: ../work/work7
+	Elapsed time = 0.52 secs
+	Execution time = 0.52 secs
+	Workload time = 0.52 secs
+child 1825 exited
+PID 1825 - CMD: ../work/work6
+	Elapsed time = 0.94 secs
+	Execution time = 0.42 secs
+	Workload time = 0.94 secs
+child 1841 exited
+PID 1841 - CMD: ../work/work5
+	Elapsed time = 1.21 secs
+	Execution time = 0.27 secs
+	Workload time = 1.21 secs
+child 1852 exited
+PID 1852 - CMD: ../work/work4
+	Elapsed time = 1.37 secs
+	Execution time = 0.16 secs
+	Workload time = 1.37 secs
+child 1859 exited
+PID 1859 - CMD: ../work/work3
+	Elapsed time = 1.47 secs
+	Execution time = 0.10 secs
+	Workload time = 1.47 secs
+child 1863 exited
+PID 1863 - CMD: ../work/work2
+	Elapsed time = 1.51 secs
+	Execution time = 0.04 secs
+	Workload time = 1.51 secs
+executing ../work/work1
+WORKLOAD TIME: 1.53 secs
+scheduler exits
+tv_sec = 1
+tv_nsec = 0
+child 1803 exited
+PID 1803 - CMD: ../work/work7
+	Elapsed time = 0.52 secs
+	Execution time = 0.52 secs
+	Workload time = 0.52 secs
+child 1825 exited
+PID 1825 - CMD: ../work/work6
+	Elapsed time = 0.94 secs
+	Execution time = 0.42 secs
+	Workload time = 0.94 secs
+child 1841 exited
+PID 1841 - CMD: ../work/work5
+	Elapsed time = 1.21 secs
+	Execution time = 0.27 secs
+	Workload time = 1.21 secs
+child 1852 exited
+PID 1852 - CMD: ../work/work4
+	Elapsed time = 1.37 secs
+	Execution time = 0.16 secs
+	Workload time = 1.37 secs
+child 1859 exited
+PID 1859 - CMD: ../work/work3
+	Elapsed time = 1.47 secs
+	Execution time = 0.10 secs
+	Workload time = 1.47 secs
+child 1863 exited
+PID 1863 - CMD: ../work/work2
+	Elapsed time = 1.51 secs
+	Execution time = 0.04 secs
+	Workload time = 1.51 secs
+child 1865 exited
+PID 1865 - CMD: ../work/work1
+	Elapsed time = 1.53 secs
+	Execution time = 0.02 secs
+	Workload time = 1.53 secs
+WORKLOAD TIME: 1.53 secs
+scheduler exits
