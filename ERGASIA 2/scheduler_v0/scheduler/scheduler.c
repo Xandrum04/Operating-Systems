@@ -12,6 +12,7 @@
 
 void fcfs();
 void rr();
+void rr_aff();
 
 
 #define PROC_NEW    0
@@ -102,6 +103,7 @@ double proc_gettime()
 
 #define FCFS    0
 #define RR      1
+#define RR_AFF  2
 
 int policy = FCFS;
 int quantum = 100; /* ms */
@@ -147,6 +149,16 @@ int main(int argc, char **argv)
 			else 
 			    total_processors = 1;  // Default
 		} 
+        else if (!strcmp(argv[1],"RR_AFF")) {
+			policy = RR_AFF;
+			quantum = atoi(argv[2]);
+			input = fopen(argv[3],"r");
+			
+			if (argc == 5) 
+			    total_processors = atoi(argv[4]); 
+			else 
+			    total_processors = 1;  // Default
+		} 
         } else {
 			err_exit("invalid usage");
 		}
@@ -158,13 +170,13 @@ if (total_processors <= 0) err_exit("invalid number of processors");
 available_processors = total_processors;
 
     /* Read input file */
-    while ((c = fscanf(input, "%s %d", exec, &processors)) != EOF) {
+    while ((c = fscanf(input, "%s %d", exec)) != EOF) {
         proc = malloc(sizeof(proc_t));
         proc->next = NULL;
         strcpy(proc->name, exec);
         proc->pid = -1;
         proc->status = PROC_NEW;
-        proc->processors_required = processors;
+        proc->processors_required = 1;
         proc->t_submission = proc_gettime();
         proc_to_rq_end(proc);
     }
@@ -177,6 +189,10 @@ available_processors = total_processors;
 
         case RR:
 			rr();
+			break;   
+
+        case RR_AFF:
+			rr_aff();
 			break;   
 
         default:
@@ -348,3 +364,98 @@ void rr()
         
 }
     
+
+void rr_aff()
+{
+	struct sigaction sig_act;
+	proc_t *proc;
+	int pid;
+	struct timespec req, rem;
+
+	req.tv_sec = quantum / 1000;
+	req.tv_nsec = (quantum % 1000)*1000000;
+
+	printf("tv_sec = %ld\n", req.tv_sec);
+	printf("tv_nsec = %ld\n", req.tv_nsec);
+
+	sigemptyset(&sig_act.sa_mask);
+	sig_act.sa_handler = 0;
+	sig_act.sa_flags = SA_SIGINFO | SA_NOCLDSTOP;
+	sig_act.sa_sigaction = sigchld_handler;
+	sigaction (SIGCHLD,&sig_act,NULL);
+
+	while ((proc=proc_rq_dequeue()) != NULL) {
+		// printf("Dequeue process with name %s and pid %d\n", proc->name, proc->pid);
+        if (proc->processors_required > total_processors) {
+            printf("Skipping %s: requires %d processors, but only %d available.\n",
+                   proc->name, proc->processors_required, total_processors);
+            continue;
+        }
+        
+            if (proc->processors_required <= available_processors) {
+		        if (proc->status == PROC_NEW) {
+                    
+                        available_processors -= proc->processors_required;
+			        proc->t_start = proc_gettime();
+			        pid = fork();
+			        if (pid == -1) {
+				        err_exit("fork failed!");
+			        }
+			        if (pid == 0) {
+				        printf("executing %s\n", proc->name);
+				        execl(proc->name, proc->name, NULL);
+			        }
+			        else {
+				        proc->pid = pid;
+				        running_proc = proc;
+				        proc->status = PROC_RUNNING;
+
+				        nanosleep(&req, &rem);
+				        if (proc->status == PROC_RUNNING) {
+					        kill(proc->pid, SIGSTOP);
+					        proc->status = PROC_STOPPED;
+                            available_processors += proc->processors_required;
+					        proc_to_rq_end(proc);
+				        }
+				        else if (proc->status == PROC_EXITED) {
+				        }
+
+			        }
+                
+
+                }
+		        
+		        else if (proc->status == PROC_STOPPED) {
+			        proc->status = PROC_RUNNING;
+			        running_proc = proc;
+			        kill(proc->pid, SIGCONT);
+
+			        nanosleep(&req, &rem);
+			        if (proc->status == PROC_RUNNING) {
+				        kill(proc->pid, SIGSTOP);
+				        proc_to_rq_end(proc);
+                        available_processors += running_proc->processors_required;
+				        proc->status = PROC_STOPPED;
+			        }
+			        else if (proc->status == PROC_EXITED) {
+			        }
+
+		        }
+		        else if (proc->status == PROC_EXITED) {
+			        printf("process has exited\n");
+		        }
+		        else if (proc->status == PROC_RUNNING) {
+			        printf("WARNING: Already running process\n");
+		        }
+		        else {
+			        err_exit("Unknown process status");
+		        }
+                }
+                else {
+            printf("Skipping %s: not enough available processors.\n", proc->name);
+        }
+	    }
+        
+}
+    
+
