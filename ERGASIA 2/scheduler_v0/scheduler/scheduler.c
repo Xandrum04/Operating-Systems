@@ -26,6 +26,7 @@ typedef struct proc_desc {
     int pid;
     int status;
     int processors_required;  // Νέο πεδίο για απαιτούμενους επεξεργαστές
+	int processor_id ;
     double t_submission, t_start, t_end;
 } proc_t;
 
@@ -38,6 +39,8 @@ struct single_queue {
 struct single_queue global_q;
 int total_processors;  // Συνολικοί επεξεργαστές του συστήματος
 int available_processors;  // Διαθέσιμοι επεξεργαστές
+int * assigned_processor;
+int count;
 
 #define proc_queue_empty(q) ((q)->first==NULL)
 
@@ -168,7 +171,7 @@ if (input == NULL) err_exit("invalid input file name");
 if (total_processors <= 0) err_exit("invalid number of processors");
 
 available_processors = total_processors;
-
+count =0;
     /* Read input file */
     while ((c = fscanf(input, "%s %d", exec)) != EOF) {
         proc = malloc(sizeof(proc_t));
@@ -177,8 +180,10 @@ available_processors = total_processors;
         proc->pid = -1;
         proc->status = PROC_NEW;
         proc->processors_required = 1;
+		proc -> processor_id =0;
         proc->t_submission = proc_gettime();
         proc_to_rq_end(proc);
+		count++;
     }
 
     global_t = proc_gettime();
@@ -367,95 +372,96 @@ void rr()
 
 void rr_aff()
 {
-	struct sigaction sig_act;
-	proc_t *proc;
-	int pid;
-	struct timespec req, rem;
+    struct sigaction sig_act;
+    proc_t *proc;
+    int pid;
+    struct timespec req, rem;
 
-	req.tv_sec = quantum / 1000;
-	req.tv_nsec = (quantum % 1000)*1000000;
+    req.tv_sec = quantum / 1000;
+    req.tv_nsec = (quantum % 1000) * 1000000;
 
-	printf("tv_sec = %ld\n", req.tv_sec);
-	printf("tv_nsec = %ld\n", req.tv_nsec);
+    printf("tv_sec = %ld\n", req.tv_sec);
+    printf("tv_nsec = %ld\n", req.tv_nsec);
 
-	sigemptyset(&sig_act.sa_mask);
-	sig_act.sa_handler = 0;
-	sig_act.sa_flags = SA_SIGINFO | SA_NOCLDSTOP;
-	sig_act.sa_sigaction = sigchld_handler;
-	sigaction (SIGCHLD,&sig_act,NULL);
+    sigemptyset(&sig_act.sa_mask);
+    sig_act.sa_handler = 0;
+    sig_act.sa_flags = SA_SIGINFO | SA_NOCLDSTOP;
+    sig_act.sa_sigaction = sigchld_handler;
+    sigaction(SIGCHLD, &sig_act, NULL);
 
-	while ((proc=proc_rq_dequeue()) != NULL) {
-		// printf("Dequeue process with name %s and pid %d\n", proc->name, proc->pid);
+    assigned_processor = malloc(count * sizeof(int));
+    for (int i = 0; i < count; i++) {
+        assigned_processor[i] = -1;  // -1 σημαίνει ότι δεν έχει ανατεθεί επεξεργαστής
+    }
+
+    while ((proc = proc_rq_dequeue()) != NULL) {
         if (proc->processors_required > total_processors) {
             printf("Skipping %s: requires %d processors, but only %d available.\n",
                    proc->name, proc->processors_required, total_processors);
             continue;
         }
-        
-            if (proc->processors_required <= available_processors) {
-		        if (proc->status == PROC_NEW) {
-                    
+
+        if (proc->processors_required <= available_processors) {
+            if (proc->status == PROC_NEW) {
+                // Αναθέτουμε νέο επεξεργαστή στη διεργασία
+                for (int i = 0; i < total_processors; i++) {
+                    if (assigned_processor[i] == -1) {
+                        assigned_processor[i] = proc->pid;
+                        proc->processor_id = i;
                         available_processors -= proc->processors_required;
-			        proc->t_start = proc_gettime();
-			        pid = fork();
-			        if (pid == -1) {
-				        err_exit("fork failed!");
-			        }
-			        if (pid == 0) {
-				        printf("executing %s\n", proc->name);
-				        execl(proc->name, proc->name, NULL);
-			        }
-			        else {
-				        proc->pid = pid;
-				        running_proc = proc;
-				        proc->status = PROC_RUNNING;
-
-				        nanosleep(&req, &rem);
-				        if (proc->status == PROC_RUNNING) {
-					        kill(proc->pid, SIGSTOP);
-					        proc->status = PROC_STOPPED;
-                            available_processors += proc->processors_required;
-					        proc_to_rq_end(proc);
-				        }
-				        else if (proc->status == PROC_EXITED) {
-				        }
-
-			        }
-                
-
+                        break;
+                    }
                 }
-		        
-		        else if (proc->status == PROC_STOPPED) {
-			        proc->status = PROC_RUNNING;
-			        running_proc = proc;
-			        kill(proc->pid, SIGCONT);
 
-			        nanosleep(&req, &rem);
-			        if (proc->status == PROC_RUNNING) {
-				        kill(proc->pid, SIGSTOP);
-				        proc_to_rq_end(proc);
-                        available_processors += running_proc->processors_required;
-				        proc->status = PROC_STOPPED;
-			        }
-			        else if (proc->status == PROC_EXITED) {
-			        }
-
-		        }
-		        else if (proc->status == PROC_EXITED) {
-			        printf("process has exited\n");
-		        }
-		        else if (proc->status == PROC_RUNNING) {
-			        printf("WARNING: Already running process\n");
-		        }
-		        else {
-			        err_exit("Unknown process status");
-		        }
+                proc->t_start = proc_gettime();
+                pid = fork();
+                if (pid == -1) {
+                    err_exit("fork failed!");
                 }
-                else {
+                if (pid == 0) {
+                    printf("executing %s\n", proc->name);
+                    execl(proc->name, proc->name, NULL);
+                } else {
+                    proc->pid = pid;
+                    running_proc = proc;
+                    proc->status = PROC_RUNNING;
+
+                    nanosleep(&req, &rem);
+                    if (proc->status == PROC_RUNNING) {
+                        kill(proc->pid, SIGSTOP);
+                        proc->status = PROC_STOPPED;
+                        available_processors += proc->processors_required;
+                        proc_to_rq_end(proc);
+                    }
+                }
+            } else if (proc->status == PROC_STOPPED) {
+                // Ελέγχουμε αν η διεργασία εκτελείται στον σωστό επεξεργαστή
+                if (proc->processor_id != -1 && assigned_processor[proc->processor_id] == proc->pid) {
+                    proc->status = PROC_RUNNING;
+                    running_proc = proc;
+                    kill(proc->pid, SIGCONT);
+
+                    nanosleep(&req, &rem);
+                    if (proc->status == PROC_RUNNING) {
+                        kill(proc->pid, SIGSTOP);
+                        proc_to_rq_end(proc);
+                        available_processors += proc->processors_required;
+                        proc->status = PROC_STOPPED;
+                    }
+                } else {
+                    printf("Skipping %s: not assigned to its initial processor.\n", proc->name);
+                }
+            } else if (proc->status == PROC_EXITED) {
+                printf("process has exited\n");
+            } else {
+                err_exit("Unknown process status");
+            }
+        } else {
             printf("Skipping %s: not enough available processors.\n", proc->name);
         }
-	    }
-        
+    }
+
+    free(assigned_processor);  // Απελευθερώνουμε τη μνήμη του πίνακα
 }
-    
+
 
