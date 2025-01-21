@@ -12,7 +12,6 @@
 
 void fcfs();
 void rr();
-void rr_aff();
 
 
 #define PROC_NEW    0
@@ -26,7 +25,6 @@ typedef struct proc_desc {
     int pid;
     int status;
     int processors_required;  // Νέο πεδίο για απαιτούμενους επεξεργαστές
-	int processor_id ;
     double t_submission, t_start, t_end;
 } proc_t;
 
@@ -39,8 +37,8 @@ struct single_queue {
 struct single_queue global_q;
 int total_processors;  // Συνολικοί επεξεργαστές του συστήματος
 int available_processors;  // Διαθέσιμοι επεξεργαστές
-int * assigned_processor;
-int count;
+
+
 
 #define proc_queue_empty(q) ((q)->first==NULL)
 
@@ -123,7 +121,6 @@ int main(int argc, char **argv)
 {
     FILE *input;
     char exec[80];
-    int processors;
     int c;
     proc_t *proc;
 
@@ -152,16 +149,7 @@ int main(int argc, char **argv)
 			else 
 			    total_processors = 1;  // Default
 		} 
-        else if (!strcmp(argv[1],"RR_AFF")) {
-			policy = RR_AFF;
-			quantum = atoi(argv[2]);
-			input = fopen(argv[3],"r");
-			
-			if (argc == 5) 
-			    total_processors = atoi(argv[4]); 
-			else 
-			    total_processors = 1;  // Default
-		} 
+        
         } else {
 			err_exit("invalid usage");
 		}
@@ -171,19 +159,17 @@ if (input == NULL) err_exit("invalid input file name");
 if (total_processors <= 0) err_exit("invalid number of processors");
 
 available_processors = total_processors;
-count =0;
+
     /* Read input file */
-    while ((c = fscanf(input, "%s %d", exec)) != EOF) {
+    while ((c = fscanf(input, "%s", exec)) != EOF) {
         proc = malloc(sizeof(proc_t));
         proc->next = NULL;
         strcpy(proc->name, exec);
         proc->pid = -1;
         proc->status = PROC_NEW;
         proc->processors_required = 1;
-		proc -> processor_id =0;
         proc->t_submission = proc_gettime();
         proc_to_rq_end(proc);
-		count++;
     }
 
     global_t = proc_gettime();
@@ -194,11 +180,7 @@ count =0;
 
         case RR:
 			rr();
-			break;   
-
-        case RR_AFF:
-			rr_aff();
-			break;   
+			break;      
 
         default:
             err_exit("Unimplemented policy");
@@ -210,37 +192,52 @@ count =0;
     return 0;
 }
 
-void fcfs()
-{
+void fcfs() {
     proc_t *proc;
     int pid;
     int status;
 
-    while ((proc = proc_rq_dequeue()) != NULL) {
-        if (proc->processors_required > total_processors) {
-            printf("Skipping %s: requires %d processors, but only %d available.\n",
-                   proc->name, proc->processors_required, total_processors);
-            continue;
-        }
+    // To track running processes
+    proc_t *running_procs[MAX_LINE_LENGTH];
+    int running_count = 0;
 
-        if (proc->processors_required <= available_processors) {
-            available_processors -= proc->processors_required;
+    memset(running_procs, 0, sizeof(running_procs)); // Initialize array
 
-            if (proc->status == PROC_NEW) {
+    while (!proc_queue_empty(&global_q) || running_count > 0) {
+        // Check if new processes can be started
+        while (available_processors > 0 && !proc_queue_empty(&global_q)) {
+            proc = proc_rq_dequeue();
+
+            if (proc->status == PROC_NEW && proc->processors_required <= available_processors) {
+                available_processors -= proc->processors_required;
                 proc->t_start = proc_gettime();
                 pid = fork();
+
                 if (pid == -1) {
                     err_exit("fork failed!");
                 }
                 if (pid == 0) {
                     printf("executing %s\n", proc->name);
                     execl(proc->name, proc->name, NULL);
+                    exit(0); // Ensure the child process exits after execution
                 } else {
                     proc->pid = pid;
                     proc->status = PROC_RUNNING;
-                    pid = waitpid(proc->pid, &status, 0);
+                    running_procs[running_count++] = proc;
+                }
+            } else {
+                proc_to_rq_end(proc); // Requeue if not enough processors available
+            }
+        }
+
+        // Check for completed processes
+        for (int i = 0; i < running_count; i++) {
+            proc = running_procs[i];
+
+            if (proc->status == PROC_RUNNING) {
+                pid = waitpid(proc->pid, &status, WNOHANG); // Non-blocking wait
+                if (pid > 0) {
                     proc->status = PROC_EXITED;
-                    if (pid < 0) err_exit("waitpid failed");
                     proc->t_end = proc_gettime();
                     available_processors += proc->processors_required;
 
@@ -248,11 +245,16 @@ void fcfs()
                     printf("\tElapsed time = %.2lf secs\n", proc->t_end - proc->t_submission);
                     printf("\tExecution time = %.2lf secs\n", proc->t_end - proc->t_start);
                     printf("\tWorkload time = %.2lf secs\n", proc->t_end - global_t);
+
+                    // Remove the completed process from the running list
+                    running_procs[i] = running_procs[--running_count];
+                    i--; // Adjust index for the shifted array
                 }
             }
-        } else {
-            printf("Skipping %s: not enough available processors.\n", proc->name);
         }
+
+        // Allow some idle time to avoid busy-waiting
+        usleep(1000);
     }
 }
 
@@ -269,8 +271,7 @@ void sigchld_handler(int signo, siginfo_t *info, void *context)
 		printf("\tElapsed time = %.2lf secs\n", proc->t_end-proc->t_submission);
 		printf("\tExecution time = %.2lf secs\n", proc->t_end-proc->t_start);
 		printf("\tWorkload time = %.2lf secs\n", proc->t_end-global_t);
-        available_processors += running_proc->processors_required;
-        
+
 	} else {
 		printf("warning: running %d exited %d\n", running_proc->pid, info->si_pid);
 	}
@@ -297,171 +298,59 @@ void rr()
 
 	while ((proc=proc_rq_dequeue()) != NULL) {
 		// printf("Dequeue process with name %s and pid %d\n", proc->name, proc->pid);
-        if (proc->processors_required > total_processors) {
-            printf("Skipping %s: requires %d processors, but only %d available.\n",
-                   proc->name, proc->processors_required, total_processors);
-            continue;
-        }
-        
-            if (proc->processors_required <= available_processors) {
-		        if (proc->status == PROC_NEW) {
-                    
-                        available_processors -= proc->processors_required;
-			        proc->t_start = proc_gettime();
-			        pid = fork();
-			        if (pid == -1) {
-				        err_exit("fork failed!");
-			        }
-			        if (pid == 0) {
-				        printf("executing %s\n", proc->name);
-				        execl(proc->name, proc->name, NULL);
-			        }
-			        else {
-				        proc->pid = pid;
-				        running_proc = proc;
-				        proc->status = PROC_RUNNING;
+		if (proc->status == PROC_NEW) {
+			
+			proc->t_start = proc_gettime();
+			pid = fork();
+			if (pid == -1) {
+				err_exit("fork failed!");
+			}
+			if (pid == 0) {
+				printf("executing %s\n", proc->name);
+				execl(proc->name, proc->name, NULL);
+			}
+			else {
+				proc->pid = pid;
+				running_proc = proc;
+				proc->status = PROC_RUNNING;
 
-				        nanosleep(&req, &rem);
-				        if (proc->status == PROC_RUNNING) {
-					        kill(proc->pid, SIGSTOP);
-					        proc->status = PROC_STOPPED;
-                            available_processors += proc->processors_required;
-					        proc_to_rq_end(proc);
-				        }
-				        else if (proc->status == PROC_EXITED) {
-				        }
+				nanosleep(&req, &rem);
+				if (proc->status == PROC_RUNNING) {
+					kill(proc->pid, SIGSTOP);
+					proc->status = PROC_STOPPED;
+					printf("Process paused: %s\n",proc->name);
+					proc_to_rq_end(proc);
+				}
+				else if (proc->status == PROC_EXITED) {
+				}
 
-			        }
-                
+			}
+		}
+		else if (proc->status == PROC_STOPPED) {
+			proc->status = PROC_RUNNING;
+			printf("Process continued: %s\n",proc->name);
+			running_proc = proc;
+			kill(proc->pid, SIGCONT);
 
-                }
-		        
-		        else if (proc->status == PROC_STOPPED) {
-			        proc->status = PROC_RUNNING;
-			        running_proc = proc;
-			        kill(proc->pid, SIGCONT);
+			nanosleep(&req, &rem);
+			if (proc->status == PROC_RUNNING) {
+				kill(proc->pid, SIGSTOP);
+				proc_to_rq_end(proc);
+				proc->status = PROC_STOPPED;
+				printf("Process paused: %s\n",proc->name);
+			}
+			else if (proc->status == PROC_EXITED) {
+			}
 
-			        nanosleep(&req, &rem);
-			        if (proc->status == PROC_RUNNING) {
-				        kill(proc->pid, SIGSTOP);
-				        proc_to_rq_end(proc);
-                        available_processors += running_proc->processors_required;
-				        proc->status = PROC_STOPPED;
-			        }
-			        else if (proc->status == PROC_EXITED) {
-			        }
-
-		        }
-		        else if (proc->status == PROC_EXITED) {
-			        printf("process has exited\n");
-		        }
-		        else if (proc->status == PROC_RUNNING) {
-			        printf("WARNING: Already running process\n");
-		        }
-		        else {
-			        err_exit("Unknown process status");
-		        }
-                }
-                else {
-            printf("Skipping %s: not enough available processors.\n", proc->name);
-        }
-	    }
-        
+		}
+		else if (proc->status == PROC_EXITED) {
+			printf("process has exited\n");
+		}
+		else if (proc->status == PROC_RUNNING) {
+			printf("WARNING: Already running process\n");
+		}
+		else {
+			err_exit("Unknown process status");
+		}
+	}
 }
-    
-
-void rr_aff()
-{
-    struct sigaction sig_act;
-    proc_t *proc;
-    int pid;
-    struct timespec req, rem;
-
-    req.tv_sec = quantum / 1000;
-    req.tv_nsec = (quantum % 1000) * 1000000;
-
-    printf("tv_sec = %ld\n", req.tv_sec);
-    printf("tv_nsec = %ld\n", req.tv_nsec);
-
-    sigemptyset(&sig_act.sa_mask);
-    sig_act.sa_handler = 0;
-    sig_act.sa_flags = SA_SIGINFO | SA_NOCLDSTOP;
-    sig_act.sa_sigaction = sigchld_handler;
-    sigaction(SIGCHLD, &sig_act, NULL);
-
-    assigned_processor = malloc(count * sizeof(int));
-    for (int i = 0; i < count; i++) {
-        assigned_processor[i] = -1;  // -1 σημαίνει ότι δεν έχει ανατεθεί επεξεργαστής
-    }
-
-    while ((proc = proc_rq_dequeue()) != NULL) {
-        if (proc->processors_required > total_processors) {
-            printf("Skipping %s: requires %d processors, but only %d available.\n",
-                   proc->name, proc->processors_required, total_processors);
-            continue;
-        }
-
-        if (proc->processors_required <= available_processors) {
-            if (proc->status == PROC_NEW) {
-                // Αναθέτουμε νέο επεξεργαστή στη διεργασία
-                for (int i = 0; i < total_processors; i++) {
-                    if (assigned_processor[i] == -1) {
-                        assigned_processor[i] = proc->pid;
-                        proc->processor_id = i;
-                        available_processors -= proc->processors_required;
-                        break;
-                    }
-                }
-
-                proc->t_start = proc_gettime();
-                pid = fork();
-                if (pid == -1) {
-                    err_exit("fork failed!");
-                }
-                if (pid == 0) {
-                    printf("executing %s\n", proc->name);
-                    execl(proc->name, proc->name, NULL);
-                } else {
-                    proc->pid = pid;
-                    running_proc = proc;
-                    proc->status = PROC_RUNNING;
-
-                    nanosleep(&req, &rem);
-                    if (proc->status == PROC_RUNNING) {
-                        kill(proc->pid, SIGSTOP);
-                        proc->status = PROC_STOPPED;
-                        available_processors += proc->processors_required;
-                        proc_to_rq_end(proc);
-                    }
-                }
-            } else if (proc->status == PROC_STOPPED) {
-                // Ελέγχουμε αν η διεργασία εκτελείται στον σωστό επεξεργαστή
-                if (proc->processor_id != -1 && assigned_processor[proc->processor_id] == proc->pid) {
-                    proc->status = PROC_RUNNING;
-                    running_proc = proc;
-                    kill(proc->pid, SIGCONT);
-
-                    nanosleep(&req, &rem);
-                    if (proc->status == PROC_RUNNING) {
-                        kill(proc->pid, SIGSTOP);
-                        proc_to_rq_end(proc);
-                        available_processors += proc->processors_required;
-                        proc->status = PROC_STOPPED;
-                    }
-                } else {
-                    printf("Skipping %s: not assigned to its initial processor.\n", proc->name);
-                }
-            } else if (proc->status == PROC_EXITED) {
-                printf("process has exited\n");
-            } else {
-                err_exit("Unknown process status");
-            }
-        } else {
-            printf("Skipping %s: not enough available processors.\n", proc->name);
-        }
-    }
-
-    free(assigned_processor);  // Απελευθερώνουμε τη μνήμη του πίνακα
-}
-
-
