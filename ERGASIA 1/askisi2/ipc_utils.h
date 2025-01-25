@@ -10,7 +10,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// ΔΗΜΙΟΥΡΓΙΑ ΣΗΜΑΦΟΡΟΥ
+
 HANDLE create_semaphore(const char *name, LONG initialCount, LONG maxCount) {
     HANDLE semaphore = CreateSemaphoreA(NULL, initialCount, maxCount, name);
     if (semaphore == NULL) {
@@ -20,7 +20,7 @@ HANDLE create_semaphore(const char *name, LONG initialCount, LONG maxCount) {
     return semaphore;
 }
 
-// ΣΥΝΑΡΤΗΣΗ ΑΝΑΜΟΝΗΣ ΜΙΑΣ ΔΙΕΡΓΑΣΙΑΣ ΣΕ ΣΗΜΑΦΟΡΟ
+
 void wait_semaphore(HANDLE semaphore) {
     DWORD waitResult = WaitForSingleObject(semaphore, INFINITE);
     if (waitResult != WAIT_OBJECT_0) {
@@ -29,7 +29,7 @@ void wait_semaphore(HANDLE semaphore) {
     }
 }
 
-// ΣΥΝΑΡΤΗΣΗ ΓΙΑ ΑΠΕΛΕΥΘΕΡΩΣΗ ΘΕΣΗΣ
+
 void release_semaphore(HANDLE semaphore) {
     if (!ReleaseSemaphore(semaphore, 1, NULL)) {
         fprintf(stderr, "Error: ΑΔΥΝΑΜΙΑ ΑΠΕΛΕΥΘΕΡΩΣΗΣ ΘΕΣΗΣ. Error code: %lu\n", GetLastError());

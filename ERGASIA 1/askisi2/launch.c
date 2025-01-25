@@ -11,7 +11,7 @@
 #define MAX_PASSENGERS 500
 #define MAX_BOATS 500
 
-// Updated function to create passenger processes and store handles
+
 void create_passenger_process(const char *semaphore_name, PROCESS_INFORMATION *pi_array, int index) {
     STARTUPINFOA si;
     PROCESS_INFORMATION pi;
@@ -28,14 +28,14 @@ void create_passenger_process(const char *semaphore_name, PROCESS_INFORMATION *p
         exit(EXIT_FAILURE);
     }
 
-    // Store the process information for later use
+
     pi_array[index] = pi;
 }
 
 int main() {
     int num_passengers, num_boats, seats_per_boat;
 
-    // Read input parameters
+
     printf("Enter number of passengers: ");
     scanf("%d", &num_passengers);
     printf("Enter number of boats: ");
@@ -53,33 +53,33 @@ int main() {
         return EXIT_FAILURE;
     }
 
-    // Create a semaphore to manage boat seats
+
     HANDLE semaphore = create_semaphore("BoatSemaphore", seats_per_boat, seats_per_boat);
 
-    // Array to store process information for all passengers
+
     PROCESS_INFORMATION pi_array[MAX_PASSENGERS];
 
-    // Create passenger processes
+
     for (int i = 0; i < num_passengers; i++) {
         create_passenger_process("BoatSemaphore", pi_array, i);
     }
 
     printf("All passengers are attempting to board. Please wait...\n");
 
-    // Wait for all passenger processes to complete
+
     HANDLE process_handles[MAX_PASSENGERS];
     for (int i = 0; i < num_passengers; i++) {
         process_handles[i] = pi_array[i].hProcess;
     }
     WaitForMultipleObjects(num_passengers, process_handles, TRUE, INFINITE);
 
-    // Clean up process handles
+
     for (int i = 0; i < num_passengers; i++) {
         CloseHandle(pi_array[i].hProcess);
         CloseHandle(pi_array[i].hThread);
     }
 
-    // Clean up the semaphore
+ 
     CloseHandle(semaphore);
 
     printf("Simulation complete. All passengers have been processed.\n");
