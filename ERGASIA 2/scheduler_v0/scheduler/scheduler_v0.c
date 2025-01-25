@@ -1,3 +1,8 @@
+/* Spiridon Mantadakis, 1100613 */
+/* Apostolos Zekyrias, 1100554 */
+/* Alexandros Georgios Chalampakis, 1100754 */
+/* Panagiwths Papanikolaou, 1104804 */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -250,6 +255,7 @@ void rr()
 	while ((proc=proc_rq_dequeue()) != NULL) {
 		// printf("Dequeue process with name %s and pid %d\n", proc->name, proc->pid);
 		if (proc->status == PROC_NEW) {
+			
 			proc->t_start = proc_gettime();
 			pid = fork();
 			if (pid == -1) {
@@ -268,6 +274,7 @@ void rr()
 				if (proc->status == PROC_RUNNING) {
 					kill(proc->pid, SIGSTOP);
 					proc->status = PROC_STOPPED;
+					printf("Process paused: %s\n",proc->name);
 					proc_to_rq_end(proc);
 				}
 				else if (proc->status == PROC_EXITED) {
@@ -277,6 +284,7 @@ void rr()
 		}
 		else if (proc->status == PROC_STOPPED) {
 			proc->status = PROC_RUNNING;
+			printf("Process continued: %s\n",proc->name);
 			running_proc = proc;
 			kill(proc->pid, SIGCONT);
 
@@ -285,6 +293,7 @@ void rr()
 				kill(proc->pid, SIGSTOP);
 				proc_to_rq_end(proc);
 				proc->status = PROC_STOPPED;
+				printf("Process paused: %s\n",proc->name);
 			}
 			else if (proc->status == PROC_EXITED) {
 			}
